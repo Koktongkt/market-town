@@ -1,6 +1,6 @@
 {
-  "latest": "2026-10-13",
-  "count": 1,
+  "latest": "2026-10-14",
+  "count": 2,
   "reports": [
     {
       "date": "2026-10-13",
@@ -8,6 +8,13 @@
       "mood": "neutral",
       "title": "Hot headline, tame core",
       "generated_at_utc": "2026-10-14T02:50:00Z"
+    },
+    {
+      "date": "2026-10-14",
+      "as_of": "2026-10-14",
+      "mood": "bear",
+      "title": "Hot core CPI ends the energy-only excuse",
+      "generated_at_utc": "2026-10-14T23:38:00Z"
     }
   ]
 }

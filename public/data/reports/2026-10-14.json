@@ -1,0 +1,383 @@
+{
+  "as_of": "2026-10-14",
+  "generated_at_utc": "2026-10-14T23:38:00Z",
+  "as_of_note": "US closes for Wed 14 Oct 2026 after September CPI (hot: headline +0.6% m/m / 3.7% y/y; core +0.3% m/m / 2.6% y/y). Worst equity day since late July; Oct Fed hike odds rose to ~37% (CME FedWatch via Reuters).",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "symbol": "^GSPC",
+      "level": 7718.94,
+      "date": "2026-10-14",
+      "change_1d_pct": -1.11,
+      "change_1m_pct": 1.3,
+      "change_ytd_pct": 12.8,
+      "source_url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567",
+      "secondary_source_url": "https://krmg.com/2026/10/14/how-major-us-stock-indexes-fared-wednesday-10-14-2026/",
+      "note": "1M vs 14 Sep close 7619.98 (exa/Yahoo); YTD from AP wrap."
+    },
+    {
+      "name": "Nasdaq Composite",
+      "symbol": "^IXIC",
+      "level": 26692.87,
+      "date": "2026-10-14",
+      "change_1d_pct": -1.88,
+      "change_1m_pct": 1.93,
+      "change_ytd_pct": 14.8,
+      "source_url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567",
+      "secondary_source_url": "https://krmg.com/2026/10/14/how-major-us-stock-indexes-fared-wednesday-10-14-2026/",
+      "note": "1M vs 14 Sep close 26186.41; YTD from AP."
+    },
+    {
+      "name": "Dow Jones Industrial Average",
+      "symbol": "^DJI",
+      "level": 51621.48,
+      "date": "2026-10-14",
+      "change_1d_pct": -0.09,
+      "change_1m_pct": -1.53,
+      "change_ytd_pct": 7.4,
+      "source_url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567",
+      "secondary_source_url": "https://krmg.com/2026/10/14/how-major-us-stock-indexes-fared-wednesday-10-14-2026/",
+      "note": "1M vs 14 Sep close 52421.20; YTD from AP."
+    },
+    {
+      "name": "Russell 2000",
+      "symbol": "^RUT",
+      "level": 2729.53,
+      "date": "2026-10-14",
+      "change_1d_pct": -1.93,
+      "change_1m_pct": -5.63,
+      "change_ytd_pct": 10,
+      "source_url": "https://krmg.com/2026/10/14/how-major-us-stock-indexes-fared-wednesday-10-14-2026/",
+      "secondary_source_url": "https://finance.yahoo.com/quote/%5ERUT",
+      "note": "1M vs 14 Sep close 2892.24; YTD from AP."
+    }
+  ],
+  "indices_note": "Close levels from Reuters (Investing.com) and AP. 1M % vs 14 Sep 2026 closes from exa.ai/Yahoo daily prints. YTD % from AP index wrap (vs prior-year-end).",
+  "sectors": [
+    {
+      "sector": "Information Technology",
+      "proxy_etf": "XLK",
+      "as_of": "2026-10-14",
+      "change_1m_pct": 3.34,
+      "change_ytd_pct": 32.27,
+      "take": "Led the selloff (−2.98% 1D); chips on a sixth straight down day as hike odds jumped.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Energy",
+      "proxy_etf": "XLE",
+      "as_of": "2026-10-14",
+      "change_1m_pct": 4.8,
+      "change_ytd_pct": 51.26,
+      "take": "Only major sector green on the day; WTI at a three-week high on Hormuz/Saudi risk.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Health Care",
+      "proxy_etf": "XLV",
+      "as_of": "2026-10-14",
+      "change_1m_pct": 3.7,
+      "change_ytd_pct": 12.38,
+      "take": "Defensive bid (+2.53% 1D); UNH among Dow leaders after the CPI shock.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Financials",
+      "proxy_etf": "XLF",
+      "as_of": "2026-10-14",
+      "change_1m_pct": -4.4,
+      "change_ytd_pct": -0.46,
+      "take": "BAC dragged after $1.2B AML fine; MS beat but still soft into higher-rate tape.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "proxy_etf": "XLY",
+      "as_of": "2026-10-14",
+      "change_1m_pct": -1.2,
+      "change_ytd_pct": -6.62,
+      "take": "Still negative YTD; pump prices and rate scare keep the consumer under pressure.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Consumer Staples",
+      "proxy_etf": "XLP",
+      "as_of": "2026-10-14",
+      "change_1m_pct": 1.94,
+      "change_ytd_pct": 10.79,
+      "take": "Classic flight-to-defensives day (+2.22% 1D) as growth sold off.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Industrials",
+      "proxy_etf": "XLI",
+      "as_of": "2026-10-14",
+      "change_1m_pct": -1.7,
+      "change_ytd_pct": 7.68,
+      "take": "Soft on higher yields; CAT among Dow laggards.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Materials",
+      "proxy_etf": "XLB",
+      "as_of": "2026-10-14",
+      "change_1m_pct": -1.62,
+      "change_ytd_pct": 9.53,
+      "take": "Flat-to-soft; metals sold with the stronger dollar and CPI shock.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Utilities",
+      "proxy_etf": "XLU",
+      "as_of": "2026-10-14",
+      "change_1m_pct": -0.24,
+      "change_ytd_pct": -2.27,
+      "take": "Still down YTD as a bond proxy with 10Y near cycle highs.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Real Estate",
+      "proxy_etf": "XLRE",
+      "as_of": "2026-10-14",
+      "change_1m_pct": -3.78,
+      "change_ytd_pct": 2.83,
+      "take": "Rate-sensitive; mortgage rates near 7.5% and weak apps keep pressure on.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Communication Services",
+      "proxy_etf": "XLC",
+      "as_of": "2026-10-14",
+      "change_1m_pct": -3.69,
+      "change_ytd_pct": -5.86,
+      "take": "Second-worst sector on the day (−1.30%); META/AI-linked names weighed.",
+      "source_url": "https://marketindicators.net/sectors"
+    }
+  ],
+  "sectors_note": "SPDR Select Sector ETF price returns from marketindicators.net (Yahoo Finance underlying) as of 14 Oct 2026 close. Takes are briefing commentary, not sourced figures.",
+  "macro": {
+    "cpi_headline_yoy": {
+      "value": 3.7,
+      "unit": "%",
+      "date": "2026-09",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "period": "Sep 2026",
+      "note": "Released 14 Oct. Above 3.6% consensus; up from 3.4% in Aug. Energy +20.4% y/y."
+    },
+    "cpi_headline_mom": {
+      "value": 0.6,
+      "unit": "%",
+      "date": "2026-09",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "period": "Sep 2026",
+      "note": "Seasonally adjusted. In line with +0.6% consensus; gasoline +9.1% > half the rise."
+    },
+    "core_cpi_yoy": {
+      "value": 2.6,
+      "unit": "%",
+      "date": "2026-09",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "period": "Sep 2026",
+      "note": "Above 2.5% consensus; up from 2.4% in Aug."
+    },
+    "core_cpi_mom": {
+      "value": 0.3,
+      "unit": "%",
+      "date": "2026-09",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "period": "Sep 2026",
+      "note": "Hot vs +0.2% consensus; second straight 0.3%. Shelter +0.4%."
+    },
+    "cpi_september_consensus": {
+      "headline_mom": "0.5-0.6",
+      "headline_yoy": "3.6-3.7",
+      "core_mom": "0.2",
+      "core_yoy": "2.4-2.5",
+      "release": "2026-10-14T08:30:00-04:00",
+      "source_url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html",
+      "secondary_source_url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm"
+    },
+    "fed_funds_target_range": {
+      "lower": 3.75,
+      "upper": 4,
+      "unit": "%",
+      "date": "2026-09-16",
+      "source_url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html",
+      "secondary_source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "note": "After 25bp hike 15-16 Sep. Next FOMC 27-28 Oct. Post-CPI Oct hike odds ~37% (CME FedWatch via Reuters), up from ~22%."
+    },
+    "next_fomc": {
+      "value": "2026-10-27/28",
+      "unit": "date",
+      "date": "2026-10-28",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "note": "October 27-28 FOMC; statement/press conference on Wed 28 Oct. Decision before blackout after Warsh Thu night remarks."
+    },
+    "us_10y_yield": {
+      "value": 5.19,
+      "unit": "%",
+      "date": "2026-10-14",
+      "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-hot-cpi-upends-markets/",
+      "secondary_source_url": "https://www.ausecure.com/gold-market-close-oct-14-2026/",
+      "note": "Closed -2.3bp after peaking near 5.31-5.33% post-CPI."
+    },
+    "us_2y_yield": {
+      "value": 4.81,
+      "unit": "%",
+      "date": "2026-10-14",
+      "source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-hot-cpi-upends-markets/",
+      "secondary_source_url": "https://www.ausecure.com/gold-market-close-oct-14-2026/",
+      "note": "Peaked 4.95% post-CPI; finished ~+2bp on the day."
+    },
+    "unemployment_rate": {
+      "value": 4.2,
+      "unit": "%",
+      "date": "2026-09",
+      "source_url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
+      "period": "Sep 2026",
+      "secondary_source_url": "https://data.bls.gov/timeseries/LNS14000000",
+      "note": "Sept 2026, up from 4.1%."
+    },
+    "nonfarm_payrolls": {
+      "value": 29,
+      "unit": "k",
+      "date": "2026-09",
+      "source_url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
+      "period": "Sep 2026",
+      "note": "Sept NFP +29k vs +84k consensus; Aug revised to +133k; Jul to -10k (net -60k revisions)."
+    },
+    "dxy": {
+      "value": 102.55,
+      "unit": "index",
+      "date": "2026-10-14",
+      "source_url": "https://edgeconsultancykw.com/commodities-wrap-14-october-2026/",
+      "secondary_source_url": "https://www.ausecure.com/gold-market-close-oct-14-2026/",
+      "note": "+0.35-0.36%; peaked near 102.92 midday."
+    },
+    "wti": {
+      "value": 95.09,
+      "unit": "USD/bbl",
+      "date": "2026-10-14",
+      "source_url": "https://edgeconsultancykw.com/commodities-wrap-14-october-2026/",
+      "secondary_source_url": "https://www.sharecast.com/news/market-report-us-close/wall-street-nyse-new-york-markets-stocks-earnings-bank-of-america-morgan-stanley-blackrock-cpi--23854708.html",
+      "note": "NYMEX Nov settle, +1.01%; three-week high."
+    },
+    "brent": {
+      "value": 106.06,
+      "unit": "USD/bbl",
+      "date": "2026-10-14",
+      "source_url": "https://edgeconsultancykw.com/commodities-wrap-14-october-2026/",
+      "note": "ICE Dec settle, +0.35%."
+    },
+    "gold": {
+      "value": 4107.9,
+      "unit": "USD/oz",
+      "date": "2026-10-14",
+      "source_url": "https://edgeconsultancykw.com/commodities-wrap-14-october-2026/",
+      "secondary_source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-hot-cpi-upends-markets/",
+      "note": "COMEX Dec settle −1.66%; spot ~$4103 (−$54) per investingLive."
+    }
+  },
+  "themes": [
+    {
+      "title": "Hot core CPI ends the energy-only excuse",
+      "explanation": "Headline +0.6%/3.7% was mostly gasoline, but core +0.3%/2.6% beat the 0.2%/2.5% consensus and broadened the inflation scare into Fed hike odds."
+    },
+    {
+      "title": "AI/rate-sensitive crush, defensives hold",
+      "explanation": "Nasdaq −1.88% and SOX −4.3% (sixth straight drop) while healthcare and staples led. Energy stayed green on Hormuz supply risk."
+    },
+    {
+      "title": "October hike back on the table",
+      "explanation": "CME FedWatch October hike odds jumped from ~22% to ~37% (intraday >50%). FOMC is 27–28 Oct; Warsh speaks Thursday night before blackout."
+    },
+    {
+      "title": "Curve flattens on growth scare",
+      "explanation": "2Y rose after peaking at 4.95% while 10Y finished lower at 5.19% after a 5.33% spike — markets price hike risk but also overtightening."
+    },
+    {
+      "title": "Oil floor from geopolitics",
+      "explanation": "WTI settled at a three-week high near $95 despite a stronger dollar, as Hormuz shipping attacks and a Houthi strike on Aramco kept supply risk alive."
+    }
+  ],
+  "risks": [
+    "Hot September PPI (Thu 15 Oct) reinforcing the post-CPI hike repricing",
+    "Hawkish Warsh remarks at IMF Bangkok (~11:30 PM ET Thu) before FOMC blackout",
+    "Further Hormuz / Iran escalation pushing WTI toward $100+",
+    "AI/neocloud credit stress (CoreWeave yields near 15% cited by investingLive)",
+    "10Y retesting 5.24–5.33% highs and compressing equity multiples",
+    "Weak retail sales confirming consumer squeeze from gasoline and rates",
+    "Soft labour market backdrop (Sept NFP +29k, UE 4.2%) colliding with sticky inflation"
+  ],
+  "mood": {
+    "overall": "bear",
+    "reason": "Worst equity day since July after a hot core CPI; Oct hike odds nearly doubled; tech/AI led losses and VIX jumped to 16.85. Energy and defensives offered relative shelter but the tape was risk-off."
+  },
+  "sources": [
+    {
+      "name": "Reuters via Investing.com US close 14 Oct",
+      "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567"
+    },
+    {
+      "name": "AP stocks wrap 14 Oct",
+      "url": "https://apnews.com/article/stock-markets-earnings-bonds-artificial-intelligence-704d3190f0fba2908df07c85f26346ec"
+    },
+    {
+      "name": "AP index levels (KRMG)",
+      "url": "https://krmg.com/2026/10/14/how-major-us-stock-indexes-fared-wednesday-10-14-2026/"
+    },
+    {
+      "name": "Sharecast US close 14 Oct",
+      "url": "https://www.sharecast.com/news/market-report-us-close/wall-street-nyse-new-york-markets-stocks-earnings-bank-of-america-morgan-stanley-blackrock-cpi--23854708.html"
+    },
+    {
+      "name": "investingLive Americas wrap 14 Oct",
+      "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-hot-cpi-upends-markets/"
+    },
+    {
+      "name": "BLS CPI September 2026",
+      "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm"
+    },
+    {
+      "name": "CNBC CPI September 2026",
+      "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+    },
+    {
+      "name": "CNBC Sept jobs report",
+      "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html"
+    },
+    {
+      "name": "Fed FOMC calendar",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "name": "Edge commodities wrap 14 Oct",
+      "url": "https://edgeconsultancykw.com/commodities-wrap-14-october-2026/"
+    },
+    {
+      "name": "Ausecure gold close 14 Oct",
+      "url": "https://www.ausecure.com/gold-market-close-oct-14-2026/"
+    },
+    {
+      "name": "MarketIndicators sector ETFs 14 Oct",
+      "url": "https://marketindicators.net/sectors"
+    },
+    {
+      "name": "MetzNotes calendar",
+      "url": "https://www.metznotes.com/calendar/"
+    },
+    {
+      "name": "KobeissiLetter CPI post",
+      "url": "https://x.com/KobeissiLetter/status/2110347809308455363"
+    },
+    {
+      "name": "DeItaone Fed odds post",
+      "url": "https://x.com/DeItaone/status/2110348597115879676"
+    },
+    {
+      "name": "zerohedge Hormuz overnight",
+      "url": "https://x.com/zerohedge/status/2110347326812234062"
+    }
+  ],
+  "null_fields": []
+}
