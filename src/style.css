@@ -1,0 +1,11 @@
+:root{--ink:#2B2440;--cream:#FFF6E9}
+*{box-sizing:border-box}body{margin:0;background:#BFE6FF;color:var(--ink);font-family:Inter,sans-serif}
+.stage{position:fixed!important;inset:0;width:100vw!important;height:100vh!important;z-index:0}
+.section{height:100vh;display:flex;align-items:flex-start;padding:40px 48px;position:relative;z-index:1;pointer-events:none}
+.chip{pointer-events:auto;background:rgba(255,246,233,.88);backdrop-filter:blur(6px);border:2px solid var(--ink);border-radius:18px;box-shadow:4px 4px 0 var(--ink);padding:12px 18px;max-width:400px}
+.chip.hero{max-width:520px}.chip.hero h2{font-size:40px}
+h2{font-family:Fredoka,sans-serif;margin:0;font-size:26px}.chip p{margin:4px 0 0;font-size:14px}.kicker{font-family:Fredoka;font-size:12px;opacity:.6}
+.small{font-size:11px!important;opacity:.7}a{color:var(--ink);font-size:12px}details{font-size:12px;margin-top:6px;max-height:40vh;overflow:auto}
+.loading{position:fixed;inset:0;display:grid;place-items:center;font-family:Fredoka;font-size:28px}
+.takes{max-height:62vh;overflow:auto;margin-top:6px}.takes p{font-size:12.5px!important;margin:5px 0!important;line-height:1.35}
+.tip{background:#FFF6E9;border:2px solid #2B2440;border-radius:12px;box-shadow:3px 3px 0 #2B2440;padding:8px 12px;width:260px;font:13px Inter,sans-serif;color:#2B2440}
