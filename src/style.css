@@ -15,3 +15,5 @@ h2{font-family:Fredoka,sans-serif;margin:0;font-size:26px}.chip p{margin:4px 0 0
 .vb:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}.vb.primary{background:#FFD66B}
 .vhint{font:12px Inter,sans-serif;background:rgba(255,246,233,.9);border:2px solid var(--ink);border-radius:10px;padding:6px 10px}
 @media (max-width:640px){.vhint{display:none}.section{padding:72px 16px 16px}}
+.datebar{display:flex;gap:4px;align-items:center}.datebar select.vb{font:600 14px Inter,sans-serif;padding:6px 8px;max-width:58vw}.vb:disabled{opacity:.4;cursor:default}
+.notice{position:fixed;left:50%;transform:translateX(-50%);bottom:20px;z-index:11;background:#FFD66B;border:2px solid var(--ink);border-radius:12px;box-shadow:3px 3px 0 var(--ink);padding:8px 12px;font:13px Inter,sans-serif;max-width:90vw}.notice button{margin-left:10px;border:0;background:none;font-size:14px;cursor:pointer}

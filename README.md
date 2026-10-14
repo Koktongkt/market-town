@@ -29,9 +29,15 @@ Buttons sit in the top-right corner.
 - **WASD / arrow keys** move around.
 - **✕ Exit free view** glides back to the current chapter's camera.
 
-## Data
+## Data and archive
 
-Everything comes from `public/data.json`, which is fetched at runtime (no-store). Top-level keys: `as_of`, `as_of_note`, `generated_at_utc`, `indices`, `sectors`, `macro`, `mood`, `risks`, `themes`, `sources`, and notes. To update the town, replace this file and rebuild.
+- `public/data/reports/YYYY-MM-DD.json`: one report per market day, validated against [`schema/report.schema.json`](schema/report.schema.json).
+- `public/data/index.json`: `{latest, count, reports:[{date, as_of, mood, title, generated_at_utc}]}`, sorted ascending.
+- `public/data/latest.json`: copy of the newest report. `public/data.json` is kept as a legacy alias of the same file.
+
+The site loads the latest report by default. Use the date picker (‹ ▾ ›, top-right) to browse the archive, or link to a day with `?date=YYYY-MM-DD`. An unknown or invalid date shows a notice and falls back to the latest report.
+
+Validate with `npm run validate`. It also runs automatically before `npm run build` and in CI, and a failure blocks deploy. To publish a new day, see **[PUBLISHING.md](PUBLISHING.md)**.
 
 ## Tech stack
 
@@ -54,4 +60,4 @@ npm run preview  # serve the build on http://localhost:4173
 
 ## Deploy
 
-Every push to `main` runs `.github/workflows/pages.yml`, which runs `npm ci && npm run build` and deploys `dist/` to GitHub Pages. You can also start it by hand with *Run workflow* (workflow_dispatch). Vite uses `base: './'`, so assets resolve under `/market-town/`.
+Pull requests run validation and a build without deploying. Every push to `main` runs `.github/workflows/pages.yml`, which runs `npm ci`, `npm run validate` and `npm run build` and deploys `dist/` to GitHub Pages. You can also start it by hand with *Run workflow* (workflow_dispatch). Vite uses `base: './'`, so assets resolve under `/market-town/`.

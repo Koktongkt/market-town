@@ -195,7 +195,7 @@
     },
     "fed_funds_target_range": {
       "lower": 3.75,
-      "upper": 4.0,
+      "upper": 4,
       "unit": "%",
       "date": "2026-09-16",
       "source_url": "https://www.morningstar.com/economy/cpi-forecasts-show-moderated-inflation-september-keeping-fed-hold",

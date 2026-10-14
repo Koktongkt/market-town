@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://koktongkt.github.io/market-town/schema/report.schema.json",
+  "title": "Market Town daily report",
+  "description": "Daily US market snapshot. Unknown figures are null (with a note) and listed in null_fields. Percentages are plain numbers (1.94 = 1.94%).",
+  "type": "object",
+  "required": ["as_of", "generated_at_utc", "indices", "sectors", "macro", "mood", "risks", "themes", "sources", "null_fields"],
+  "properties": {
+    "as_of": {"$ref": "#/definitions/date"},
+    "generated_at_utc": {"type": "string", "format": "date-time"},
+    "as_of_note": {"type": ["string", "null"]},
+    "indices_note": {"type": ["string", "null"]},
+    "sectors_note": {"type": ["string", "null"]},
+    "indices": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["name", "symbol", "level", "date", "change_1d_pct", "change_1m_pct", "change_ytd_pct", "source_url"],
+        "properties": {
+          "name": {"type": "string", "minLength": 1},
+          "symbol": {"type": "string", "minLength": 1},
+          "level": {"$ref": "#/definitions/num"},
+          "date": {"$ref": "#/definitions/date"},
+          "change_1d_pct": {"$ref": "#/definitions/num"},
+          "change_1m_pct": {"$ref": "#/definitions/num"},
+          "change_ytd_pct": {"$ref": "#/definitions/num"},
+          "source_url": {"$ref": "#/definitions/url"},
+          "secondary_source_url": {"$ref": "#/definitions/urlOrNull"},
+          "note": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "sectors": {
+      "type": "array", "minItems": 11, "maxItems": 11,
+      "items": {
+        "type": "object",
+        "required": ["sector", "proxy_etf", "as_of", "change_1m_pct", "change_ytd_pct", "source_url"],
+        "properties": {
+          "sector": {"type": "string", "minLength": 1},
+          "proxy_etf": {"type": "string", "minLength": 1},
+          "as_of": {"$ref": "#/definitions/date"},
+          "change_1m_pct": {"$ref": "#/definitions/num"},
+          "change_ytd_pct": {"$ref": "#/definitions/num"},
+          "take": {"type": ["string", "null"]},
+          "source_url": {"$ref": "#/definitions/url"},
+          "note": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "macro": {
+      "type": "object",
+      "required": ["cpi_headline_yoy", "cpi_headline_mom", "core_cpi_yoy", "core_cpi_mom", "fed_funds_target_range", "us_10y_yield", "us_2y_yield", "unemployment_rate", "dxy", "wti", "brent", "gold"],
+      "properties": {
+        "cpi_headline_yoy": {"$ref": "#/definitions/macroValue"},
+        "cpi_headline_mom": {"$ref": "#/definitions/macroValue"},
+        "core_cpi_yoy": {"$ref": "#/definitions/macroValue"},
+        "core_cpi_mom": {"$ref": "#/definitions/macroValue"},
+        "us_10y_yield": {"$ref": "#/definitions/macroValue"},
+        "us_2y_yield": {"$ref": "#/definitions/macroValue"},
+        "unemployment_rate": {"$ref": "#/definitions/macroValue"},
+        "dxy": {"$ref": "#/definitions/macroValue"},
+        "wti": {"$ref": "#/definitions/macroValue"},
+        "brent": {"$ref": "#/definitions/macroValue"},
+        "gold": {"$ref": "#/definitions/macroValue"},
+        "fed_funds_target_range": {
+          "type": "object",
+          "required": ["lower", "upper", "unit", "date", "source_url"],
+          "properties": {
+            "lower": {"$ref": "#/definitions/num"}, "upper": {"$ref": "#/definitions/num"},
+            "unit": {"type": "string"}, "date": {"$ref": "#/definitions/dateOrMonth"},
+            "source_url": {"$ref": "#/definitions/url"}, "secondary_source_url": {"$ref": "#/definitions/urlOrNull"},
+            "note": {"type": ["string", "null"]}, "period": {"type": ["string", "null"]}
+          }
+        },
+        "cpi_september_consensus": {
+          "description": "Optional forecast block: ranges as strings like \"3.6-3.7\".",
+          "type": "object",
+          "properties": {
+            "headline_mom": {"$ref": "#/definitions/range"}, "headline_yoy": {"$ref": "#/definitions/range"},
+            "core_mom": {"$ref": "#/definitions/range"}, "core_yoy": {"$ref": "#/definitions/range"},
+            "release": {"type": ["string", "null"]},
+            "source_url": {"$ref": "#/definitions/urlOrNull"}, "secondary_source_url": {"$ref": "#/definitions/urlOrNull"}
+          }
+        }
+      },
+      "additionalProperties": {"type": "object"}
+    },
+    "themes": {
+      "type": "array",
+      "items": {"type": "object", "required": ["title", "explanation"], "properties": {"title": {"type": "string", "minLength": 1}, "explanation": {"type": "string"}}}
+    },
+    "risks": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "mood": {
+      "type": "object", "required": ["overall"],
+      "properties": {"overall": {"enum": ["bull", "bear", "neutral"]}, "reason": {"type": ["string", "null"]}}
+    },
+    "sources": {
+      "type": "array", "minItems": 1,
+      "items": {"type": "object", "required": ["name", "url"], "properties": {"name": {"type": "string", "minLength": 1}, "url": {"$ref": "#/definitions/url"}}}
+    },
+    "null_fields": {"type": "array", "items": {"type": "string"}}
+  },
+  "definitions": {
+    "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "dateOrMonth": {"type": "string", "pattern": "^\\d{4}-\\d{2}(-\\d{2})?$"},
+    "num": {"type": ["number", "null"]},
+    "url": {"type": "string", "pattern": "^https?://"},
+    "urlOrNull": {"type": ["string", "null"], "pattern": "^https?://"},
+    "range": {"type": ["string", "null"], "pattern": "^-?\\d+(\\.\\d+)?(--?\\d+(\\.\\d+)?)?$"},
+    "macroValue": {
+      "type": "object", "required": ["value", "unit", "date", "source_url"],
+      "properties": {
+        "value": {"$ref": "#/definitions/num"}, "unit": {"type": "string"},
+        "date": {"$ref": "#/definitions/dateOrMonth"}, "source_url": {"$ref": "#/definitions/url"},
+        "period": {"type": ["string", "null"]}, "note": {"type": ["string", "null"]},
+        "secondary_source_url": {"$ref": "#/definitions/urlOrNull"}
+      }
+    }
+  }
+}
