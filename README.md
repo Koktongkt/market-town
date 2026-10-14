@@ -15,6 +15,20 @@ A scroll-driven 3D toy-town diorama that turns a snapshot of the US market into 
 
 Missing values show as `n/a`.
 
+## Controls
+
+Buttons sit in the top-right corner.
+
+**Story mode (default):** scroll or swipe to move between chapters.
+- **Look around:** drag with the mouse, or use a two-finger drag on touch, to tilt and rotate the view around the chapter's focus (within limits).
+- **Zoom:** use Ctrl + wheel or a trackpad pinch, a two-finger pinch on touch, or the **＋ / －** buttons. A plain wheel still scrolls the story.
+- **⟲ Reset view:** restores the chapter's framing. Changing chapters also resets the view smoothly.
+
+**🧭 Free view:** detaches the camera from scrolling.
+- Drag to rotate. Right-drag or a two-finger drag pans. Wheel or pinch zooms (distance and angle are limited, so the camera stays above the island).
+- **WASD / arrow keys** move around.
+- **✕ Exit free view** glides back to the current chapter's camera.
+
 ## Data
 
 Everything comes from `public/data.json`, which is fetched at runtime (no-store). Top-level keys: `as_of`, `as_of_note`, `generated_at_utc`, `indices`, `sectors`, `macro`, `mood`, `risks`, `themes`, `sources`, and notes. To update the town, replace this file and rebuild.

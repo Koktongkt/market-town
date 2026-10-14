@@ -1,6 +1,6 @@
 import React,{useRef,useMemo,useState,useLayoutEffect} from 'react'
 import {useFrame,useThree} from '@react-three/fiber'
-import {Text as DText,Billboard,RoundedBox,Instances,Instance,Environment,Lightformer,Html} from '@react-three/drei'
+import {Text as DText,Billboard,RoundedBox,Instances,Instance,Environment,Lightformer,Html,OrbitControls} from '@react-three/drei'
 import {EffectComposer,Bloom,Vignette,SMAA,N8AO} from '@react-three/postprocessing'
 import * as THREE from 'three'
 import {mergeGeometries} from 'three/examples/jsm/utils/BufferGeometryUtils.js'
@@ -224,14 +224,28 @@ function Perf(){const {gl}=useThree();useLayoutEffect(()=>{gl.info.autoReset=fal
  useFrame(()=>{const i=gl.info;window.__perf={calls:i.render.calls,triangles:i.render.triangles,geometries:i.memory.geometries,textures:i.memory.textures,programs:i.programs?.length};i.reset()})
  return null}
 
-export default function World({d,progress}){const matsRef=useRef([]);const L=useMemo(()=>layout(d),[d])
+function FreeControls({view,look}){const {camera}=useThree();const c=useRef();const keys=useRef({})
+ useLayoutEffect(()=>{c.current.target.copy(look.current);c.current.update()},[])
+ React.useEffect(()=>{const dn=e=>{if(/^(Key[WASDQE]|Arrow)/.test(e.code)){keys.current[e.code]=1;e.preventDefault()}},up=e=>{keys.current[e.code]=0}
+  addEventListener('keydown',dn);addEventListener('keyup',up);return()=>{removeEventListener('keydown',dn);removeEventListener('keyup',up)}},[])
+ const f=new THREE.Vector3(),r=new THREE.Vector3(),m=new THREE.Vector3()
+ useFrame((_,dt)=>{const k=keys.current;m.set(0,0,0);camera.getWorldDirection(f);f.y=0;f.normalize();r.crossVectors(f,camera.up).normalize()
+  if(k.KeyW||k.ArrowUp)m.add(f);if(k.KeyS||k.ArrowDown)m.sub(f);if(k.KeyD||k.ArrowRight)m.add(r);if(k.KeyA||k.ArrowLeft)m.sub(r)
+  if(m.lengthSq()){m.normalize().multiplyScalar(dt*Math.max(6,camera.position.distanceTo(c.current.target)*0.6));camera.position.add(m);c.current.target.add(m)}
+  const t=c.current.target;t.x=THREE.MathUtils.clamp(t.x,-45,45);t.z=THREE.MathUtils.clamp(t.z,-45,45);t.y=THREE.MathUtils.clamp(t.y,0,25);look.current.copy(t)})
+ return <OrbitControls ref={c} makeDefault enableDamping dampingFactor={0.08} minDistance={4} maxDistance={110} maxPolarAngle={Math.PI*0.47} minPolarAngle={0.05} screenSpacePanning={false} zoomSpeed={0.9}/>}
+export default function World({d,progress,view}){const matsRef=useRef([]);const L=useMemo(()=>layout(d),[d])
  const agents=useMemo(()=>buildAgents({districts:L.districts,benches:L.benches.map(b=>({...b,ry:b.ry})),stalls:L.stalls,factory:FACTORY,unemp:num(d.macro?.unemployment_rate?.value)}),[L])
- const p=new THREE.Vector3(),l=new THREE.Vector3(),look=useRef(new THREE.Vector3()),a=new THREE.Vector3(),b=new THREE.Vector3()
- useFrame(({camera,clock},dt)=>{const k=1-Math.exp(-Math.min(dt,0.5)*5);const f=progress.current*(STOPS.length-1);const i=Math.min(STOPS.length-2,Math.floor(f)),t=THREE.MathUtils.smootherstep(f-i,0,1)
+ const p=new THREE.Vector3(),l=new THREE.Vector3(),look=useRef(new THREE.Vector3()),a=new THREE.Vector3(),b=new THREE.Vector3(),sp=new THREE.Spherical()
+ const [free,setFree]=useState(false);view.current.setFree=setFree
+ useFrame(({camera,clock},dt)=>{const v=view.current;if(v.free)return;const k=1-Math.exp(-Math.min(dt,0.5)*5);const f=progress.current*(STOPS.length-1);const i=Math.min(STOPS.length-2,Math.floor(f)),t=THREE.MathUtils.smootherstep(f-i,0,1)
+  const ch=Math.round(f);if(ch!==v.chapter){v.chapter=ch;v.ty=0;v.tp=0;v.tz=1}
+  const kk=1-Math.exp(-Math.min(dt,0.5)*8);v.yaw+=(v.ty-v.yaw)*kk;v.pitch+=(v.tp-v.pitch)*kk;v.zoom+=(v.tz-v.zoom)*kk
   p.copy(a.set(...STOPS[i][0])).lerp(b.set(...STOPS[i+1][0]),t);l.copy(a.set(...STOPS[i][1])).lerp(b.set(...STOPS[i+1][1]),t)
+  sp.setFromVector3(a.subVectors(p,l));sp.theta+=v.yaw;sp.phi=THREE.MathUtils.clamp(sp.phi-v.pitch,0.12,1.42);sp.radius*=v.zoom;p.copy(l).add(a.setFromSpherical(sp));if(p.y<1.5)p.y=1.5
   p.y+=Math.sin(clock.elapsedTime*0.4)*0.12;camera.position.lerp(p,k);look.current.lerp(l,k);camera.lookAt(look.current)})
  return <>
-  <Perf/><Weather d={d} progress={progress} matsRef={matsRef}/>
+  <Perf/>{free&&<FreeControls view={view} look={look}/>}<Weather d={d} progress={progress} matsRef={matsRef}/>
   <Island/><Trees/><StreetProps L={L}/><Square d={d} L={L}/><Downtown d={d} matsRef={matsRef}/>
   <Buildings L={L} matsRef={matsRef}/><DistrictSigns L={L}/><Crowd agents={agents}/>
   {Array.from({length:16}).map((_,i)=><Car key={i} r={i<6?7.6:20.4} lane={i%2?0.45:-0.45} speed={(i%2?1:-1)*(i<6?0.18:0.08)} phase={i*1.1} color={['#E85A4F','#4A90D9','#F2C94C','#3FB68B','#9B7FE6','#F4F4F4','#2B2440'][i%7]}/>)}
