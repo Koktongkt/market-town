@@ -1,0 +1,500 @@
+{
+  "as_of": "2026-10-16",
+  "generated_at_utc": "2026-10-18T23:40:00Z",
+  "as_of_note": "US closes for Fri 16 Oct 2026: tech/AI-credit selloff (Nasdaq -2.15%, CoreWeave -12%) as WTI settled above $100 and Brent at $109.86. Warsh gave no guidance in Bangkok; Oct hike odds fell to ~17%. Fed blackout since Sat 17 Oct. Sunday-night futures were modestly higher (S&P +0.2-0.3%).",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "symbol": "^GSPC",
+      "level": 7659.44,
+      "date": "2026-10-16",
+      "change_1d_pct": -1.09,
+      "change_1m_pct": 1.43,
+      "change_ytd_pct": 11.89,
+      "source_url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-friday-10162026-137331951",
+      "secondary_source_url": "https://portfolio-terminal.com/markets/stock-market-close/october-16-2026",
+      "note": "1M vs 16 Sep close 7551.81 (Portfolio Terminal), computed; YTD from Portfolio Terminal (AP 11.9%). 2.04% below 6 Oct record 7818.93. Week -1.9%."
+    },
+    {
+      "name": "Nasdaq Composite",
+      "symbol": "^IXIC",
+      "level": 26140.03,
+      "date": "2026-10-16",
+      "change_1d_pct": -2.15,
+      "change_1m_pct": 0.62,
+      "change_ytd_pct": 12.47,
+      "source_url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-friday-10162026-137331951",
+      "secondary_source_url": "https://portfolio-terminal.com/markets/stock-market-close/october-16-2026",
+      "note": "1M vs 16 Sep close 25978.43, computed; YTD from Portfolio Terminal (AP 12.5%). Week -4.5%, worst since June."
+    },
+    {
+      "name": "Dow Jones Industrial Average",
+      "symbol": "^DJI",
+      "level": 52002.41,
+      "date": "2026-10-16",
+      "change_1d_pct": -0.34,
+      "change_1m_pct": 1.05,
+      "change_ytd_pct": 8.2,
+      "source_url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-friday-10162026-137331951",
+      "secondary_source_url": "https://portfolio-terminal.com/markets/stock-market-close/october-16-2026",
+      "note": "1M vs 16 Sep close 51461.90, computed; YTD from AP. Week +0.7%."
+    },
+    {
+      "name": "Russell 2000",
+      "symbol": "^RUT",
+      "level": 2721.37,
+      "date": "2026-10-16",
+      "change_1d_pct": -1.66,
+      "change_1m_pct": -4.81,
+      "change_ytd_pct": 9.6,
+      "source_url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-friday-10162026-137331951",
+      "secondary_source_url": "https://portfolio-terminal.com/markets/stock-market-close/october-16-2026",
+      "note": "1M vs 16 Sep close 2858.81, computed; YTD from AP. Week -3.0%."
+    }
+  ],
+  "indices_note": "Closes from AP index wrap (ABC News) cross-checked with Portfolio Terminal (Yahoo Finance closes). 1M % computed vs 16 Sep 2026 closes from Portfolio Terminal.",
+  "sectors": [
+    {
+      "sector": "Information Technology",
+      "proxy_etf": "XLK",
+      "as_of": "2026-10-16",
+      "change_1m_pct": -0.25,
+      "change_ytd_pct": 27.44,
+      "take": "Worst sector (-3.02% 1D, -7.70% 1W); SOX -3.8%, CoreWeave -12%, MU -5.6%, INTC -5.8%.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Energy",
+      "proxy_etf": "XLE",
+      "as_of": "2026-10-16",
+      "change_1m_pct": 6.58,
+      "change_ytd_pct": 52.63,
+      "take": "Best sector (+2.52% 1D) as WTI settled $101.41 and Brent $109.86.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Health Care",
+      "proxy_etf": "XLV",
+      "as_of": "2026-10-16",
+      "change_1m_pct": 5.33,
+      "change_ytd_pct": 14.15,
+      "take": "-0.27% 1D after two days leading.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Financials",
+      "proxy_etf": "XLF",
+      "as_of": "2026-10-16",
+      "change_1m_pct": -0.73,
+      "change_ytd_pct": 1.37,
+      "take": "+0.45% 1D; M&T, Citizens, Regions beat; Truist missed revenue; Travelers slipped on cat losses.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "proxy_etf": "XLY",
+      "as_of": "2026-10-16",
+      "change_1m_pct": 2.07,
+      "change_ytd_pct": -5.82,
+      "take": "-0.84% 1D; still negative YTD.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Consumer Staples",
+      "proxy_etf": "XLP",
+      "as_of": "2026-10-16",
+      "change_1m_pct": 5.15,
+      "change_ytd_pct": 12.8,
+      "take": "+1.08% 1D; defensive bid, +5.02% on the week.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Industrials",
+      "proxy_etf": "XLI",
+      "as_of": "2026-10-16",
+      "change_1m_pct": -0.56,
+      "change_ytd_pct": 8.15,
+      "take": "Flat (-0.08% 1D); IP beat at +0.7%.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Materials",
+      "proxy_etf": "XLB",
+      "as_of": "2026-10-16",
+      "change_1m_pct": 1.11,
+      "change_ytd_pct": 12.28,
+      "take": "+0.71% 1D; metals firm.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Utilities",
+      "proxy_etf": "XLU",
+      "as_of": "2026-10-16",
+      "change_1m_pct": 2.15,
+      "change_ytd_pct": -1.12,
+      "take": "+1.34% 1D, second-best as defensives led.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Real Estate",
+      "proxy_etf": "XLRE",
+      "as_of": "2026-10-16",
+      "change_1m_pct": -1.52,
+      "change_ytd_pct": 4.49,
+      "take": "+0.40% 1D; 2Y yield eased.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Communication Services",
+      "proxy_etf": "XLC",
+      "as_of": "2026-10-16",
+      "change_1m_pct": -2.37,
+      "change_ytd_pct": -6.29,
+      "take": "-1.89% 1D with megacap tech.",
+      "source_url": "https://marketindicators.net/sectors"
+    }
+  ],
+  "sectors_note": "SPDR Select Sector ETF returns from marketindicators.net (Yahoo Finance underlying), page updated 18 Oct reflecting the 16 Oct close; 1D figures in takes from the same table. Takes are briefing commentary.",
+  "macro": {
+    "cpi_headline_yoy": {
+      "value": 3.7,
+      "unit": "%",
+      "date": "2026-09",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "period": "Sep 2026",
+      "note": "Released 14 Oct. Above 3.6% consensus; up from 3.4% in Aug. Energy +20.4% y/y."
+    },
+    "cpi_headline_mom": {
+      "value": 0.6,
+      "unit": "%",
+      "date": "2026-09",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "period": "Sep 2026",
+      "note": "Seasonally adjusted. In line with +0.6% consensus; gasoline +9.1% > half the rise."
+    },
+    "core_cpi_yoy": {
+      "value": 2.6,
+      "unit": "%",
+      "date": "2026-09",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "period": "Sep 2026",
+      "note": "Above 2.5% consensus; up from 2.4% in Aug."
+    },
+    "core_cpi_mom": {
+      "value": 0.3,
+      "unit": "%",
+      "date": "2026-09",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "period": "Sep 2026",
+      "note": "Hot vs +0.2% consensus; second straight 0.3%. Shelter +0.4%."
+    },
+    "cpi_september_consensus": {
+      "headline_mom": "0.5-0.6",
+      "headline_yoy": "3.6-3.7",
+      "core_mom": "0.2",
+      "core_yoy": "2.4-2.5",
+      "release": "2026-10-14T08:30:00-04:00",
+      "source_url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html",
+      "secondary_source_url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm"
+    },
+    "ppi_final_demand_mom": {
+      "value": 1.3,
+      "unit": "%",
+      "date": "2026-09",
+      "period": "Sep 2026",
+      "source_url": "https://www.investing.com/news/economy-news/us-producer-prices-post-largest-increase-in-412-years-in-september-4951935",
+      "secondary_source_url": "https://www.bls.gov/ppi/",
+      "note": "Released 15 Oct. Largest since Mar 2022; Reuters poll +0.5% (other desks +0.6%). Goods +2.6% (record), services +0.8%."
+    },
+    "ppi_final_demand_yoy": {
+      "value": 6.3,
+      "unit": "%",
+      "date": "2026-09",
+      "period": "Sep 2026",
+      "source_url": "https://www.investing.com/news/economy-news/us-producer-prices-post-largest-increase-in-412-years-in-september-4951935",
+      "secondary_source_url": "https://www.bls.gov/ppi/",
+      "note": "Biggest since Dec 2022; Aug 5.6%. Consensus ~5.3-5.4%."
+    },
+    "core_ppi_mom": {
+      "value": 0.7,
+      "unit": "%",
+      "date": "2026-09",
+      "period": "Sep 2026",
+      "source_url": "https://www.ausecure.com/gold-market-close-oct-15-2026/",
+      "secondary_source_url": "https://x.com/DeItaone/status/2110712066533200250",
+      "note": "vs +0.3% consensus; core y/y 5.0% vs 4.4%."
+    },
+    "retail_sales_mom": {
+      "value": 0.8,
+      "unit": "%",
+      "date": "2026-09",
+      "period": "Sep 2026",
+      "source_url": "https://www.investing.com/news/economy-news/us-producer-prices-post-largest-increase-in-412-years-in-september-4951935",
+      "note": "vs +0.3% consensus; Aug +1.3%. Control group +0.1% (Aug +1.2%); gas stations +6.4%."
+    },
+    "initial_jobless_claims": {
+      "value": 199,
+      "unit": "k",
+      "date": "2026-10-10",
+      "period": "Week ended 10 Oct",
+      "source_url": "https://www.investing.com/news/economy-news/us-producer-prices-post-largest-increase-in-412-years-in-september-4951935",
+      "secondary_source_url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-yields-continue-to-fall-even-after-hot-ppi-data/",
+      "note": "+1k; vs 200k estimate; near a 57-year low."
+    },
+    "fed_funds_target_range": {
+      "lower": 3.75,
+      "upper": 4,
+      "unit": "%",
+      "date": "2026-09-16",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "secondary_source_url": "https://marketbriefer.com/the-global-close-october-16-2026-oil-tops-100-as-ai-credit-fears-cap-a-brutal-tech-week/",
+      "note": "After 25bp hike in Sep. Oct hike odds ~17% at Fri close (CME FedWatch via Edge/Market Briefer), from ~28% Thu; Dec hike ~89%."
+    },
+    "oct_hike_probability": {
+      "value": 17,
+      "unit": "%",
+      "date": "2026-10-16",
+      "source_url": "https://edgeconsultancykw.com/commodities-wrap-16-october-2026/",
+      "secondary_source_url": "https://www.newsquawk.com/headlines/treasury-wrap-t-note-futures-z6-settle-2-ticks-lower-at-105-14",
+      "note": "CME FedWatch at close per Edge and Market Briefer; Newsquawk ~17% (vs ~50% after CPI); WSJ 15% in the morning; Kalshi hold 86%, Polymarket no-change 87%."
+    },
+    "next_fomc": {
+      "value": "2026-10-27/28",
+      "unit": "date",
+      "date": "2026-10-28",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "note": "Decision Wed 28 Oct 2:00 PM ET (Thu 29 Oct 2:00 AM SGT). Blackout began Sat 17 Oct."
+    },
+    "us_10y_yield": {
+      "value": 5.097,
+      "unit": "%",
+      "date": "2026-10-16",
+      "source_url": "https://marketbriefer.com/the-global-close-october-16-2026-oil-tops-100-as-ai-credit-fears-cap-a-brutal-tech-week/",
+      "secondary_source_url": "https://www.newsquawk.com/headlines/treasury-wrap-t-note-futures-z6-settle-2-ticks-lower-at-105-14",
+      "note": "+1.1bp per Dow Jones Market Data via WSJ (Market Briefer); Newsquawk settlement 5.102% (+2.3bp); Portfolio Terminal ^TNX 5.098%. 30Y 5.436%."
+    },
+    "us_2y_yield": {
+      "value": 4.734,
+      "unit": "%",
+      "date": "2026-10-16",
+      "source_url": "https://marketbriefer.com/the-global-close-october-16-2026-oil-tops-100-as-ai-credit-fears-cap-a-brutal-tech-week/",
+      "secondary_source_url": "https://www.newsquawk.com/headlines/treasury-wrap-t-note-futures-z6-settle-2-ticks-lower-at-105-14",
+      "note": "-1.3bp per DJ via WSJ; Newsquawk settlement 4.746% (-1.1bp). Biggest weekly drop since August."
+    },
+    "unemployment_rate": {
+      "value": 4.2,
+      "unit": "%",
+      "date": "2026-09",
+      "source_url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
+      "period": "Sep 2026",
+      "secondary_source_url": "https://data.bls.gov/timeseries/LNS14000000",
+      "note": "Sept 2026, up from 4.1%."
+    },
+    "nonfarm_payrolls": {
+      "value": 29,
+      "unit": "k",
+      "date": "2026-09",
+      "source_url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
+      "period": "Sep 2026",
+      "note": "Sept NFP +29k vs +84k consensus; Aug revised to +133k; Jul to -10k (net -60k revisions)."
+    },
+    "dxy": {
+      "value": 101.79,
+      "unit": "index",
+      "date": "2026-10-16",
+      "source_url": "https://edgeconsultancykw.com/commodities-wrap-16-october-2026/",
+      "secondary_source_url": "https://marketbriefer.com/the-global-close-october-16-2026-oil-tops-100-as-ai-credit-fears-cap-a-brutal-tech-week/",
+      "note": "-0.26% at 20:16 GMT; Market Briefer 101.84."
+    },
+    "wti": {
+      "value": 101.41,
+      "unit": "USD/bbl",
+      "date": "2026-10-16",
+      "source_url": "https://edgeconsultancykw.com/commodities-wrap-16-october-2026/",
+      "secondary_source_url": "https://marketbriefer.com/the-global-close-october-16-2026-oil-tops-100-as-ai-credit-fears-cap-a-brutal-tech-week/",
+      "note": "NYMEX Nov settle +3.44 (+3.51%); first close above $100 since 21 Sep; week +10.4%. Sun evening ~$101.18 (CNBC)."
+    },
+    "brent": {
+      "value": 109.86,
+      "unit": "USD/bbl",
+      "date": "2026-10-16",
+      "source_url": "https://edgeconsultancykw.com/commodities-wrap-16-october-2026/",
+      "secondary_source_url": "https://marketbriefer.com/the-global-close-october-16-2026-oil-tops-100-as-ai-credit-fears-cap-a-brutal-tech-week/",
+      "note": "ICE Dec settle +3.94 (+3.72%); highest since 19 May; touched $110 intraday. Sun evening ~$108.80 (CNBC)."
+    },
+    "gold": {
+      "value": 4181.1,
+      "unit": "USD/oz",
+      "date": "2026-10-16",
+      "source_url": "https://edgeconsultancykw.com/commodities-wrap-16-october-2026/",
+      "secondary_source_url": "https://marketbriefer.com/the-global-close-october-16-2026-oil-tops-100-as-ai-credit-fears-cap-a-brutal-tech-week/",
+      "note": "COMEX Dec settle +0.26% per Edge; Market Briefer/DJ shows $4,159.50 (+0.28%), sources differ."
+    },
+    "silver": {
+      "value": 57.305,
+      "unit": "USD/oz",
+      "date": "2026-10-16",
+      "source_url": "https://edgeconsultancykw.com/commodities-wrap-16-october-2026/",
+      "note": "COMEX Dec settle +0.26%."
+    },
+    "vix": {
+      "value": 19.99,
+      "unit": "index",
+      "date": "2026-10-16",
+      "source_url": "https://edgeconsultancykw.com/commodities-wrap-16-october-2026/",
+      "secondary_source_url": "https://portfolio-terminal.com/markets/stock-market-close/october-16-2026",
+      "note": "+21.45% (+3.53 pts)."
+    },
+    "import_prices_mom": {
+      "value": 1.1,
+      "unit": "%",
+      "date": "2026-09",
+      "period": "Sep 2026",
+      "source_url": "https://www.bls.gov/news.release/archives/ximpim_10162026.htm",
+      "note": "Released 16 Oct; vs +0.8% consensus (WSJ/DJ). +8.1% y/y, largest since Jul 2022; nonfuel +0.7% m/m, +6.0% y/y."
+    },
+    "industrial_production_mom": {
+      "value": 0.7,
+      "unit": "%",
+      "date": "2026-09",
+      "period": "Sep 2026",
+      "source_url": "https://www.federalreserve.gov/releases/g17/20261016/",
+      "secondary_source_url": "https://marketbriefer.com/the-global-close-october-16-2026-oil-tops-100-as-ai-credit-fears-cap-a-brutal-tech-week/",
+      "note": "Released 16 Oct; vs +0.4% expected. Manufacturing +0.3%; capacity utilisation 76.9%."
+    }
+  },
+  "themes": [
+    {
+      "title": "AI's problem is financing, not demand",
+      "explanation": "CoreWeave fell 12% (-25% on the week) with bonds yielding above 15%; Goldman says AI and hyperscaler credit spreads are at the year's widest. Nasdaq 100 -5.5% on the week, worst since Apr 2025."
+    },
+    {
+      "title": "Oil above $100 feeds inflation",
+      "explanation": "WTI settled $101.41 (+10.4% on the week) and Brent $109.86 on Hormuz mines and Ukrainian refinery strikes; Sep import prices +8.1% y/y keep the 10Y near 5.10%."
+    },
+    {
+      "title": "Fed goes quiet, October off the table",
+      "explanation": "Warsh gave no guidance in Bangkok; Oct hike odds fell to ~17% from ~28% and the curve steepened, but a December hike stays ~89% priced."
+    },
+    {
+      "title": "Rotation, not capitulation",
+      "explanation": "Energy, utilities and staples rose while XLK fell 3%; the Dow finished the week +0.7% and most S&P sectors were up Friday."
+    },
+    {
+      "title": "Earnings test for AI capex",
+      "explanation": "NFLX (Tue), then TSLA, META, IBM, TXN, LRCX (Wed) report into a market asking whether AI profits can service AI debt."
+    }
+  ],
+  "risks": [
+    "CoreWeave/neocloud credit stress spreading into broader credit",
+    "Hormuz mine strikes or Gulf attacks pushing Brent through $110-112",
+    "META/TSLA capex guidance disappointing the AI trade",
+    "Warsh hawkish surprise at 28 Oct FOMC despite ~17% priced",
+    "Weak China Q3 GDP renewing Asian chip selling",
+    "Long yields staying above 5% as oil lifts inflation expectations",
+    "French unrest weighing on the euro"
+  ],
+  "mood": {
+    "overall": "bear",
+    "reason": "S&P -1.09%, Nasdaq -2.15% and SOX -3.8% capped the worst week since June; VIX jumped 21% to 19.99 and put volume was near record, with oil above $100. Futures bounced Sunday night and defensives held up, so not panic, but risk appetite is weak."
+  },
+  "sources": [
+    {
+      "name": "AP index levels (ABC News) 16 Oct",
+      "url": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-friday-10162026-137331951"
+    },
+    {
+      "name": "Portfolio Terminal close 16 Oct",
+      "url": "https://portfolio-terminal.com/markets/stock-market-close/october-16-2026"
+    },
+    {
+      "name": "Portfolio Terminal close 16 Sep",
+      "url": "https://portfolio-terminal.com/markets/stock-market-close/september-16-2026"
+    },
+    {
+      "name": "Market Briefer global close 16 Oct",
+      "url": "https://marketbriefer.com/the-global-close-october-16-2026-oil-tops-100-as-ai-credit-fears-cap-a-brutal-tech-week/"
+    },
+    {
+      "name": "WSJ live coverage 16 Oct",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-16-2026"
+    },
+    {
+      "name": "Bloomberg S&P 500 16 Oct",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-16/s-p-500-steady-as-warsh-boosts-expectations-of-rate-hold"
+    },
+    {
+      "name": "Newsquawk Treasury wrap 16 Oct",
+      "url": "https://www.newsquawk.com/headlines/treasury-wrap-t-note-futures-z6-settle-2-ticks-lower-at-105-14"
+    },
+    {
+      "name": "Business Times/Bloomberg Treasuries",
+      "url": "https://www.businesstimes.com.sg/international/us-treasuries-slide-global-stocks-recovery-clips-haven-rally"
+    },
+    {
+      "name": "CNBC Warsh analysis",
+      "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html"
+    },
+    {
+      "name": "Edge commodities wrap 16 Oct",
+      "url": "https://edgeconsultancykw.com/commodities-wrap-16-october-2026/"
+    },
+    {
+      "name": "MarketIndicators sector ETFs",
+      "url": "https://marketindicators.net/sectors"
+    },
+    {
+      "name": "BLS import/export prices Sep 2026",
+      "url": "https://www.bls.gov/news.release/archives/ximpim_10162026.htm"
+    },
+    {
+      "name": "Fed G.17 industrial production",
+      "url": "https://www.federalreserve.gov/releases/g17/20261016/"
+    },
+    {
+      "name": "Fed FOMC calendar",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "name": "CNBC Sept jobs report",
+      "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html"
+    },
+    {
+      "name": "BLS CPI September 2026",
+      "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm"
+    },
+    {
+      "name": "CNBC futures live 18 Oct",
+      "url": "https://www.cnbc.com/2026/10/18/stock-market-today-live-updates.html"
+    },
+    {
+      "name": "Seeking Alpha futures 18 Oct",
+      "url": "https://seekingalpha.com/news/4654081-stock-futures-rebound-as-oil-nears-110-ai-earnings-loom"
+    },
+    {
+      "name": "eOption weekly calendar",
+      "url": "https://www.eoption.com/weekly-event-calendar-10-19-2026-10-23-2026/"
+    },
+    {
+      "name": "Al Jazeera Hormuz mines",
+      "url": "https://www.aljazeera.com/news/2026/10/18/iran-says-two-tankers-catch-fire-after-hitting-mines-in-strait-of-hormuz"
+    },
+    {
+      "name": "Reuters Iran Hormuz proposal",
+      "url": "https://www.investing.com/news/commodities-news/iran-urges-us-to-accept-proposal-to-reopen-strait-of-hormuz-4955871"
+    },
+    {
+      "name": "zerohedge CoreWeave post",
+      "url": "https://x.com/zerohedge/status/2111186140548227472"
+    },
+    {
+      "name": "KobeissiLetter Nasdaq 100 week",
+      "url": "https://x.com/KobeissiLetter/status/2111185957781221387"
+    },
+    {
+      "name": "NickTimiraos Warsh",
+      "url": "https://x.com/NickTimiraos/status/2111093148453593508"
+    }
+  ],
+  "null_fields": []
+}

@@ -1,6 +1,6 @@
 {
-  "latest": "2026-10-15",
-  "count": 3,
+  "latest": "2026-10-16",
+  "count": 4,
   "reports": [
     {
       "date": "2026-10-13",
@@ -22,6 +22,13 @@
       "mood": "neutral",
       "title": "Bonds rally through a red-hot PPI",
       "generated_at_utc": "2026-10-15T23:39:14Z"
+    },
+    {
+      "date": "2026-10-16",
+      "as_of": "2026-10-16",
+      "mood": "bear",
+      "title": "AI's problem is financing, not demand",
+      "generated_at_utc": "2026-10-18T23:40:00Z"
     }
   ]
 }
