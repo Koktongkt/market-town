@@ -1,6 +1,6 @@
 {
-  "latest": "2026-10-16",
-  "count": 4,
+  "latest": "2026-10-19",
+  "count": 5,
   "reports": [
     {
       "date": "2026-10-13",
@@ -29,6 +29,13 @@
       "mood": "bear",
       "title": "AI's problem is financing, not demand",
       "generated_at_utc": "2026-10-18T23:40:00Z"
+    },
+    {
+      "date": "2026-10-19",
+      "as_of": "2026-10-19",
+      "mood": "neutral",
+      "title": "Narrow relief rally",
+      "generated_at_utc": "2026-10-19T23:45:00Z"
     }
   ]
 }
