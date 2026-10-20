@@ -1,6 +1,6 @@
 {
-  "latest": "2026-10-19",
-  "count": 5,
+  "latest": "2026-10-20",
+  "count": 6,
   "reports": [
     {
       "date": "2026-10-13",
@@ -36,6 +36,13 @@
       "mood": "neutral",
       "title": "Narrow relief rally",
       "generated_at_utc": "2026-10-19T23:40:00Z"
+    },
+    {
+      "date": "2026-10-20",
+      "as_of": "2026-10-20",
+      "mood": "bull",
+      "title": "Rotation, not risk-off",
+      "generated_at_utc": "2026-10-20T23:50:00Z"
     }
   ]
 }

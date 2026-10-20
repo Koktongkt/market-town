@@ -1,160 +1,160 @@
 {
-  "as_of": "2026-10-19",
-  "generated_at_utc": "2026-10-19T23:40:00Z",
-  "as_of_note": "US closes for Mon 19 Oct 2026: narrow AI/chip relief bounce (Nasdaq +1.11%, SOX +1.61%) while equal-weight S&P fell 0.32% and decliners led ~2:1. 10Y rose 3.8bp to 5.135%; Nov WTI (expires 20 Oct) settled $103.66 on Houthi claims of attacks on Saudi energy sites. Fed in blackout before 27-28 Oct FOMC; Oct hike odds ~15%, Dec ~89%. Monday-night futures +0.1-0.2%.",
+  "as_of": "2026-10-20",
+  "generated_at_utc": "2026-10-20T23:50:00Z",
+  "as_of_note": "US closes for Tue 20 Oct 2026: broad rotation rally (Dow +1.02%, Russell 2000 +1.65%, equal-weight RSP +1.15%, NYSE advancers 1,614 vs 559) while Nasdaq was flat (-0.02%) and tech lagged. Health care hit a record. 2Y +2.6bp to 4.785% but 30Y -4.7bp to 5.425% after weak housing starts and record-low pending home sales. Expiring Nov WTI settled $101.79 after a $110.48 spike on Iran deal headlines. Fed in blackout before 27-28 Oct FOMC; Oct hike odds ~15-17%. Evening futures: Nasdaq 100 +0.8% on SpaceX after-hours jump.",
   "indices": [
     {
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "level": 7690.73,
-      "date": "2026-10-19",
-      "change_1d_pct": 0.41,
-      "change_1m_pct": 0.53,
-      "change_ytd_pct": 12.3,
-      "source_url": "https://www.wsj.com/finance/investing/u-s-stocks-mostly-higher-as-ai-credit-worries-abate-600bf008",
-      "secondary_source_url": "https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-monday-10192026/616-4602b371-b514-4d3d-8d2a-7416c4823997",
-      "note": "+31.29 pts. 1M vs 18 Sep close 7650.50 (Portfolio Terminal), computed; YTD from AP. 1.64% below 6 Oct record 7818.93 (computed). Equal-weight RSP -0.32% (Cappnotes)."
+      "level": 7712.57,
+      "date": "2026-10-20",
+      "change_1d_pct": 0.28,
+      "change_1m_pct": 0.81,
+      "change_ytd_pct": 12.7,
+      "source_url": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-as-strong-earnings-offset-ai-credit-fears-d55414c3",
+      "secondary_source_url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-202506799.html",
+      "note": "+21.84 pts; week +0.7% (AP). 1M vs 18 Sep close 7650.50 (Portfolio Terminal), computed; YTD from AP. ~1.36% below 6 Oct record 7818.93 (computed). Equal-weight RSP +1.15%, value +0.9% vs growth -0.2%."
     },
     {
       "name": "Nasdaq Composite",
       "symbol": "^IXIC",
-      "level": 26430.89,
-      "date": "2026-10-19",
-      "change_1d_pct": 1.11,
-      "change_1m_pct": -0.35,
+      "level": 26424.82,
+      "date": "2026-10-20",
+      "change_1d_pct": -0.02,
+      "change_1m_pct": -0.37,
       "change_ytd_pct": 13.7,
-      "source_url": "https://www.wsj.com/finance/investing/u-s-stocks-mostly-higher-as-ai-credit-worries-abate-600bf008",
-      "secondary_source_url": "https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-monday-10192026/616-4602b371-b514-4d3d-8d2a-7416c4823997",
-      "note": "+290.85 pts. 1M vs 18 Sep close 26522.54, computed; YTD from AP. Nasdaq 100 +1.1%, best day since 21 Sep (KobeissiLetter)."
+      "source_url": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-as-strong-earnings-offset-ai-credit-fears-d55414c3",
+      "secondary_source_url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-202506799.html",
+      "note": "-6.07 pts. 1M vs 18 Sep close 26522.54, computed; YTD from AP. SOX -0.29% to 11283.81 (Cappnotes)."
     },
     {
       "name": "Dow Jones Industrial Average",
       "symbol": "^DJI",
-      "level": 51966.03,
-      "date": "2026-10-19",
-      "change_1d_pct": -0.07,
-      "change_1m_pct": 0.55,
-      "change_ytd_pct": 8.1,
-      "source_url": "https://www.wsj.com/finance/investing/u-s-stocks-mostly-higher-as-ai-credit-worries-abate-600bf008",
-      "secondary_source_url": "https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-monday-10192026/616-4602b371-b514-4d3d-8d2a-7416c4823997",
-      "note": "-36.38 pts; JPM -1.79% weighed, AMZN +4.98% top gainer. 1M vs 18 Sep close 51682.64, computed; YTD from AP."
+      "level": 52495.88,
+      "date": "2026-10-20",
+      "change_1d_pct": 1.02,
+      "change_1m_pct": 1.57,
+      "change_ytd_pct": 9.2,
+      "source_url": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-as-strong-earnings-offset-ai-credit-fears-d55414c3",
+      "secondary_source_url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-202506799.html",
+      "note": "+529.85 pts, led by MMM +5.78%. 1M vs 18 Sep close 51682.64, computed; YTD from AP."
     },
     {
       "name": "Russell 2000",
       "symbol": "^RUT",
-      "level": 2728.3,
-      "date": "2026-10-19",
-      "change_1d_pct": 0.25,
-      "change_1m_pct": -4.62,
-      "change_ytd_pct": 9.9,
-      "source_url": "https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-monday-10192026/616-4602b371-b514-4d3d-8d2a-7416c4823997",
-      "secondary_source_url": "https://cappnotes.substack.com/p/closing-look-monday-october-19-2026",
-      "note": "+6.93 pts. 1M vs 18 Sep close 2860.40, computed; YTD from AP."
+      "level": 2773.42,
+      "date": "2026-10-20",
+      "change_1d_pct": 1.65,
+      "change_1m_pct": -3.04,
+      "change_ytd_pct": 11.7,
+      "source_url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-202506799.html",
+      "secondary_source_url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026",
+      "note": "+45.12 pts, led major indexes. 1M vs 18 Sep close 2860.40, computed; YTD from AP."
     }
   ],
-  "indices_note": "Closes from WSJ/Dow Jones and AP index wrap (via KVUE), cross-checked with Cappnotes and Investing.com. 1M % computed vs 18 Sep 2026 closes (19 Sep was a Saturday) from Portfolio Terminal: https://portfolio-terminal.com/markets/stock-market-close/september-18-2026",
+  "indices_note": "Closes from WSJ/Dow Jones and AP index wrap (via Yahoo Finance), cross-checked with Cappnotes and Reuters. 1M % computed vs 18 Sep 2026 closes from Portfolio Terminal: https://portfolio-terminal.com/markets/stock-market-close/september-18-2026",
   "sectors": [
     {
       "sector": "Information Technology",
       "proxy_etf": "XLK",
-      "as_of": "2026-10-19",
-      "change_1m_pct": -1.92,
-      "change_ytd_pct": 29.17,
-      "take": "+1.36% 1D (-5.30% 1W); SOX +1.61% ended 8-day slide; MU +2.97%, WDC +6.1%, INTC +2.43%, NVDA +1.38%.",
+      "as_of": "2026-10-20",
+      "change_1m_pct": -2.19,
+      "change_ytd_pct": 28.8,
+      "take": "Worst sector, -0.28% 1D; AAPL -1.0% on Loop downgrade; ARM -3.07%, KLAC -2.80%, LRCX -3.21%; SMCI +12.7% after hours.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Energy",
       "proxy_etf": "XLE",
-      "as_of": "2026-10-19",
-      "change_1m_pct": 5.43,
-      "change_ytd_pct": 51.64,
-      "take": "-0.64% 1D despite Nov WTI +2.22% to $103.66; Dec WTI -0.48%, Brent -0.28% on Russia sanctions waiver.",
+      "as_of": "2026-10-20",
+      "change_1m_pct": 5.69,
+      "change_ytd_pct": 52.02,
+      "take": "+0.25% 1D as Brent reversed from $111.99 to $108.79 on Iran mediation headlines.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Health Care",
       "proxy_etf": "XLV",
-      "as_of": "2026-10-19",
-      "change_1m_pct": 4.31,
-      "change_ytd_pct": 13.47,
-      "take": "-0.60% 1D; AMGN -1.75%.",
+      "as_of": "2026-10-20",
+      "change_1m_pct": 6.79,
+      "change_ytd_pct": 16.16,
+      "take": "Best sector, +2.37% 1D to a record; LLY top S&P contributor; UNH, MRK, JNJ, AMGN lifted the Dow; ISRG -7% after hours.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Financials",
       "proxy_etf": "XLF",
-      "as_of": "2026-10-19",
-      "change_1m_pct": -1.43,
-      "change_ytd_pct": 0.53,
-      "take": "-0.83% 1D; JPM -1.79% as yields rose; FITB +0.28% on EPS beat/revenue miss.",
+      "as_of": "2026-10-20",
+      "change_1m_pct": -0.25,
+      "change_ytd_pct": 1.73,
+      "take": "+1.20% 1D; KEY +4.47% on beat, EFX +11.33%; COF +4.5% after hours.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Consumer Discretionary",
       "proxy_etf": "XLY",
-      "as_of": "2026-10-19",
-      "change_1m_pct": 3.09,
-      "change_ytd_pct": -4.15,
-      "take": "Best sector, +1.78% 1D; AMZN +4.98%, TSLA +3.76%.",
+      "as_of": "2026-10-20",
+      "change_1m_pct": 4.03,
+      "change_ytd_pct": -3.27,
+      "take": "+0.91% 1D; HAS +11.20% on raised outlook offset GM -6.84%.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Consumer Staples",
       "proxy_etf": "XLP",
-      "as_of": "2026-10-19",
-      "change_1m_pct": 5.33,
-      "change_ytd_pct": 12.27,
-      "take": "-0.47% 1D as defensive bid faded.",
+      "as_of": "2026-10-20",
+      "change_1m_pct": 5.98,
+      "change_ytd_pct": 12.96,
+      "take": "+0.62% 1D.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Industrials",
       "proxy_etf": "XLI",
-      "as_of": "2026-10-19",
-      "change_1m_pct": -1.81,
-      "change_ytd_pct": 7.45,
-      "take": "-0.64% 1D; MMM -1.66% ahead of Tue earnings.",
+      "as_of": "2026-10-20",
+      "change_1m_pct": -1.74,
+      "change_ytd_pct": 7.53,
+      "take": "+0.07% 1D; MMM +5.78% and NOC +4.57% vs GE -3.67% on weaker FCF.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Materials",
       "proxy_etf": "XLB",
-      "as_of": "2026-10-19",
-      "change_1m_pct": 1.92,
-      "change_ytd_pct": 12.35,
-      "take": "Flat (+0.06% 1D); CLF +16.3% on beat; FMC, MOS among S&P laggards.",
+      "as_of": "2026-10-20",
+      "change_1m_pct": 2.48,
+      "change_ytd_pct": 12.97,
+      "take": "+0.55% 1D; copper +0.43%, silver +1.27%.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Utilities",
       "proxy_etf": "XLU",
-      "as_of": "2026-10-19",
-      "change_1m_pct": 0.63,
-      "change_ytd_pct": -3.12,
-      "take": "Worst sector, -2.01% 1D as 10Y rose to 5.135%; NRG -4.21%.",
+      "as_of": "2026-10-20",
+      "change_1m_pct": 1.9,
+      "change_ytd_pct": -1.9,
+      "take": "+1.26% 1D as 30Y yield fell 4.7bp.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Real Estate",
       "proxy_etf": "XLRE",
-      "as_of": "2026-10-19",
-      "change_1m_pct": -2.02,
-      "change_ytd_pct": 3.27,
-      "take": "-1.16% 1D on higher yields; HPP -12.4% on Piper downgrade citing rates.",
+      "as_of": "2026-10-20",
+      "change_1m_pct": -0.35,
+      "change_ytd_pct": 5.03,
+      "take": "+1.70% 1D on lower long yields despite record-low pending home sales.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Communication Services",
       "proxy_etf": "XLC",
-      "as_of": "2026-10-19",
-      "change_1m_pct": -0.65,
-      "change_ytd_pct": -6.48,
-      "take": "-0.21% 1D; Alphabet ~+1% offset by rest of group.",
+      "as_of": "2026-10-20",
+      "change_1m_pct": -0.56,
+      "change_ytd_pct": -6.4,
+      "take": "+0.09% 1D (Reuters' S&P index -0.9%); META -1.59%, NFLX -1.7% then ~-6% after hours on weak Q4 guide.",
       "source_url": "https://marketindicators.net/sectors"
     }
   ],
-  "sectors_note": "SPDR Select Sector ETF returns from marketindicators.net (Yahoo Finance underlying), page dated Mon 19 Oct 2026; 1D figures in takes from the same table, matching Cappnotes. Stock moves from Investing.com/Cappnotes. Takes are briefing commentary.",
+  "sectors_note": "SPDR Select Sector ETF returns from marketindicators.net (Yahoo Finance underlying), page dated Tue 20 Oct 2026; 1D figures in takes match Cappnotes. Stock moves from Cappnotes/Reuters/CNBC. Takes are briefing commentary.",
   "macro": {
     "cpi_headline_yoy": {
       "value": 3.7,
@@ -247,39 +247,39 @@
       "unit": "%",
       "date": "2026-09-16",
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-      "secondary_source_url": "https://cappnotes.substack.com/p/closing-look-monday-october-19-2026",
-      "note": "After 25bp hike in Sep. Fed in pre-FOMC blackout. Oct hike odds ~15% (CME FedWatch via Edge/DJ), Dec ~89%; BofA still forecasts an Oct hike."
+      "secondary_source_url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026",
+      "note": "After 25bp hike in Sep. Fed in pre-FOMC blackout. Oct hike odds ~15-17% (CME FedWatch via Reuters); Kalshi hold 87%."
     },
     "oct_hike_probability": {
-      "value": 15,
+      "value": 17.2,
       "unit": "%",
-      "date": "2026-10-19",
-      "source_url": "https://edgeconsultancykw.com/commodities-wrap-19-october-2026/",
-      "secondary_source_url": "https://cappnotes.substack.com/p/closing-look-monday-october-19-2026",
-      "note": "CME FedWatch per DJ via Edge (Fri ~17%); Dec hike ~89%. Kalshi hold 85.5%, Polymarket 84.5% (Cappnotes). BofA still expects an Oct hike (Investing.com)."
+      "date": "2026-10-20",
+      "source_url": "https://www.livemint.com/market/us-yields-ease-off-lows-as-stocks-rally-11792521918675.html",
+      "secondary_source_url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026",
+      "note": "CME FedWatch per Reuters bond story (22.1% a week ago, 57.6% a month ago). Cappnotes cites 14.9% per Reuters; Kalshi hold 87%, hike 13%. December hike still expected (Trading Economics); no fresh Dec probability found."
     },
     "next_fomc": {
       "value": "2026-10-27/28",
       "unit": "date",
       "date": "2026-10-28",
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-      "note": "Decision Wed 28 Oct 2:00 PM ET (Thu 29 Oct 2:00 AM SGT). Blackout in effect since Sat 17 Oct (Cappnotes confirms blackout 19 Oct)."
+      "note": "Decision Wed 28 Oct 2:00 PM ET (Thu 29 Oct 2:00 AM SGT). Blackout in effect (Cappnotes 20 Oct)."
     },
     "us_10y_yield": {
-      "value": 5.135,
+      "value": 5.116,
       "unit": "%",
-      "date": "2026-10-19",
-      "source_url": "https://www.morningstar.com/news/dow-jones/202610196209/10-year-treasury-yield-rises-to-5135-data-talk",
+      "date": "2026-10-20",
+      "source_url": "https://www.morningstar.com/news/dow-jones/202610207404/10-year-treasury-yield-falls-to-5116-data-talk",
       "secondary_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve",
-      "note": "+3.8bp (DJ/Tradeweb 3 PM ET), largest one-day gain since 2 Oct; Treasury CMT 5.15%; 52-wk high 5.310% on 5 Oct."
+      "note": "-1.9bp (DJ/Tradeweb 3 PM ET); intraday low 5.073% (Reuters); Treasury CMT 5.12%; 52-wk high 5.310% on 5 Oct."
     },
     "us_2y_yield": {
-      "value": 4.759,
+      "value": 4.785,
       "unit": "%",
-      "date": "2026-10-19",
-      "source_url": "https://www.morningstar.com/news/dow-jones/202610196208/2-year-treasury-yield-rises-to-4759-data-talk",
+      "date": "2026-10-20",
+      "source_url": "https://www.morningstar.com/news/dow-jones/202610207403/2-year-treasury-yield-rises-to-4785-data-talk",
       "secondary_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve",
-      "note": "+2.5bp (DJ/Tradeweb 3 PM ET); Treasury CMT 4.77%. 2s10s ~38bp from ~35bp (Cappnotes)."
+      "note": "+2.6bp (DJ/Tradeweb), largest one-day rise since 9 Oct; CMT 4.79%. 2s10s ~33bp from ~38bp (Cappnotes; Reuters 32.8bp)."
     },
     "unemployment_rate": {
       "value": 4.2,
@@ -299,51 +299,51 @@
       "note": "Sept NFP +29k vs +84k consensus; Aug revised to +133k; Jul to -10k (net -60k revisions)."
     },
     "dxy": {
-      "value": 101.99,
+      "value": 101.71,
       "unit": "index",
-      "date": "2026-10-19",
-      "source_url": "https://edgeconsultancykw.com/commodities-wrap-19-october-2026/",
-      "secondary_source_url": "https://cappnotes.substack.com/p/closing-look-monday-october-19-2026",
-      "note": "+0.15% at 20:25 GMT read; DTN reported 101.790 at 2:39 PM ET, sources differ."
+      "date": "2026-10-20",
+      "source_url": "https://edgeconsultancykw.com/commodities-wrap-20-october-2026/",
+      "secondary_source_url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026",
+      "note": "-0.26% (Edge 20:22 GMT read 101.712; Cappnotes 101.71)."
     },
     "wti": {
-      "value": 103.66,
+      "value": 101.79,
       "unit": "USD/bbl",
-      "date": "2026-10-19",
-      "source_url": "https://edgeconsultancykw.com/commodities-wrap-19-october-2026/",
-      "secondary_source_url": "https://www.dtnpf.com/agriculture/web/AG/news/world-policy/article/2026/10/19/oil-prices-mixed-u-s-sanctions",
-      "note": "NYMEX Nov settle +2.25 (+2.22%), 8th straight gain, highest since 15 Sep; expires 20 Oct. Dec WTI (new front month) $98.54, -0.48% (WSJ)."
+      "date": "2026-10-20",
+      "source_url": "https://edgeconsultancykw.com/commodities-wrap-20-october-2026/",
+      "secondary_source_url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026",
+      "note": "NYMEX Nov final settle at expiry, -1.80%, ended 8-day win streak after +5.56% morning spike (high $110.48 per Cappnotes). Dec WTI (front month from 21 Oct) settled $97.82, -0.73% (Edge/DJ); Cappnotes quotes $98.28."
     },
     "brent": {
-      "value": 109.55,
+      "value": 108.79,
       "unit": "USD/bbl",
-      "date": "2026-10-19",
-      "source_url": "https://edgeconsultancykw.com/commodities-wrap-19-october-2026/",
-      "secondary_source_url": "https://www.wsj.com/finance/commodities-futures/oil-futures-fall-on-possible-correction-but-drop-may-be-limited-by-geopolitical-tensions-21ff1c15",
-      "note": "ICE Dec settle -0.28%; intraday high $110.70 (DTN) after a >$3 drop earlier; Russia waiver vs Houthi attack claims."
+      "date": "2026-10-20",
+      "source_url": "https://edgeconsultancykw.com/commodities-wrap-20-october-2026/",
+      "secondary_source_url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026",
+      "note": "ICE Dec settle -0.69%; reversed from $111.99 high on Iran mediation headlines (Cappnotes)."
     },
     "gold": {
-      "value": 4160.1,
+      "value": 4142.6,
       "unit": "USD/oz",
-      "date": "2026-10-19",
-      "source_url": "https://edgeconsultancykw.com/commodities-wrap-19-october-2026/",
-      "secondary_source_url": "https://www.cnbc.com/2026/10/19/gold-edges-higher-on-softer-oil-fed-rate-outlook-in-focus.html",
-      "note": "COMEX Dec settle -0.50% on firmer dollar/yields; spot $4,143.91 intraday (CNBC)."
+      "date": "2026-10-20",
+      "source_url": "https://edgeconsultancykw.com/commodities-wrap-20-october-2026/",
+      "secondary_source_url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026",
+      "note": "COMEX Dec settle -0.42%, 2nd straight decline; high oil feeding rate expectations (DJ via Edge)."
     },
     "silver": {
-      "value": 57.273,
+      "value": 58,
       "unit": "USD/oz",
-      "date": "2026-10-19",
-      "source_url": "https://edgeconsultancykw.com/commodities-wrap-19-october-2026/",
-      "note": "COMEX Dec -0.06%."
+      "date": "2026-10-20",
+      "source_url": "https://edgeconsultancykw.com/commodities-wrap-20-october-2026/",
+      "note": "COMEX Dec +1.27%."
     },
     "vix": {
-      "value": 18.44,
+      "value": 17.31,
       "unit": "index",
-      "date": "2026-10-19",
-      "source_url": "https://edgeconsultancykw.com/commodities-wrap-19-october-2026/",
-      "secondary_source_url": "https://cappnotes.substack.com/p/closing-look-monday-october-19-2026",
-      "note": "-7.75%; VIX curve back in contango."
+      "date": "2026-10-20",
+      "source_url": "https://edgeconsultancykw.com/commodities-wrap-20-october-2026/",
+      "secondary_source_url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026",
+      "note": "-6.13%; VIX9D 16.27, curve in contango (Cappnotes)."
     },
     "import_prices_mom": {
       "value": 1.1,
@@ -363,12 +363,12 @@
       "note": "Released 16 Oct; vs +0.4% expected. Manufacturing +0.3%; capacity utilisation 76.9%."
     },
     "us_30y_yield": {
-      "value": 5.472,
+      "value": 5.425,
       "unit": "%",
-      "date": "2026-10-19",
-      "source_url": "https://www.morningstar.com/news/dow-jones/202610196210/30-year-treasury-yield-rises-to-5472-data-talk",
+      "date": "2026-10-20",
+      "source_url": "https://www.morningstar.com/news/dow-jones/202610207405/30-year-treasury-yield-falls-to-5425-data-talk",
       "secondary_source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve",
-      "note": "+3.5bp (DJ/Tradeweb); Treasury CMT 5.48%."
+      "note": "-4.7bp (DJ/Tradeweb), lowest since 23 Sep; CMT 5.42%."
     },
     "nahb_housing_index": {
       "value": 29,
@@ -379,145 +379,126 @@
       "secondary_source_url": "https://cappnotes.substack.com/p/closing-look-monday-october-19-2026",
       "note": "Released 19 Oct; -3 pts, lowest since June 2012; vs 32 expected (Cappnotes). Mortgage rates above 7% cited."
     },
-    "housing_starts_consensus": {
-      "value": 1.31,
+    "housing_starts": {
+      "value": 1.221,
       "unit": "M SAAR",
       "date": "2026-09",
       "period": "Sep 2026",
-      "source_url": "https://www.interactivebrokers.com/campus/traders-insight/securities/macro/consensus-for-housing-starts-stands-at-1-31-million-but-1-3-yes-goes-for-just-0-36-oct-19-2026/",
-      "note": "Consensus for release Tue 20 Oct 8:30 AM ET (8:30 PM SGT); Aug 1.275M."
+      "source_url": "https://www.investing.com/analysis/us-10year-treasury-yield-slips-as-housing-starts-fall-52-200689930",
+      "secondary_source_url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026",
+      "note": "Released 20 Oct; -5.2% m/m from revised 1.288M, lowest since May; vs ~1.30-1.31M consensus. Single-family 859K (-4.6%). Change not statistically significant (+/-11.8pp)."
+    },
+    "pending_home_sales_index": {
+      "value": 66,
+      "unit": "index",
+      "date": "2026-09",
+      "period": "Sep 2026",
+      "source_url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026",
+      "note": "Released 20 Oct; -7.3% m/m, lowest since series began in 2001 (NAR via Cappnotes)."
     }
   },
   "mood": {
-    "overall": "neutral",
-    "reason": "Nasdaq +1.11% and SOX +1.61% bounced and VIX fell 7.75% to 18.44, but it was narrow: equal-weight S&P -0.32%, NYSE decliners 1,761 vs 945, 10Y up to 5.135%, and AI credit (CoreWeave bonds ~15%) did not heal."
+    "overall": "bull",
+    "reason": "Broad rally: equal-weight RSP +1.15%, Russell 2000 +1.65%, NYSE advancers 1,614 vs 559, VIX -6.13% to 17.31, long yields lower, and Nasdaq 100 futures +0.8% after hours on SpaceX. Tempered by flat Nasdaq, tech/chip-equipment weakness and Meta/Tesla risk Wednesday."
   },
   "risks": [
-    "META/TSLA capex or funding commentary reigniting AI-credit stress (CoreWeave, Oracle, Meta Hyperion bond)",
-    "Houthi attacks on Saudi energy or Hormuz mines pushing Brent through $110-112",
-    "Hawkish 28 Oct FOMC surprise; BofA still expects a hike vs ~15% priced",
-    "10Y yield rising back toward its 5.31% 5 Oct high, hitting housing, utilities and small caps",
-    "French unrest spreading into euro credit (OAT-Bund spread at 2011-12 levels)",
-    "Nov WTI expiry volatility and record-high margin debt amplifying moves"
+    "META/TSLA capex or funding commentary (report Wed after the close) reigniting AI-credit stress",
+    "Iran mediation collapsing or more Hormuz mine strikes pushing Brent back above $112",
+    "Hawkish 28 Oct FOMC surprise vs ~15-17% hike odds priced",
+    "Long-end selloff resuming toward the 5.31% 5 Oct 10Y high, hitting housing (starts 1.221M, pending sales record low)",
+    "French unrest spreading into euro credit with OAT yields near a 24-year high",
+    "Weak guidance punished hard (NFLX ~-6%, GM -6.84%) amid record hedge-fund tech selling"
   ],
   "themes": [
     {
-      "title": "Narrow relief rally",
-      "explanation": "Nasdaq +1.11% and SOX +1.61% ended an 8-session chip slide, led by AMZN, NVDA, TSLA and memory names, but equal-weight S&P fell 0.32% and decliners led about 2:1."
+      "title": "Rotation, not risk-off",
+      "explanation": "Equal-weight S&P +1.15%, Russell 2000 +1.65% and S&P value +0.9% vs growth -0.2%, while tech (XLK -0.28%) and Nasdaq (-0.02%) rested."
     },
     {
-      "title": "Stocks bounced, AI credit did not",
-      "explanation": "CoreWeave gave up a Goldman-upgrade pop to close -0.44% with bonds ~15%; the $27B Meta Hyperion bond hit lifetime lows; CNBC says Oracle bonds are near junk."
+      "title": "Curve flattens, housing cracks",
+      "explanation": "2Y +2.6bp to 4.785% but 30Y -4.7bp to 5.425% after September starts fell 5.2% to 1.221M and pending home sales hit a record low 66.0."
     },
     {
-      "title": "Yields back up, rate-sensitives hit",
-      "explanation": "10Y +3.8bp to 5.135% and 30Y 5.472% as the haven bid unwound; XLU -2.01%, XLRE -1.16%, banks lower; NAHB index fell to 29, lowest since 2012."
+      "title": "Oil expiry squeeze ends",
+      "explanation": "Nov WTI spiked to $110.48 on Iran headlines then settled $101.79 (-1.80%); Dec WTI $97.82 and Brent $108.79 as Qatar/Pakistan mediation reports were denied."
     },
     {
-      "title": "Oil's split: waiver vs war",
-      "explanation": "Trump's Russia sanctions waiver weighed on Dec Brent ($109.55) and Dec WTI ($98.54), while Houthi attack claims on Saudi sites and Hormuz mine strikes squeezed expiring Nov WTI to $103.66."
+      "title": "Earnings reward beats, punish guides",
+      "explanation": "EFX +11.33%, HAS +11.20%, MMM +5.78%, NOC +4.57% vs GM -6.84%; after hours SpaceX ~+7-8% on revenue +161% and Tesla merger talk, NFLX ~-6%, ISRG ~-7%."
     },
     {
-      "title": "Earnings week tests the AI bounce",
-      "explanation": "NFLX and SpaceX report Tue after the close, then TSLA, META, IBM, TXN and LRCX Wed; Goldman says hedge funds cut tech at the fastest pace since 2016, so positioning is light."
+      "title": "AI trade splits before Meta/Tesla",
+      "explanation": "Chip equipment (LRCX -3.21%, KLAC -2.80%) and Korea's Kospi (-3.73%) sold off on AI-financing fears, while SMCI (+12.7% AH) and SpaceX surged; Meta and Tesla report Wed after the close."
     }
   ],
   "sources": [
     {
-      "name": "WSJ US stocks close 19 Oct",
-      "url": "https://www.wsj.com/finance/investing/u-s-stocks-mostly-higher-as-ai-credit-worries-abate-600bf008"
+      "name": "WSJ US stocks close 20 Oct",
+      "url": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-as-strong-earnings-offset-ai-credit-fears-d55414c3"
     },
     {
-      "name": "AP index wrap 19 Oct (KVUE)",
-      "url": "https://www.kvue.com/article/syndication/associatedpress/how-major-us-stock-indexes-fared-monday-10192026/616-4602b371-b514-4d3d-8d2a-7416c4823997"
+      "name": "AP index wrap 20 Oct (Yahoo Finance)",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-202506799.html"
     },
     {
-      "name": "Cappnotes Closing Look 19 Oct",
-      "url": "https://cappnotes.substack.com/p/closing-look-monday-october-19-2026"
+      "name": "Cappnotes Closing Look 20 Oct",
+      "url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026"
     },
     {
-      "name": "Investing.com US close 19 Oct",
-      "url": "https://www.investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-down-007-4958294"
+      "name": "Reuters US close 20 Oct (Investing.com)",
+      "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-dip-as-oil-prices-climb-earnings-loom-4959413"
     },
     {
-      "name": "WSJ live coverage 19 Oct",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-19-2026"
-    },
-    {
-      "name": "CNBC live updates 19 Oct",
-      "url": "https://www.cnbc.com/2026/10/19/stock-market-today-live-updates.html"
-    },
-    {
-      "name": "Portfolio Terminal close 18 Sep",
-      "url": "https://portfolio-terminal.com/markets/stock-market-close/september-18-2026"
+      "name": "CNBC live updates 20 Oct",
+      "url": "https://www.cnbc.com/2026/10/20/stock-market-today-live-updates.html"
     },
     {
       "name": "MarketIndicators sector ETFs",
       "url": "https://marketindicators.net/sectors"
     },
     {
+      "name": "Portfolio Terminal close 18 Sep",
+      "url": "https://portfolio-terminal.com/markets/stock-market-close/september-18-2026"
+    },
+    {
       "name": "DJ Data Talk 2Y",
-      "url": "https://www.morningstar.com/news/dow-jones/202610196208/2-year-treasury-yield-rises-to-4759-data-talk"
+      "url": "https://www.morningstar.com/news/dow-jones/202610207403/2-year-treasury-yield-rises-to-4785-data-talk"
     },
     {
       "name": "DJ Data Talk 10Y",
-      "url": "https://www.morningstar.com/news/dow-jones/202610196209/10-year-treasury-yield-rises-to-5135-data-talk"
+      "url": "https://www.morningstar.com/news/dow-jones/202610207404/10-year-treasury-yield-falls-to-5116-data-talk"
     },
     {
       "name": "DJ Data Talk 30Y",
-      "url": "https://www.morningstar.com/news/dow-jones/202610196210/30-year-treasury-yield-rises-to-5472-data-talk"
+      "url": "https://www.morningstar.com/news/dow-jones/202610207405/30-year-treasury-yield-falls-to-5425-data-talk"
     },
     {
       "name": "US Treasury daily par yields",
       "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve"
     },
     {
-      "name": "CNBC Treasuries 19 Oct",
-      "url": "https://www.cnbc.com/2026/10/19/bonds-treasurys-us-yields.html"
+      "name": "Reuters Treasuries 20 Oct (Mint)",
+      "url": "https://www.livemint.com/market/us-yields-ease-off-lows-as-stocks-rally-11792521918675.html"
     },
     {
-      "name": "Edge commodities wrap 19 Oct",
-      "url": "https://edgeconsultancykw.com/commodities-wrap-19-october-2026/"
+      "name": "Trading Economics US 10Y 20 Oct",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield/news/593498"
     },
     {
-      "name": "WSJ oil settle 19 Oct",
-      "url": "https://www.wsj.com/finance/commodities-futures/oil-futures-fall-on-possible-correction-but-drop-may-be-limited-by-geopolitical-tensions-21ff1c15"
+      "name": "Edge commodities wrap 20 Oct",
+      "url": "https://edgeconsultancykw.com/commodities-wrap-20-october-2026/"
     },
     {
-      "name": "DTN oil 19 Oct",
-      "url": "https://www.dtnpf.com/agriculture/web/AG/news/world-policy/article/2026/10/19/oil-prices-mixed-u-s-sanctions"
-    },
-    {
-      "name": "Reuters oil/Houthis (Baird Maritime)",
-      "url": "https://www.bairdmaritime.com/shipping/tankers/oil-prices-rise-as-fresh-houthi-strikes-on-saudi-targets-rattle-nerves"
-    },
-    {
-      "name": "CNBC gold 19 Oct",
-      "url": "https://www.cnbc.com/2026/10/19/gold-edges-higher-on-softer-oil-fed-rate-outlook-in-focus.html"
-    },
-    {
-      "name": "NAHB HMI Oct 2026",
-      "url": "https://www.nahb.org/news-and-economics/press-releases/2026/10/builder-sentiment-falls-on-rising-rates"
+      "name": "Investing.com housing starts Sep",
+      "url": "https://www.investing.com/analysis/us-10year-treasury-yield-slips-as-housing-starts-fall-52-200689930"
     },
     {
       "name": "Fed FOMC calendar",
       "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     },
     {
-      "name": "Investing.com: BofA still sees Oct hike",
-      "url": "https://www.investing.com/news/economy-news/why-bofa-still-sees-an-october-fed-rate-hike-4957331"
-    },
-    {
       "name": "eOption weekly calendar",
       "url": "https://www.eoption.com/weekly-event-calendar-10-19-2026-10-23-2026/"
-    },
-    {
-      "name": "IBKR housing starts consensus",
-      "url": "https://www.interactivebrokers.com/campus/traders-insight/securities/macro/consensus-for-housing-starts-stands-at-1-31-million-but-1-3-yes-goes-for-just-0-36-oct-19-2026/"
-    },
-    {
-      "name": "White House Russia sanctions action",
-      "url": "https://www.whitehouse.gov/presidential-actions/2026/10/implementing-the-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026/"
     },
     {
       "name": "BLS CPI September 2026",
@@ -528,16 +509,16 @@
       "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html"
     },
     {
-      "name": "KobeissiLetter Nasdaq 100 best day",
-      "url": "https://x.com/KobeissiLetter/status/2112275218827755705"
+      "name": "KobeissiLetter oil 'reports on reports'",
+      "url": "https://x.com/KobeissiLetter/status/2112564089234817420"
     },
     {
-      "name": "DeItaone hedge funds dump tech",
-      "url": "https://x.com/DeItaone/status/2112228098208919671"
+      "name": "KobeissiLetter SpaceX-Tesla merger committees",
+      "url": "https://x.com/KobeissiLetter/status/2112660666624483511"
     },
     {
-      "name": "zerohedge Meta Hyperion bond",
-      "url": "https://x.com/zerohedge/status/2112283132108169362"
+      "name": "DeItaone Iran deal reports wrong",
+      "url": "https://x.com/DeItaone/status/2112562974032601281"
     }
   ],
   "null_fields": []
