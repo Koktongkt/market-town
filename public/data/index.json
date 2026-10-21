@@ -1,6 +1,6 @@
 {
-  "latest": "2026-10-20",
-  "count": 6,
+  "latest": "2026-10-21",
+  "count": 7,
   "reports": [
     {
       "date": "2026-10-13",
@@ -43,6 +43,13 @@
       "mood": "bull",
       "title": "Rotation, not risk-off",
       "generated_at_utc": "2026-10-20T23:50:00Z"
+    },
+    {
+      "date": "2026-10-21",
+      "as_of": "2026-10-21",
+      "mood": "bull",
+      "title": "AI trade rebounds on SpaceX",
+      "generated_at_utc": "2026-10-21T23:55:00Z"
     }
   ]
 }
