@@ -1,6 +1,6 @@
 {
-  "latest": "2026-10-21",
-  "count": 7,
+  "latest": "2026-10-22",
+  "count": 8,
   "reports": [
     {
       "date": "2026-10-13",
@@ -50,6 +50,13 @@
       "mood": "bull",
       "title": "AI trade rebounds on SpaceX",
       "generated_at_utc": "2026-10-21T23:55:00Z"
+    },
+    {
+      "date": "2026-10-22",
+      "as_of": "2026-10-22",
+      "mood": "bear",
+      "title": "AI trade cracks again on Meta",
+      "generated_at_utc": "2026-10-22T23:34:41Z"
     }
   ]
 }
