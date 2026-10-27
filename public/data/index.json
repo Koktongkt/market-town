@@ -1,6 +1,6 @@
 {
-  "latest": "2026-10-22",
-  "count": 8,
+  "latest": "2026-10-27",
+  "count": 9,
   "reports": [
     {
       "date": "2026-10-13",
@@ -57,6 +57,13 @@
       "mood": "bear",
       "title": "AI trade cracks again on Meta",
       "generated_at_utc": "2026-10-22T23:34:41Z"
+    },
+    {
+      "date": "2026-10-27",
+      "as_of": "2026-10-27",
+      "mood": "bull",
+      "title": "AI financing fears ease",
+      "generated_at_utc": "2026-10-27T23:38:21Z"
     }
   ]
 }
