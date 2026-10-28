@@ -1,6 +1,6 @@
 {
-  "latest": "2026-10-27",
-  "count": 9,
+  "latest": "2026-10-28",
+  "count": 10,
   "reports": [
     {
       "date": "2026-10-13",
@@ -64,6 +64,13 @@
       "mood": "bull",
       "title": "AI financing fears ease",
       "generated_at_utc": "2026-10-27T23:38:21Z"
+    },
+    {
+      "date": "2026-10-28",
+      "as_of": "2026-10-28",
+      "mood": "neutral",
+      "title": "Hawkish hold",
+      "generated_at_utc": "2026-10-28T23:41:28Z"
     }
   ]
 }
