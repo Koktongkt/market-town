@@ -1,160 +1,160 @@
 {
-  "as_of": "2026-10-28",
-  "generated_at_utc": "2026-10-28T23:41:28Z",
-  "as_of_note": "US closes for Wed 28 Oct 2026, FOMC decision day: Fed held at 3.75-4.00% on a 10-2 vote (Cook and Hammack wanted a 25bp hike); Warsh would not prejudge December. S&P 500 +0.28% to 7,743.98, Nasdaq +0.27%, Dow +0.19%, Russell 2000 +0.41%; third straight gain. MU +5.9%, ORCL ~+11-12% on FY2030 $225B revenue outlook; NVDA -1.2%. 10Y 5.044% (+5.2bp), 2Y 4.731% (-0.4bp), 30Y 5.360%; DXY 102.13 (-0.25%); WTI $102.78 (+$2.88) on a WSJ report of a possible short US campaign against Iran after the midterms; spot gold $4,067.29 (+0.17%). After hours: GOOGL -7 to -9% (EPS/revenue miss, FCF -$9.07B), MSFT +2-4% (Azure +48%, capex $45.2B below est.), NOW -15%, FTNT -25%, CMG +5%; IREN ~-3%. Evening futures: Nasdaq 100 -1.2%, S&P -0.5%, Dow flat.",
+  "as_of": "2026-11-03",
+  "generated_at_utc": "2026-11-03T23:33:08Z",
+  "as_of_note": "US closes for Tue 3 Nov 2026, midterm Election Day. S&P 500 +0.36% to 7,568.92 (snapped 3-day skid), Nasdaq +0.83%, Dow -0.38% (Apple -1.9%), Russell 2000 +0.23%; SOX +2.6%. 10Y 4.951% (+5.8bp), 2Y 4.612%; DXY 101.86; WTI $96.09, Brent $103.60; gold $3,930.33 (-0.42%); VIX 20.83. JOLTS 7.52M beat; Dec hike odds 84% (from 70%). After hours: AMD +7-8% (rev $13.38B, Q4 guide ~$17B), ANET +12%, SMCI +9%; evening futures S&P +0.3%, NQ +0.5%. No control of House or Senate called as of ~6:30 PM ET; Kalshi ~81% Dem Senate. Mon 2 Nov: S&P -0.51%, Nasdaq 100 -1.39% into correction, oil -7.6% on Iran talks, ORCL -8.8% on $20B raise, ISM mfg 55.5.",
   "indices": [
     {
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "level": 7743.98,
-      "date": "2026-10-28",
-      "change_1d_pct": 0.28,
-      "change_1m_pct": 0.78,
-      "change_ytd_pct": 13.1,
-      "source_url": "https://www.marketwatch.com/story/u-s-stocks-up-treasury-yields-mixed-after-fed-hold-dbd6e218",
+      "level": 7568.92,
+      "date": "2026-11-03",
+      "change_1d_pct": 0.36,
+      "change_1m_pct": -1.99,
+      "change_ytd_pct": 10.5,
+      "source_url": "https://www.marketwatch.com/story/u-s-stocks-mixed-amid-midterm-iran-war-nerves-1910f17e",
       "secondary_source_url": "https://portfolio-terminal.com/markets/stock-market-close",
-      "note": "+21.38 pts; third straight gain; 0.96% below 6 Oct record 7,818.93 (Portfolio Terminal). MU +7.1 pts, GOOGL +5.7, AVGO +5.2; NVDA -7.2, AAPL -5.5. 1M vs 28 Sep close (Portfolio Terminal), computed; YTD approx, back-computed from prior report YTD."
+      "note": "+27.52 pts; snapped 3-day losing run; 3.20% below 6 Oct record 7,818.93 (Portfolio Terminal). NVDA +13.0 pts, MSFT +12.0, AMZN +5.8; AAPL -10.9. Mon 2 Nov: -0.51% to 7,541.40. 1M vs 2 Oct close (Portfolio Terminal), computed; YTD approx, back-computed from prior report YTD."
     },
     {
       "name": "Nasdaq Composite",
       "symbol": "^IXIC",
-      "level": 26549.85,
-      "date": "2026-10-28",
-      "change_1d_pct": 0.27,
-      "change_1m_pct": -1.01,
-      "change_ytd_pct": 14.2,
-      "source_url": "https://www.marketwatch.com/story/u-s-stocks-up-treasury-yields-mixed-after-fed-hold-dbd6e218",
-      "secondary_source_url": "https://portfolio-terminal.com/markets/stock-market-close",
-      "note": "+72.04 pts. Nasdaq 100 +0.55% to 29,813.2 (Analytics24). 1M vs 28 Sep close (Portfolio Terminal), computed; YTD approx, back-computed from prior report YTD."
+      "level": 25372.01,
+      "date": "2026-11-03",
+      "change_1d_pct": 0.83,
+      "change_1m_pct": -6.69,
+      "change_ytd_pct": 9.1,
+      "source_url": "https://www.marketwatch.com/story/u-s-stocks-mixed-amid-midterm-iran-war-nerves-1910f17e",
+      "secondary_source_url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
+      "note": "+207.65 pts. Nasdaq 100 +0.7% to 28,180.26, still in correction (~10% below high) after Mon -1.39% to 27,989.82. Mon 2 Nov Comp -1.07% to 25,164.32. 1M vs 2 Oct close (Portfolio Terminal), computed; YTD approx, back-computed from prior report YTD."
     },
     {
       "name": "Dow Jones Industrial Average",
       "symbol": "^DJI",
-      "level": 52475.1,
-      "date": "2026-10-28",
-      "change_1d_pct": 0.19,
-      "change_1m_pct": 1.93,
-      "change_ytd_pct": 9.2,
-      "source_url": "https://www.marketwatch.com/story/u-s-stocks-up-treasury-yields-mixed-after-fed-hold-dbd6e218",
+      "level": 51786.72,
+      "date": "2026-11-03",
+      "change_1d_pct": -0.38,
+      "change_1m_pct": 1.19,
+      "change_ytd_pct": 7.8,
+      "source_url": "https://www.marketwatch.com/story/u-s-stocks-mixed-amid-midterm-iran-war-nerves-1910f17e",
       "secondary_source_url": "https://portfolio-terminal.com/markets/stock-market-close",
-      "note": "+97.53 pts. 1M vs 28 Sep close (Portfolio Terminal), computed; YTD approx, back-computed from prior report YTD."
+      "note": "-197.26 pts, weighed by Apple -1.9% on margin outlook. Mon 2 Nov +0.41% to 51,983.98. 1M vs 2 Oct close (Portfolio Terminal), computed; YTD approx, back-computed from prior report YTD."
     },
     {
       "name": "Russell 2000",
       "symbol": "^RUT",
-      "level": 2830.51,
-      "date": "2026-10-28",
-      "change_1d_pct": 0.41,
-      "change_1m_pct": 0.45,
-      "change_ytd_pct": 14.1,
+      "level": 2812.45,
+      "date": "2026-11-03",
+      "change_1d_pct": 0.23,
+      "change_1m_pct": -0.72,
+      "change_ytd_pct": 13.4,
       "source_url": "https://portfolio-terminal.com/markets/stock-market-close",
-      "secondary_source_url": "https://www.cnbc.com/2026/10/27/stock-market-today-live-updates.html",
-      "note": "+11.64 pts. 1M vs 28 Sep close (Portfolio Terminal), computed; YTD approx, back-computed from prior report YTD."
+      "secondary_source_url": "https://schwabnetwork.com/articles/closing-bell-stocks-rise-as-tech-and-amd-rally-election-results-unfold",
+      "note": "+6.57 pts. Mon 2 Nov -0.21% to 2,805.88. 1M vs 2 Oct close (Portfolio Terminal), computed; YTD approx, back-computed from prior report YTD."
     }
   ],
-  "indices_note": "Closes from MarketWatch, CNBC and Portfolio Terminal (Yahoo Finance data). 1M % computed vs 28 Sep 2026 closes; YTD approximate, back-computed from earlier reports.",
+  "indices_note": "Closes from MarketWatch, CNBC and Portfolio Terminal (Yahoo Finance data). 1M % computed vs 2 Oct 2026 closes; YTD approximate, back-computed from earlier reports.",
   "sectors": [
     {
       "sector": "Information Technology",
       "proxy_etf": "XLK",
-      "as_of": "2026-10-28",
-      "change_1m_pct": -1.81,
-      "change_ytd_pct": 32.67,
-      "take": "+0.80% 1D; MU +5.9%, AVGO +2.8%, ORCL ~+11-12% on FY2030 outlook; NVDA -1.2%, AAPL -0.9%. After hours FTNT -25%, NOW -15%.",
+      "as_of": "2026-11-03",
+      "change_1m_pct": -11.66,
+      "change_ytd_pct": 22.6,
+      "take": "+1.31% 1D, best sector; chips rebounded (SOX +2.6%): AMD +3% pre-earnings, AVGO +3%, NVDA +2.3%, MU +2.6%; AAPL -1.9%. After hours AMD +7-8%, ANET +12%, SMCI +9%.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Energy",
       "proxy_etf": "XLE",
-      "as_of": "2026-10-28",
-      "change_1m_pct": 10.23,
-      "change_ytd_pct": 53.1,
-      "take": "+0.35% 1D as WTI rose ~2.9% on Iran-strike reports and a 1.9M-bbl crude draw.",
+      "as_of": "2026-11-03",
+      "change_1m_pct": 6.14,
+      "change_ytd_pct": 49.14,
+      "take": "-0.85% 1D; WTI -0.4% to $96.09 after Mon's -7.4% on US-Iran talk hopes.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Health Care",
       "proxy_etf": "XLV",
-      "as_of": "2026-10-28",
-      "change_1m_pct": 4.94,
-      "change_ytd_pct": 16.1,
-      "take": "+0.30% 1D; LLY and MRK report Thu before the open.",
+      "as_of": "2026-11-03",
+      "change_1m_pct": 10.74,
+      "change_ytd_pct": 18.88,
+      "take": "-0.31% 1D; Pfizer flat after EPS beat ($0.87 vs $0.73).",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Financials",
       "proxy_etf": "XLF",
-      "as_of": "2026-10-28",
-      "change_1m_pct": 3.58,
-      "change_ytd_pct": 2.48,
-      "take": "+0.45% 1D; Visa flat after beat; HOOD -6% on EPS miss; regional banks (KRE) down >1%.",
+      "as_of": "2026-11-03",
+      "change_1m_pct": 6.92,
+      "change_ytd_pct": 4.42,
+      "take": "-0.64% 1D; Coinbase +8% rebound after 3-day 15% slide.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Consumer Discretionary",
       "proxy_etf": "XLY",
-      "as_of": "2026-10-28",
-      "change_1m_pct": 5.81,
-      "change_ytd_pct": -3.42,
-      "take": "-0.10% 1D; Brinker and Wingstop +15%; CMG +5% and CVNA +10% after hours; AMZN reports Thu after the close.",
+      "as_of": "2026-11-03",
+      "change_1m_pct": 6.62,
+      "change_ytd_pct": -1.74,
+      "take": "-0.70% 1D; AMZN +2.1%, TSLA -1.3%; Shopify -5 to -9% on GMV miss.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Consumer Staples",
       "proxy_etf": "XLP",
-      "as_of": "2026-10-28",
-      "change_1m_pct": 5.54,
-      "change_ytd_pct": 11.79,
-      "take": "-0.36% 1D; Sprouts -18% after hours on a miss.",
+      "as_of": "2026-11-03",
+      "change_1m_pct": 10.46,
+      "change_ytd_pct": 14.51,
+      "take": "-2.07% 1D, worst sector; WMT -2.2%.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Industrials",
       "proxy_etf": "XLI",
-      "as_of": "2026-10-28",
-      "change_1m_pct": -0.17,
-      "change_ytd_pct": 8.62,
-      "take": "+0.34% 1D; FedEx and Honeywell Aerospace ~-2% after hours despite beats; CAT reports Thu.",
+      "as_of": "2026-11-03",
+      "change_1m_pct": 0.81,
+      "change_ytd_pct": 10.44,
+      "take": "+0.95% 1D; Bloom Energy ~+10% on Barclays upgrade.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Materials",
       "proxy_etf": "XLB",
-      "as_of": "2026-10-28",
-      "change_1m_pct": 4.83,
-      "change_ytd_pct": 14.36,
-      "take": "+0.15% 1D; gold +0.2%, silver -0.8%.",
+      "as_of": "2026-11-03",
+      "change_1m_pct": 7.63,
+      "change_ytd_pct": 15.96,
+      "take": "-2.01% 1D; gold -0.4%, silver -1.7%.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Utilities",
       "proxy_etf": "XLU",
-      "as_of": "2026-10-28",
-      "change_1m_pct": 8.25,
-      "change_ytd_pct": -0.47,
-      "take": "-0.84% 1D, worst sector, as the 10Y rose 5bp to 5.04%.",
+      "as_of": "2026-11-03",
+      "change_1m_pct": 9.01,
+      "change_ytd_pct": 1.71,
+      "take": "-0.57% 1D as the 10Y rose ~6bp.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Real Estate",
       "proxy_etf": "XLRE",
-      "as_of": "2026-10-28",
-      "change_1m_pct": 1.89,
-      "change_ytd_pct": 4.41,
-      "take": "-0.73% 1D on higher long yields.",
+      "as_of": "2026-11-03",
+      "change_1m_pct": 7.01,
+      "change_ytd_pct": 8.23,
+      "take": "+0.07% 1D.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Communication Services",
       "proxy_etf": "XLC",
-      "as_of": "2026-10-28",
-      "change_1m_pct": -7.23,
-      "change_ytd_pct": -12.39,
-      "take": "-0.42% 1D; META -1.2%; GOOGL +1.3% in session but -7 to -9% after hours on its miss and negative FCF.",
+      "as_of": "2026-11-03",
+      "change_1m_pct": -8.05,
+      "change_ytd_pct": -13.83,
+      "take": "+1.18% 1D; rebound after a weak month.",
       "source_url": "https://marketindicators.net/sectors"
     }
   ],
-  "sectors_note": "SPDR Select Sector ETF returns from marketindicators.net (Yahoo Finance underlying), page dated Wed 28 Oct 2026. Stock moves from CNBC and Portfolio Terminal. Takes are briefing commentary.",
+  "sectors_note": "SPDR Select Sector ETF returns from marketindicators.net (Yahoo Finance underlying), page dated Tue 3 Nov 2026. Stock moves from CNBC, Reuters and Portfolio Terminal. Takes are briefing commentary.",
   "macro": {
     "cpi_headline_yoy": {
       "value": 3.7,
@@ -247,32 +247,32 @@
       "unit": "%",
       "date": "2026-10-28",
       "source_url": "https://www.cnbc.com/2026/10/28/fed-meeting-today-live-updates.html",
-      "secondary_source_url": "https://www.ausecure.com/gold-market-close-oct-28-2026/",
-      "note": "Held 28 Oct, vote 10-2 (Cook, Hammack for +25bp). IORB 3.90%, ON RRP 3.75%. From 2027 one of 8 meetings is strategy-only; Warsh expects 6 policy meetings in 2028."
+      "secondary_source_url": "https://www.ausecure.com/gold-market-close-nov-3-2026/",
+      "note": "Held 28 Oct, vote 10-2 (Cook, Hammack for +25bp). Unchanged as of 3 Nov (Ausecure)."
     },
     "next_fomc": {
       "value": "2026-12-08/09",
       "unit": "date",
       "date": "2026-12-09",
-      "source_url": "https://www.ausecure.com/gold-market-close-oct-28-2026/",
-      "secondary_source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-      "note": "Decision Wed 9 Dec (Thu 10 Dec ~3:00 AM SGT); ~85% hike priced. Day 1 date per Fed calendar convention (two-day meeting)."
+      "source_url": "https://www.ausecure.com/gold-market-close-nov-3-2026/",
+      "note": "Decision Wed 9 Dec 2:00 PM ET (Thu 10 Dec 3:00 AM SGT); ~84% hike priced at 3 Nov close. Oct minutes 18 Nov.",
+      "secondary_source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     },
     "us_10y_yield": {
-      "value": 5.044,
+      "value": 4.951,
       "unit": "%",
-      "date": "2026-10-28",
-      "source_url": "https://www.marketwatch.com/story/u-s-stocks-up-treasury-yields-mixed-after-fed-hold-dbd6e218",
-      "note": "+5.2bp, biggest gain since 28 Sep (MarketWatch). Analytics24 5.05%.",
-      "secondary_source_url": "https://www.analytics24.com/markets"
+      "date": "2026-11-03",
+      "source_url": "https://www.marketwatch.com/story/u-s-stocks-mixed-amid-midterm-iran-war-nerves-1910f17e",
+      "note": "+5.8bp, largest gain since 28 Sep (MarketWatch); Mon 4.900% (-2.1bp, Barchart). Treasury 4.95%.",
+      "secondary_source_url": "https://www.ausecure.com/gold-market-close-nov-3-2026/"
     },
     "us_2y_yield": {
-      "value": 4.731,
+      "value": 4.612,
       "unit": "%",
-      "date": "2026-10-28",
-      "source_url": "https://www.marketwatch.com/story/u-s-stocks-up-treasury-yields-mixed-after-fed-hold-dbd6e218",
-      "note": "-0.4bp; fell during Warsh presser (MarketWatch). Ausecure 4.70%, Kiplinger 4.706%.",
-      "secondary_source_url": "https://www.ausecure.com/gold-market-close-oct-28-2026/"
+      "date": "2026-11-03",
+      "source_url": "https://www.marketwatch.com/story/u-s-stocks-mixed-amid-midterm-iran-war-nerves-1910f17e",
+      "note": "+3.1bp; rose after JOLTS beat. Treasury 4.61%.",
+      "secondary_source_url": "https://www.ausecure.com/gold-market-close-nov-3-2026/"
     },
     "unemployment_rate": {
       "value": 4.2,
@@ -292,50 +292,51 @@
       "note": "Sept NFP +29k vs +84k consensus; Aug revised to +133k; Jul to -10k (net -60k revisions)."
     },
     "dxy": {
-      "value": 102.13,
+      "value": 101.86,
       "unit": "index",
-      "date": "2026-10-28",
-      "source_url": "https://www.ausecure.com/gold-market-close-oct-28-2026/",
-      "note": "-0.25%; fell from 102.34 to 102.07 early in Warsh presser. EUR/USD 1.1161, USD/JPY 157.79 (Analytics24).",
-      "secondary_source_url": "https://www.analytics24.com/markets"
+      "date": "2026-11-03",
+      "source_url": "https://www.ausecure.com/gold-market-close-nov-3-2026/",
+      "note": "+0.06%; Mon 101.80 (-0.16%).",
+      "secondary_source_url": "https://www.ausecure.com/gold-market-close-nov-2-2026/"
     },
     "wti": {
-      "value": 102.78,
+      "value": 96.09,
       "unit": "USD/bbl",
-      "date": "2026-10-28",
-      "source_url": "https://www.ausecure.com/gold-market-close-oct-28-2026/",
-      "note": "NYMEX settle +$2.88 (~+2.9%), per Ausecure; Kiplinger $102.56 +2.7%. WSJ: US told Gulf allies to prepare for a short, intense campaign vs Iran after midterms.",
-      "secondary_source_url": "https://www.kiplinger.com/investing/stocks/stocks-rise-despite-inflation-and-war-talk-stock-market-today"
+      "date": "2026-11-03",
+      "source_url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
+      "note": "Jan contract settle -0.38% (-37c); Mon $96.46 (-7.4%) after Iran signalled openness to talks.",
+      "secondary_source_url": "https://www.marketwatch.com/story/u-s-stocks-mixed-amid-midterm-iran-war-nerves-1910f17e"
     },
     "brent": {
-      "value": 110.45,
+      "value": 103.6,
       "unit": "USD/bbl",
-      "date": "2026-10-28",
-      "source_url": "https://www.ausecure.com/gold-market-close-oct-28-2026/",
-      "note": "January contract, +$0.67 (Ausecure). Prior reports used the expiring December contract (~$113.88), so levels are not like-for-like. Fell $1.35 late on Vance-Rezaei outreach report.",
-      "secondary_source_url": "https://www.analytics24.com/markets"
+      "date": "2026-11-03",
+      "source_url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
+      "note": "Settle -1.12%; Mon $104.77 (-$8.66, -7.6%). Low $100.80 on unconfirmed US-approved draft deal report; ~$104.40 late (Ausecure).",
+      "secondary_source_url": "https://www.ausecure.com/gold-market-close-nov-3-2026/"
     },
     "gold": {
-      "value": 4067.29,
+      "value": 3930.33,
       "unit": "USD/oz",
-      "date": "2026-10-28",
-      "source_url": "https://www.ausecure.com/gold-market-close-oct-28-2026/",
-      "note": "Spot at 5 PM ET close, +$6.96 (+0.17%); range $4,024.67-$4,082.83 around the Warsh presser.",
-      "secondary_source_url": "https://www.analytics24.com/markets"
+      "date": "2026-11-03",
+      "source_url": "https://www.ausecure.com/gold-market-close-nov-3-2026/",
+      "note": "Spot 5 PM ET, -$16.42 (-0.42%); Mon $3,946.74 (+1.83%). Futures $3,927.90 (-0.7%), within 1.1% of 2026 low (MarketWatch).",
+      "secondary_source_url": "https://www.marketwatch.com/story/u-s-stocks-mixed-amid-midterm-iran-war-nerves-1910f17e"
     },
     "silver": {
-      "value": 53.97,
+      "value": 49.8,
       "unit": "USD/oz",
-      "date": "2026-10-28",
-      "source_url": "https://www.ausecure.com/gold-market-close-oct-28-2026/",
-      "note": "Spot -0.83%; gold/silver ratio 75.4, highest close in 90 days."
+      "date": "2026-11-03",
+      "source_url": "https://www.ausecure.com/gold-market-close-nov-3-2026/",
+      "note": "Spot -1.67%; gold/silver ratio 78.9."
     },
     "vix": {
-      "value": 16.91,
+      "value": 20.83,
       "unit": "index",
-      "date": "2026-10-28",
-      "source_url": "https://www.analytics24.com/markets",
-      "note": "-3.48%."
+      "date": "2026-11-03",
+      "source_url": "https://www.ausecure.com/gold-market-close-nov-3-2026/",
+      "note": "-0.32; Mon 21.15 (+1.73).",
+      "secondary_source_url": "https://www.ausecure.com/gold-market-close-nov-2-2026/"
     },
     "import_prices_mom": {
       "value": 1.1,
@@ -355,12 +356,12 @@
       "note": "Released 16 Oct; vs +0.4% expected. Manufacturing +0.3%; capacity utilisation 76.9%."
     },
     "us_30y_yield": {
-      "value": 5.36,
+      "value": 5.323,
       "unit": "%",
-      "date": "2026-10-28",
-      "source_url": "https://www.marketwatch.com/story/u-s-stocks-up-treasury-yields-mixed-after-fed-hold-dbd6e218",
-      "note": "+5.6bp (MarketWatch); Ausecure 5.33%.",
-      "secondary_source_url": "https://www.ausecure.com/gold-market-close-oct-28-2026/"
+      "date": "2026-11-03",
+      "source_url": "https://www.marketwatch.com/story/u-s-stocks-mixed-amid-midterm-iran-war-nerves-1910f17e",
+      "note": "+5.5bp.",
+      "secondary_source_url": "https://www.ausecure.com/gold-market-close-nov-3-2026/"
     },
     "nahb_housing_index": {
       "value": 29,
@@ -414,11 +415,11 @@
       "period": "Sep 2026"
     },
     "dec_hike_probability": {
-      "value": 85,
+      "value": 84,
       "unit": "%",
-      "date": "2026-10-28",
-      "source_url": "https://www.ausecure.com/gold-market-close-oct-28-2026/",
-      "note": "Fed funds futures, 5:01 PM ET (Ausecure calc), up from 83% Tue close; Jan 27 odds ~37%."
+      "date": "2026-11-03",
+      "source_url": "https://www.ausecure.com/gold-market-close-nov-3-2026/",
+      "note": "Fed funds futures (Ausecure calc), up from 70% Mon close; ~89% for at least one hike by 27 Jan."
     },
     "goods_trade_deficit": {
       "value": 134.9,
@@ -442,110 +443,175 @@
       "date": "2026-10-23",
       "source_url": "https://www.cnbc.com/2026/10/27/stock-market-today-live-updates.html",
       "note": "MBA contract rate, down from 7.41%; applications +3.4% w/w."
+    },
+    "jolts_job_openings": {
+      "value": 7.52,
+      "unit": "M",
+      "date": "2026-09",
+      "source_url": "https://www.ausecure.com/gold-market-close-nov-3-2026/",
+      "note": "Released 3 Nov; vs 7.15M forecast; Aug revised 7.19M; quits rate 2.1%, layoffs 1.64M.",
+      "period": "Sep 2026"
+    },
+    "factory_orders_mom": {
+      "value": 1.8,
+      "unit": "%",
+      "date": "2026-09",
+      "source_url": "https://www.ausecure.com/gold-market-close-nov-3-2026/",
+      "note": "Released 3 Nov; vs 1.2% forecast; Aug revised 0.3%.",
+      "period": "Sep 2026"
+    },
+    "ism_manufacturing": {
+      "value": 55.5,
+      "unit": "index",
+      "date": "2026-10",
+      "source_url": "https://www.ausecure.com/gold-market-close-nov-2-2026/",
+      "note": "Released 2 Nov; vs 54.5 forecast; prices 75.2 (from 77.9); production 59.0.",
+      "secondary_source_url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html",
+      "period": "Oct 2026"
+    },
+    "construction_spending_mom": {
+      "value": -1.9,
+      "unit": "%",
+      "date": "2026-09",
+      "source_url": "https://www.ausecure.com/gold-market-close-nov-2-2026/",
+      "note": "Released 2 Nov; vs +0.4% forecast.",
+      "period": "Sep 2026"
+    },
+    "nonfarm_payrolls_october_consensus": {
+      "value": 63,
+      "unit": "k",
+      "date": "2026-10",
+      "source_url": "https://www.investing.com/news/stock-market-news/weekly-economic-outlook-payrolls-and-fed-speakers-in-focus-93CH-4992504",
+      "note": "Due Fri 6 Nov 8:30 AM ET (9:30 PM SGT); prior 29k; u-rate est 4.2%. Wells Fargo 65k, BofA 75k.",
+      "secondary_source_url": "https://externalcontent.blob.core.windows.net/pdfs/pdfs/WellsFargo10302026.pdf",
+      "period": "Oct 2026"
+    },
+    "ism_services_consensus": {
+      "value": 54.8,
+      "unit": "index",
+      "date": "2026-10",
+      "source_url": "https://www.investing.com/news/stock-market-news/weekly-economic-outlook-payrolls-and-fed-speakers-in-focus-93CH-4992504",
+      "note": "Due Wed 4 Nov 10:00 AM ET (11 PM SGT); prior 54.9. ADP est 68k (prior 90k) at 8:15 AM ET.",
+      "period": "Oct 2026"
+    },
+    "mortgage_rate_30y_freddie": {
+      "value": 7.24,
+      "unit": "%",
+      "date": "2026-10-29",
+      "source_url": "https://www.ausecure.com/gold-market-close-nov-3-2026/",
+      "note": "Freddie Mac weekly survey, -0.08 pt."
     }
   },
   "mood": {
     "overall": "neutral",
-    "reason": "Cash session was mildly positive (third straight gain, VIX 16.91, chips strong) and Warsh avoided pre-committing to a December hike. But two hawkish dissents, the 10Y back above 5%, oil up on Iran-strike reports and Alphabet's after-hours miss (Nasdaq 100 futures -1.2%) point to a softer open."
+    "reason": "Chips rebounded and AMD's beat lifted evening futures, but the Nasdaq 100 is still in correction, breadth was weak (decliners 1.6:1; Goldman says 60% of S&P stocks in bear markets), yields rose on a hot JOLTS, Dec hike odds jumped to 84%, and midterm results (blue-wave risk to AI/data-center names) are still uncalled."
   },
   "risks": [
-    "Alphabet -7 to -9% after hours on an EPS miss and -$9.07B free cash flow; Nasdaq 100 futures -1.2%",
-    "Hawkish Fed: two dissents for a hike, ~85% priced for a 9 Dec hike, 10Y at 5.04%",
-    "Iran: WSJ says US told Gulf allies to prepare for a short, intense campaign after next week's midterms; WTI back above $102",
-    "Thursday 8:30 AM ET GDP (est 3.2%) and Sep PCE (core m/m est 0.3%, y/y 3.1%); hot prints firm the December hike",
-    "Software and neocloud selloff: FTNT -25%, NOW -15%; CoreWeave and Nebius ~-5% after Microsoft's lower capex",
-    "Amazon, Intel, Apple (Mon) earnings and US midterms next week"
+    "Midterms: Democratic sweep could hit AI/data-center and defense names; BofA's Hartnett warned of a >10% drop in a sweep; results may take days",
+    "Hawkish Fed: Dec hike odds 84% after JOLTS 7.52M beat; 10Y back near 4.95%",
+    "AI capex/financing stress: Nasdaq 100 in correction; Oracle $20B raise; CoreWeave short interest >21% of float ahead of 10 Nov results",
+    "Iran: Qeshm Island strike; Iran rejects US position; Hormuz reopening tied to seven conditions; Brent back above $103",
+    "Data this week: ADP and ISM services Wed, claims Thu, Oct payrolls Fri (est 63k)",
+    "Narrow market: 60% of S&P 500 stocks in a bear market per Goldman (via @unusual_whales)"
   ],
   "themes": [
     {
-      "title": "Hawkish hold",
-      "explanation": "Fed held 3.75-4.00% 10-2 with Cook and Hammack for a hike; statement upgraded growth to \"strong\". Warsh would not prejudge December; 2Y slipped to 4.731% while 10Y rose 5bp to 5.044%, steepening the curve."
+      "title": "Chip rebound, AMD blowout",
+      "explanation": "SOX +2.6% after Monday's -3.4%; AMD beat (EPS $2.09 vs $1.95, revenue $13.38B, data center +97%) and guided Q4 ~$17B; +7-8% after hours with ANET +12% and SMCI +9%."
     },
     {
-      "title": "Hyperscaler split",
-      "explanation": "Microsoft beat (revenue $92.28B, Azure +48%) and rose 2-4% after hours; Alphabet fell 7-9% on a $2.12 EPS miss and -$9.07B FCF despite Google Cloud +103%."
+      "title": "Midterm wait",
+      "explanation": "Prediction markets >90% Democratic House and 70-81% Democratic Senate; no chambers called by ~6:30 PM ET. Street views split: JPMorgan sees dips as buying chances; BofA warns a sweep could cut stocks >10%."
     },
     {
-      "title": "Capex undershoot hits neoclouds",
-      "explanation": "MSFT capex $45.2B vs $50.7B est. and GOOGL $51.36B vs ~$55B est.; CoreWeave and Nebius ~-5%, IREN ~-3% after hours."
+      "title": "Hike odds back up",
+      "explanation": "JOLTS 7.52M vs 7.15M and factory orders +1.8% pushed 2Y up 3bp and Dec hike odds from 70% to 84%."
     },
     {
-      "title": "Memory mania",
-      "explanation": "SK Hynix record profit and ~100T won shareholder return; MU +5.9%, Kospi +6.6%."
+      "title": "Oil whipsaw on Iran diplomacy",
+      "explanation": "Brent -7.6% Mon on talks; Tue dipped to $100.80 on an unconfirmed draft-deal report then rebounded as Iran rejected the US position."
     },
     {
-      "title": "Oil back above $100 on Iran war talk",
-      "explanation": "WTI +$2.88 to $102.78 on WSJ Gulf-briefing report and a 1.9M-bbl crude draw; late Vance-Rezaei outreach report trimmed Brent."
+      "title": "AI financing worries",
+      "explanation": "Oracle's $10B stock + $10B bond raise (Mon -8.8%); Sternlicht says some neoclouds may fail; Apple warns memory costs pressure margins."
     }
   ],
   "sources": [
     {
-      "name": "MarketWatch close and yields 28 Oct",
-      "url": "https://www.marketwatch.com/story/u-s-stocks-up-treasury-yields-mixed-after-fed-hold-dbd6e218"
+      "name": "CNBC live 3 Nov",
+      "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"
     },
     {
-      "name": "CNBC live 28 Oct",
-      "url": "https://www.cnbc.com/2026/10/27/stock-market-today-live-updates.html"
+      "name": "CNBC evening futures 3 Nov",
+      "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
     },
     {
-      "name": "CNBC evening futures 28 Oct",
-      "url": "https://www.cnbc.com/2026/10/28/stock-market-today-live-updates.html"
+      "name": "MarketWatch close 3 Nov",
+      "url": "https://www.marketwatch.com/story/u-s-stocks-mixed-amid-midterm-iran-war-nerves-1910f17e"
     },
     {
-      "name": "CNBC Fed recap",
-      "url": "https://www.cnbc.com/2026/10/28/fed-meeting-today-live-updates.html"
-    },
-    {
-      "name": "CNBC after-hours movers 28 Oct",
-      "url": "https://www.cnbc.com/2026/10/28/stocks-making-the-biggest-moves-after-hours-googl-msft-cmg-now.html"
-    },
-    {
-      "name": "CNBC neocloud stocks",
-      "url": "https://www.cnbc.com/2026/10/28/neocloud-stocks-drop-after-microsoft-revises-capex-down.html"
-    },
-    {
-      "name": "Cautious Optimism MSFT/GOOGL",
-      "url": "https://www.cautiousoptimism.news/msft-alpha-earnings"
+      "name": "Reuters via StreetInsider 3 Nov",
+      "url": "https://www.streetinsider.com/General+News/Nasdaq+ends+higher+as+AI+heavyweights+rebound+ahead+of+midterm+results/27276330.html"
     },
     {
       "name": "Portfolio Terminal closes",
       "url": "https://portfolio-terminal.com/markets/stock-market-close"
     },
     {
-      "name": "Ausecure gold close 28 Oct",
-      "url": "https://www.ausecure.com/gold-market-close-oct-28-2026/"
+      "name": "Ausecure gold close 3 Nov",
+      "url": "https://www.ausecure.com/gold-market-close-nov-3-2026/"
     },
     {
-      "name": "Kiplinger 28 Oct",
-      "url": "https://www.kiplinger.com/investing/stocks/stocks-rise-despite-inflation-and-war-talk-stock-market-today"
-    },
-    {
-      "name": "Analytics24 markets",
-      "url": "https://www.analytics24.com/markets"
+      "name": "Ausecure gold close 2 Nov",
+      "url": "https://www.ausecure.com/gold-market-close-nov-2-2026/"
     },
     {
       "name": "MarketIndicators sectors",
       "url": "https://marketindicators.net/sectors"
     },
     {
-      "name": "gov.house calendar",
-      "url": "https://gov.house/forecast/releases/"
+      "name": "CNBC AMD earnings",
+      "url": "https://www.cnbc.com/2026/11/03/amd-amd-q3-earnings-report-2026-.html"
     },
     {
-      "name": "BLS CPI Sep 2026",
-      "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm"
+      "name": "AMD IR Q3 2026",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results"
     },
     {
-      "name": "CNBC Sep jobs report",
-      "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html"
+      "name": "CNBC live 2 Nov",
+      "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html"
     },
     {
-      "name": "@KobeissiLetter Alphabet",
-      "url": "https://x.com/KobeissiLetter/status/2115535656105496959"
+      "name": "Barchart 2 Nov",
+      "url": "https://www.barchart.com/story/news/8600636/broader-market-settles-lower-on-weakness-in-chipmakers-and-ai-stocks"
     },
     {
-      "name": "@KobeissiLetter Warsh schedule",
-      "url": "https://x.com/KobeissiLetter/status/2115514210830389611"
+      "name": "Investing.com week ahead",
+      "url": "https://www.investing.com/news/stock-market-news/weekly-economic-outlook-payrolls-and-fed-speakers-in-focus-93CH-4992504"
+    },
+    {
+      "name": "Wells Fargo week ahead",
+      "url": "https://externalcontent.blob.core.windows.net/pdfs/pdfs/WellsFargo10302026.pdf"
+    },
+    {
+      "name": "NBC Senate results",
+      "url": "https://www.nbcnews.com/politics/2026-elections/senate-results"
+    },
+    {
+      "name": "@Kalshi Senate odds",
+      "url": "https://x.com/Kalshi/status/2117760736470405541"
+    },
+    {
+      "name": "@KobeissiLetter AMD",
+      "url": "https://x.com/KobeissiLetter/status/2117728009134506332"
+    },
+    {
+      "name": "@unusual_whales Goldman breadth",
+      "url": "https://x.com/unusual_whales/status/2117697821369352638"
+    },
+    {
+      "name": "@unusual_whales Hartnett",
+      "url": "https://x.com/unusual_whales/status/2117675911080448142"
     }
   ],
   "null_fields": []
