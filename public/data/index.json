@@ -1,6 +1,6 @@
 {
-  "latest": "2026-11-05",
-  "count": 13,
+  "latest": "2026-11-09",
+  "count": 14,
   "reports": [
     {
       "date": "2026-10-13",
@@ -92,6 +92,13 @@
       "mood": "bear",
       "title": "Midterm hangover",
       "generated_at_utc": "2026-11-05T23:34:13Z"
+    },
+    {
+      "date": "2026-11-09",
+      "as_of": "2026-11-09",
+      "mood": "bull",
+      "title": "Relief rally after worst week since Apr 2025",
+      "generated_at_utc": "2026-11-09T23:34:20Z"
     }
   ]
 }
