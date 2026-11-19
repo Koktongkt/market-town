@@ -1,160 +1,160 @@
 {
-  "as_of": "2026-11-18",
-  "generated_at_utc": "2026-11-18T23:40:12Z",
-  "as_of_note": "US closes Wed 18 Nov 2026: mixed after Nvidia results and hawkish Fed. S&P 500 -0.23% to 7,323.63 (5th straight loss, lowest since 29 Jul); Nasdaq +0.42% to 24,429.88; Dow -1.11% (-561.25) to 50,198.17; RUT +0.46%. NVDA -2.89% despite beat; UNH -10.2%, HUM -13%; AMZN +3.8%. Energy -3.3% (XLE), discretionary +1.8% (XLY). 10Y 5.066%, 2Y 4.80%. DXY 103.81 (19-month high). WTI $83.26 (-3.2%), Brent $91.95; gold $3,726.9 (-3.6%, 14-month low). Oct FOMC minutes: almost all see more hikes; Waller floats 50bp. Anthropic IPO priced $83.",
+  "as_of": "2026-11-19",
+  "generated_at_utc": "2026-11-19T23:41:48Z",
+  "as_of_note": "US closes Thu 19 Nov 2026: broad selloff as Anthropic debut fails to lift AI trade. S&P 500 -2.02% to 7,175.83 (6th straight loss, lowest since 29 Apr, -8.2% from record); Nasdaq -2.25% to 23,879.20; Dow -1,101.11 (-2.19%) to 49,097.06 (first close <50k since June); RUT -2.18%. All 11 sectors down; XLY -2.79% worst. NVDA -3.30%, AMD -7.72%. ANT closed $97.17 (+17% vs $83 IPO; opened $111.50). VIX 28.44 (+15.8%, highest since March). 10Y 5.052%, 2Y 4.76%. DXY 103.96 (8th straight gain). WTI $83.21, Brent $91.98 (flat; Hormuz mine claims). Gold $3,682.1 (-1.46%). Claims 203k; Philly Fed 6.3 (vs 20.1 est). After hours: INTU -13%, ROST -9%.",
   "indices": [
     {
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "level": 7323.63,
-      "date": "2026-11-18",
-      "change_1d_pct": -0.23,
-      "change_1m_pct": -4.38,
+      "level": 7175.83,
+      "date": "2026-11-19",
+      "change_1d_pct": -2.02,
+      "change_1m_pct": -6.7,
       "change_ytd_pct": null,
       "source_url": "https://portfolio-terminal.com/markets/stock-market-close",
-      "secondary_source_url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-wall-street-ends-mixed-after-nvidia-earnings-fed-minutes",
-      "note": "-16.90 pts; 5th straight loss; lowest close since 29 Jul 2026, 6.33% below 6 Oct record 7,818.93. AMZN +3.82% (+11.2 pts), AVGO +3.64%, AMD +5.31%; NVDA -2.89% (-12.7 pts), UNH -10.21%, XOM -3.97%. 1M computed vs 16 Oct 2026 close (Portfolio Terminal table). YTD not sourced today: null."
+      "secondary_source_url": "https://live.euronext.com/en/financial-news/stocks-fall-anthropic-debut-fails-ease-ai-concerns-dollar-rises",
+      "note": "-147.80 pts; 6th straight loss; lowest close since 29 Apr 2026, 8.22% below 6 Oct record 7,818.93 (Portfolio Terminal). Biggest drags NVDA -3.30% (-14.0 pts), AMZN -3.87%, GOOGL -3.46%; PANW +6.42%, CRWD +2.71%, INTC +1.92% helped. 1M computed vs Mon 19 Oct 2026 close (Portfolio Terminal table). YTD not sourced today: null."
     },
     {
       "name": "Nasdaq Composite",
       "symbol": "^IXIC",
-      "level": 24429.88,
-      "date": "2026-11-18",
-      "change_1d_pct": 0.42,
-      "change_1m_pct": -6.54,
+      "level": 23879.2,
+      "date": "2026-11-19",
+      "change_1d_pct": -2.25,
+      "change_1m_pct": -9.65,
       "change_ytd_pct": null,
       "source_url": "https://portfolio-terminal.com/markets/stock-market-close",
-      "secondary_source_url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-wall-street-ends-mixed-after-nvidia-earnings-fed-minutes",
-      "note": "+101.50 pts; closed modestly higher (Business Times/Reuters). 1M computed vs 16 Oct 2026 close (Portfolio Terminal table). YTD not sourced today: null."
+      "secondary_source_url": "https://live.euronext.com/en/financial-news/stocks-fall-anthropic-debut-fails-ease-ai-concerns-dollar-rises",
+      "note": "-550.68 pts; was up as much as 2% early, hit session lows as Anthropic began trading (CNBC). Nasdaq 100 -2.2% to 26,517.05 (Benzinga/Yahoo). 1M computed vs Mon 19 Oct 2026 close (Portfolio Terminal table). YTD not sourced today: null."
     },
     {
       "name": "Dow Jones Industrial Average",
       "symbol": "^DJI",
-      "level": 50198.17,
-      "date": "2026-11-18",
-      "change_1d_pct": -1.11,
-      "change_1m_pct": -3.47,
+      "level": 49097.06,
+      "date": "2026-11-19",
+      "change_1d_pct": -2.19,
+      "change_1m_pct": -5.52,
       "change_ytd_pct": null,
       "source_url": "https://portfolio-terminal.com/markets/stock-market-close",
-      "secondary_source_url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-wall-street-ends-mixed-after-nvidia-earnings-fed-minutes",
-      "note": "-561.25 pts; UNH -10.21%, HUM -12.98% hit managed care (Investing.com). 1M computed vs 16 Oct 2026 close (Portfolio Terminal table). YTD not sourced today: null."
+      "secondary_source_url": "https://live.euronext.com/en/financial-news/stocks-fall-anthropic-debut-fails-ease-ai-concerns-dollar-rises",
+      "note": "-1,101.11 pts; first close below 50,000 since June (CNBC). 1M computed vs Mon 19 Oct 2026 close (Portfolio Terminal table). YTD not sourced today: null."
     },
     {
       "name": "Russell 2000",
       "symbol": "^RUT",
-      "level": 2714.31,
-      "date": "2026-11-18",
-      "change_1d_pct": 0.46,
-      "change_1m_pct": -0.26,
+      "level": 2655.11,
+      "date": "2026-11-19",
+      "change_1d_pct": -2.18,
+      "change_1m_pct": -2.68,
       "change_ytd_pct": null,
       "source_url": "https://portfolio-terminal.com/markets/stock-market-close",
-      "secondary_source_url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-wall-street-ends-mixed-after-nvidia-earnings-fed-minutes",
-      "note": "+12.44 pts. 1M computed vs 16 Oct 2026 close (Portfolio Terminal table). YTD not sourced today: null."
+      "secondary_source_url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-dow-end-230105109.html",
+      "note": "-59.20 pts. 1M computed vs Mon 19 Oct 2026 close (Portfolio Terminal table). YTD not sourced today: null."
     }
   ],
-  "indices_note": "Closes from Portfolio Terminal (Yahoo Finance data), confirmed by Business Times/Reuters and AP. 1M computed vs Fri 16 Oct closes. YTD not sourced today (null).",
+  "indices_note": "Closes from Portfolio Terminal (Yahoo Finance data), confirmed by Reuters (via Euronext) and CNBC. 1M computed vs Mon 19 Oct closes. YTD not sourced today (null).",
   "sectors": [
     {
       "sector": "Energy",
       "proxy_etf": "XLE",
-      "as_of": "2026-11-18",
-      "change_1m_pct": -9.6,
-      "change_ytd_pct": 37.08,
-      "take": "-3.27% 1D. Worst sector. WTI -3.2% to $83.26 on big EIA builds; XOM -3.97%. Reuters: energy -3.5%.",
+      "as_of": "2026-11-19",
+      "change_1m_pct": -10.42,
+      "change_ytd_pct": 36.19,
+      "take": "-0.65% 1D. Best sector (least bad); oil flat, WTI $83.21. 1W -5.35%.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Consumer Staples",
       "proxy_etf": "XLP",
-      "as_of": "2026-11-18",
-      "change_1m_pct": 4.55,
-      "change_ytd_pct": 17.38,
-      "take": "-0.31% 1D.",
+      "as_of": "2026-11-19",
+      "change_1m_pct": 2.4,
+      "change_ytd_pct": 15.68,
+      "take": "-1.45% 1D. Defensive held up relatively; WMT ~-2% despite raised guide (Reuters).",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Health Care",
       "proxy_etf": "XLV",
-      "as_of": "2026-11-18",
-      "change_1m_pct": 3.14,
-      "change_ytd_pct": 17.03,
-      "take": "-2.20% 1D. Managed-care rout: HUM -12.98%, UNH -10.21%, ELV -7.63%, CNC -7.03% (Investing.com).",
+      "as_of": "2026-11-19",
+      "change_1m_pct": -1.31,
+      "change_ytd_pct": 14.64,
+      "take": "-2.05% 1D. UNH -5.55%, LLY -2.29% (Portfolio Terminal).",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Information Technology",
       "proxy_etf": "XLK",
-      "as_of": "2026-11-18",
-      "change_1m_pct": -11.91,
-      "change_ytd_pct": 13.78,
-      "take": "+0.34% 1D. AVGO +3.64%, AMD +5.31%, PANW +9.9% on results; NVDA -2.89% despite beat; SOX slightly lower.",
+      "as_of": "2026-11-19",
+      "change_1m_pct": -13.35,
+      "change_ytd_pct": 11.61,
+      "take": "-1.90% 1D. NVDA -3.30% to $145.98; AMD -7.72%; SMH/SOXX ~-3.5%. 1M -13.35%.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Materials",
       "proxy_etf": "XLB",
-      "as_of": "2026-11-18",
-      "change_1m_pct": -0.96,
-      "change_ytd_pct": 11.27,
-      "take": "-0.75% 1D. FCX -6.96% as copper fell ~5.9% (MarketScreener/CME).",
+      "as_of": "2026-11-19",
+      "change_1m_pct": -3.53,
+      "change_ytd_pct": 8.97,
+      "take": "-2.06% 1D. Gold -1.5%, silver -4.4% hit miners.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Real Estate",
       "proxy_etf": "XLRE",
-      "as_of": "2026-11-18",
-      "change_1m_pct": 4.68,
-      "change_ytd_pct": 8.1,
-      "take": "+0.07% 1D.",
+      "as_of": "2026-11-19",
+      "change_1m_pct": 1.18,
+      "change_ytd_pct": 6.27,
+      "take": "-1.70% 1D. Yields slightly lower did not help.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Industrials",
       "proxy_etf": "XLI",
-      "as_of": "2026-11-18",
-      "change_1m_pct": -1.21,
-      "change_ytd_pct": 6.15,
-      "take": "-0.05% 1D. GNRC +9.87%.",
+      "as_of": "2026-11-19",
+      "change_1m_pct": -3.26,
+      "change_ytd_pct": 4.02,
+      "take": "-2.00% 1D. Broad cyclical selling.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Financials",
       "proxy_etf": "XLF",
-      "as_of": "2026-11-18",
-      "change_1m_pct": 2.47,
-      "change_ytd_pct": 3.01,
-      "take": "-1.14% 1D. BRK-B -2.07%, JPM -1.77% (Portfolio Terminal).",
+      "as_of": "2026-11-19",
+      "change_1m_pct": -0.25,
+      "change_ytd_pct": 1.48,
+      "take": "-1.49% 1D. V -3.12%, MA -2.62% (Portfolio Terminal).",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Utilities",
       "proxy_etf": "XLU",
-      "as_of": "2026-11-18",
-      "change_1m_pct": 5.29,
-      "change_ytd_pct": 2.01,
-      "take": "+0.30% 1D.",
+      "as_of": "2026-11-19",
+      "change_1m_pct": 2.7,
+      "change_ytd_pct": 0.75,
+      "take": "-1.24% 1D. Defensive, smaller loss.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Consumer Discretionary",
       "proxy_etf": "XLY",
-      "as_of": "2026-11-18",
-      "change_1m_pct": 4.14,
-      "change_ytd_pct": -0.18,
-      "take": "+1.79% 1D. Best sector: AMZN +3.82%, TJX +8% and TGT +4% on holiday outlooks. Reuters: discretionary +2.2%.",
+      "as_of": "2026-11-19",
+      "change_1m_pct": 0.33,
+      "change_ytd_pct": -2.96,
+      "take": "-2.79% 1D. Worst sector; AMZN -3.87%, TSLA -2.43%. After hours ROST -9% on soft Q4 guide.",
       "source_url": "https://marketindicators.net/sectors"
     },
     {
       "sector": "Communication Services",
       "proxy_etf": "XLC",
-      "as_of": "2026-11-18",
-      "change_1m_pct": -4.1,
-      "change_ytd_pct": -10.31,
-      "take": "+0.30% 1D. GOOGL +0.80%, DIS +4.63%, TTWO +6.22%.",
+      "as_of": "2026-11-19",
+      "change_1m_pct": -6.74,
+      "change_ytd_pct": -12.71,
+      "take": "-2.67% 1D. GOOGL -3.46%, META -3.27%; META lower after hours on Apple AI agent report.",
       "source_url": "https://marketindicators.net/sectors"
     }
   ],
-  "sectors_note": "SPDR Select Sector ETF returns from marketindicators.net page dated Wed 18 Nov 2026 (1D: XLY +1.79, XLK +0.34, XLC +0.30, XLU +0.30, XLRE +0.07, XLI -0.05, XLP -0.31, XLB -0.75, XLF -1.14, XLV -2.20, XLE -3.27). Reuters: six S&P sectors fell, five rose.",
+  "sectors_note": "SPDR Select Sector ETF returns from marketindicators.net page dated Thu 19 Nov 2026 (1D: XLE -0.65, XLU -1.24, XLP -1.45, XLF -1.49, XLRE -1.70, XLK -1.90, XLI -2.00, XLV -2.05, XLB -2.06, XLC -2.67, XLY -2.79). All 11 sectors fell.",
   "macro": {
     "cpi_headline_yoy": {
       "value": 3.7,
@@ -194,39 +194,40 @@
       "unit": "%",
       "date": "2026-10-28",
       "source_url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
-      "secondary_source_url": "https://apnews.com/article/federal-reserve-inflation-rates-9e72f3b6e3484173471cc382d6918de0",
-      "note": "Held at 28 Oct meeting, 10-2 vote (Cook and Hammack dissented for +25bp). Oct minutes (18 Nov): almost all saw further hikes likely appropriate; a couple floated >25bp in Dec if inflation data unfavorable. Next meeting 8-9 Dec."
+      "secondary_source_url": "https://www.investing.com/news/economy-news/feds-goolsbee-says-ai-surge-could-strain-us-capacity-overheat-economy-5039887",
+      "note": "Held at 28 Oct meeting, 10-2 vote (Cook and Hammack dissented for +25bp). 19 Nov: Goolsbee \"all options on the table\", AI boom risks overheating; Jefferson: AI buildout adding to demand and inflation. Next meeting 8-9 Dec."
     },
     "next_fomc": {
       "value": "2026-12-08/09",
       "unit": "date",
       "date": "2026-12-09",
-      "source_url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
-      "secondary_source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-      "note": "Decision Wed 9 Dec 2:00 PM ET = Thu 10 Dec 3:00 AM SGT. CNBC: futures fully price 25bp with low odds of 50bp; CME FedWatch 97% 25bp / 3% 50bp (MarketScreener, pre-minutes)."
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "secondary_source_url": "https://www.investing.com/news/economy-news/feds-goolsbee-says-ai-surge-could-strain-us-capacity-overheat-economy-5039887",
+      "note": "Decision Wed 9 Dec 2:00 PM ET = Thu 10 Dec 3:00 AM SGT. 25bp hike widely expected from 3.75-4.00%; FedWatch 94% 25bp / ~6% 50bp."
     },
     "us_10y_yield": {
-      "value": 5.066,
+      "value": 5.052,
       "unit": "%",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "source_url": "https://portfolio-terminal.com/markets",
-      "secondary_source_url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-markets-mixed-nvidia-221528504.html",
-      "note": "-0.037 pts (Portfolio Terminal/FRED). Reuters: curve flattened, 30y -5bp; average 20-yr auction."
+      "secondary_source_url": "https://www.investing.com/news/stock-market-news/us-treasury-yields-slip-on-safehaven-bid-10year-posts-fourday-losing-streak-5040235",
+      "note": "-0.014 pts (Portfolio Terminal/FRED). Investing.com market close 5.046% (-1.9bp), 4th straight fall on safe-haven bid; CNBC 5.046%."
     },
     "us_2y_yield": {
-      "value": 4.8,
+      "value": 4.76,
       "unit": "%",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "source_url": "https://portfolio-terminal.com/markets",
-      "secondary_source_url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-markets-mixed-nvidia-221528504.html",
-      "note": "Unchanged per Portfolio Terminal/FRED; Reuters: 2y +1bp."
+      "secondary_source_url": "https://www.investing.com/news/stock-market-news/us-treasury-yields-slip-on-safehaven-bid-10year-posts-fourday-losing-streak-5040235",
+      "note": "-0.04 pts (Portfolio Terminal/FRED). Investing.com: 4.770% (-3bp); CNBC 4.76%. Early post-data high ~4.832% (Global Eye 24)."
     },
     "us_30y_yield": {
-      "value": 5.412,
+      "value": 5.401,
       "unit": "%",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "source_url": "https://portfolio-terminal.com/markets",
-      "note": "-0.046 pts."
+      "secondary_source_url": "https://www.investing.com/news/stock-market-news/us-treasury-yields-slip-on-safehaven-bid-10year-posts-fourday-losing-streak-5040235",
+      "note": "-0.011 pts (Portfolio Terminal/FRED). Investing.com: 5.406%."
     },
     "unemployment_rate": {
       "value": 4.1,
@@ -240,19 +241,19 @@
       "value": 165,
       "unit": "k",
       "date": "2026-10",
+      "period": "Oct 2026",
       "source_url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
-      "note": "Oct, released 6 Nov vs Dow Jones est +59k. Latest available; next report date not confirmed in today's sources.",
-      "secondary_source_url": "https://www.investing.com/news/economic-indicators/us-job-growth-beats-expectations-in-october-unemployment-rate-falls-to-41-5008194",
-      "period": "Oct 2026"
+      "secondary_source_url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+      "note": "Oct (released 6 Nov). Next: Nov report Fri 4 Dec 2026 8:30 AM ET = 9:30 PM SGT (BLS schedule)."
     },
     "initial_jobless_claims": {
-      "value": 200,
+      "value": 203,
       "unit": "k",
-      "date": "2026-11-07",
-      "source_url": "https://financetrendwire.com/articles/us-economic-calendar-this-week",
-      "note": "Prior-week figure 200k (4-wk avg 195.25k). Next: Thu 19 Nov 8:30 AM ET (9:30 PM SGT), forecast 198k (Investing.com calendar).",
-      "secondary_source_url": "https://www.investing.com/news/stock-market-news/jobless-claims-and-philadelphia-fed-index-due-thursday-93CH-5036849",
-      "period": "Week ended 7 Nov"
+      "date": "2026-11-14",
+      "period": "Week ended 14 Nov",
+      "source_url": "https://www.investing.com/news/economy-news/us-weekly-jobless-claims-increase-slightly-5039110",
+      "secondary_source_url": "https://www.cnbc.com/2026/11/19/us-treasury-yields-investors-us-economy.html",
+      "note": "+1k vs 197k Reuters poll; 4-wk avg 197.75k; continuing claims +70k to 1.763M (highest since end-Aug). Survey week for Nov payrolls."
     },
     "retail_sales_mom": {
       "value": 0.2,
@@ -264,117 +265,134 @@
       "period": "Oct 2026"
     },
     "dec_hike_probability": {
-      "value": 97,
+      "value": 94,
       "unit": "%",
-      "date": "2026-11-18",
-      "source_url": "https://ca.marketscreener.com/news/cme-gold-futures-fall-below-3-800-as-rate-hike-expectations-rise-ce785edddd80f522",
-      "secondary_source_url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
-      "note": "CME FedWatch 25bp hike prob (3% for 50bp) as of ~1 PM ET 18 Nov, before minutes (MarketScreener). Post-minutes: CNBC says 25bp fully priced with low odds of 50bp; exact post-minutes % not sourced."
+      "date": "2026-11-19",
+      "source_url": "https://www.investing.com/news/stock-market-news/us-treasury-yields-slip-on-safehaven-bid-10year-posts-fourday-losing-streak-5040235",
+      "secondary_source_url": "https://www.cnbc.com/2026/11/19/us-treasury-yields-investors-us-economy.html",
+      "note": "CME FedWatch 25bp hike prob, ~6% for 50bp (Investing.com, 19 Nov close). CNBC intraday: 95%. Hike itself seen as certain. investingLive: ~61bp priced over 3 meetings (18 Nov)."
     },
     "dxy": {
-      "value": 103.81,
+      "value": 103.96,
       "unit": "index",
-      "date": "2026-11-18",
-      "source_url": "https://portfolio-terminal.com/markets",
-      "secondary_source_url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-markets-mixed-nvidia-221528504.html",
-      "note": "+0.31% (Portfolio Terminal). Reuters: dollar +0.3% to fresh 19-month high; euro below $1.10."
+      "date": "2026-11-19",
+      "source_url": "https://live.euronext.com/en/financial-news/stocks-fall-anthropic-debut-fails-ease-ai-concerns-dollar-rises",
+      "secondary_source_url": "https://portfolio-terminal.com/markets",
+      "note": "Reuters: +0.14%, 8th straight gain, 19-month high; MXN -1.4%, COP -1.8% on USD liquidity scramble. Portfolio Terminal shows 103.92 (+0.06%)."
     },
     "wti": {
-      "value": 83.26,
+      "value": 83.21,
       "unit": "USD/bbl",
-      "date": "2026-11-18",
-      "source_url": "https://live.euronext.com/en/financial-news/oil-prices-settle-lower-traders-weigh-surplus-supply-outlook",
-      "secondary_source_url": "https://english.news.cn/20261119/5a7d7a64504745f3a881c2b5700b2ece/c.html",
-      "note": "Dec settle -$2.75 (-3.2%), lowest since 26 Aug. EIA crude +3.4M bbl vs +58k expected; gasoline +5.2M."
+      "date": "2026-11-19",
+      "source_url": "https://www.investing.com/news/commodities-news/oil-prices-steady-as-supply-surplus-softens-sentiment-though-gulf-war-supports-5037604",
+      "secondary_source_url": "https://www.rigzone.com/news/wire/oil_prices_swing_on_middle_east_uncertainty-19-nov-2026-185129-article/",
+      "note": "Dec settle -$0.05 (-0.06%), lowest since 26 Aug; Dec contract expires Fri; Jan $82.44. Iran navy claims two tankers hit mines in Hormuz (unverified by Reuters)."
     },
     "brent": {
-      "value": 91.95,
+      "value": 91.98,
       "unit": "USD/bbl",
-      "date": "2026-11-18",
-      "source_url": "https://live.euronext.com/en/financial-news/oil-prices-settle-lower-traders-weigh-surplus-supply-outlook",
-      "secondary_source_url": "https://www.cnbc.com/2026/11/18/oil-prices-fall-as-higher-us-crude-stocks-temper-supply-risks.html",
-      "note": "Jan settle -$1.19 (-1.28%). Both benchmarks on track for ~20% monthly drop. Iran attacked US sites in Kuwait after US strike on Qeshm Island."
+      "date": "2026-11-19",
+      "source_url": "https://www.investing.com/news/commodities-news/oil-prices-steady-as-supply-surplus-softens-sentiment-though-gulf-war-supports-5037604",
+      "secondary_source_url": "https://www.rigzone.com/news/wire/oil_prices_swing_on_middle_east_uncertainty-19-nov-2026-185129-article/",
+      "note": "Jan settle +$0.03 (+0.03%); ~$2 range. Brent down ~20% this month (Rigzone/Bloomberg). Trump-Xi-Putin declaration pledges more refined fuel supply."
     },
     "gold": {
-      "value": 3726.9,
+      "value": 3682.1,
       "unit": "USD/oz",
-      "date": "2026-11-18",
-      "source_url": "https://au.finance.yahoo.com/quote/GC%3DF/history/",
-      "secondary_source_url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-markets-mixed-nvidia-221528504.html",
-      "note": "COMEX Dec settle, -137.3 (-3.55%) vs 3,864.2. Reuters: gold -3% to 14-month low ~$3,735. Below $3,800 for first time since Sep 2025 (MarketScreener)."
+      "date": "2026-11-19",
+      "source_url": "https://goldseek.com/article/comex-gold-settles-146-lower-368210",
+      "secondary_source_url": "https://live.euronext.com/en/financial-news/stocks-fall-anthropic-debut-fails-ease-ai-concerns-dollar-rises",
+      "note": "COMEX settle -1.46% (GoldSeek). Reuters: spot gold -2.54% to $3,627.55."
     },
     "silver": {
-      "value": null,
+      "value": 43.04,
       "unit": "USD/oz",
-      "date": "2026-11-18",
-      "source_url": "https://ca.marketscreener.com/news/cme-gold-futures-fall-below-3-800-as-rate-hike-expectations-rise-ce785edddd80f522",
-      "note": "Exact settle not sourced; CME Dec silver fell more than 5% below $45 intraday (MarketScreener)."
+      "date": "2026-11-19",
+      "source_url": "https://live.euronext.com/en/financial-news/stocks-fall-anthropic-debut-fails-ease-ai-concerns-dollar-rises",
+      "note": "Spot silver -4.36% (Reuters). COMEX settle not sourced."
     },
     "vix": {
-      "value": 24.56,
+      "value": 28.44,
       "unit": "index",
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "source_url": "https://portfolio-terminal.com/markets",
-      "note": "-3.53%."
-    },
-    "anthropic_ipo_price": {
-      "value": 83,
-      "unit": "USD/share",
-      "date": "2026-11-18",
-      "source_url": "https://apnews.com/article/anthropic-ipo-pricing-70b660ddf900d90bbf484ecdf1fb441c",
-      "secondary_source_url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-markets-mixed-nvidia-221528504.html",
-      "note": "Priced above $70-78 range; ~$1.5T valuation (AP); offering upsized (Reuters). Trades on Nasdaq as ANT Thu 19 Nov (US), i.e. Thu night SGT."
+      "secondary_source_url": "https://x.com/charliebilello/status/2123549822439579952",
+      "note": "+15.80%; highest close since 30 Mar (Charlie Bilello on X; Yahoo/Benzinga: highest since March)."
     },
     "nvda_close": {
-      "value": 150.96,
+      "value": 145.98,
       "unit": "USD",
-      "date": "2026-11-18",
-      "source_url": "https://www.investing.com/news/stock-market-news/jobless-claims-and-philadelphia-fed-index-due-thursday-93CH-5036849",
+      "date": "2026-11-19",
+      "source_url": "https://www.investing.com/news/stock-market-news/afterhours-movers-bsp-intu-estc-gap-rost-432SI-5040092",
       "secondary_source_url": "https://portfolio-terminal.com/markets/stock-market-close",
-      "note": "-2.89% despite Q3 beat-and-raise; reversed ~4% premarket gain. SEC probe report (WSJ), CEO search after Huang exit."
+      "note": "-3.30% (-14.0 S&P pts). After close: California probing whether NVDA misled investors (via @KobeissiLetter/@zerohedge headlines); The Information: in advanced talks to buy Inception (>$500M)."
+    },
+    "philly_fed_index": {
+      "value": 6.3,
+      "unit": "index",
+      "date": "2026-11",
+      "period": "Nov 2026",
+      "source_url": "https://squawknews.com/news/962620-us-philadelphia-fed-business-outlook-nov-6-3-est-20-1-prev-20-9",
+      "note": "vs 20.1 est, 20.9 prior."
+    },
+    "anthropic_ant_close": {
+      "value": 97.17,
+      "unit": "USD/share",
+      "date": "2026-11-19",
+      "source_url": "https://x.com/DeItaone/status/2123526550431670394",
+      "secondary_source_url": "https://live.euronext.com/en/financial-news/stocks-fall-anthropic-debut-fails-ease-ai-concerns-dollar-rises",
+      "note": "Debut close (Walter Bloomberg on X); Reuters: +17% vs $83 IPO, ~$1.8T valuation; opened $111.50 (+34%), high $115.10. Record $81B raise (CNBC)."
+    },
+    "umich_sentiment_prelim": {
+      "value": 51,
+      "unit": "index",
+      "date": "2026-11",
+      "period": "Nov 2026 prelim",
+      "source_url": "https://stockmarketwatch.com/tools/economic-calendar",
+      "note": "Final due Fri 20 Nov 10:00 AM ET (11:00 PM SGT), consensus 51.5; 1-yr inflation exp. prior 4.3%, 5-yr 3.4%."
     }
   },
   "mood": {
     "overall": "bear",
-    "reason": "S&P 5th straight loss to lowest close since July; NVDA failed to hold beat-and-raise gains; hawkish minutes and Waller's 50bp call; gold -3.6% and dollar at 19-month high signal tightening fear. Offsets: Nasdaq/RUT +0.4-0.5%, VIX -3.5% to 24.56, strong retail earnings (TJX, TGT), Anthropic IPO demand."
+    "reason": "S&P 6th straight loss to lowest since April with all 11 sectors red; Anthropic pop (+17%) failed to support AI names; VIX 28.44 highest since March; USD up 8 sessions as EM FX sold off; Fed hike for Dec near-certain with Goolsbee open to all options. Offsets: yields eased on haven bid, tech P/E at 16.4x lowest since Mar 2020 (Kobeissi), oil flat."
   },
   "risks": [
-    "Fed: Waller says 50bp in Dec unless Jan hike clearly signalled; minutes show 'a couple' open to >25bp. A 50bp surprise or hawkish SEP on 10 Dec 3:00 AM SGT",
-    "Rates/USD: 10Y ~5.07%, DXY at 19-month high tightening financial conditions; 10-yr TIPS auction Thu 1:00 PM ET (Fri 2:00 AM SGT)",
-    "AI: NVDA -2.89% despite beat (SEC probe report, CEO search); Fed minutes flag opaque AI debt/circular financing; Anthropic $ANT debut Thu night SGT is a supply/sentiment test",
-    "Health care: managed-care rout (UNH -10.2%, HUM -13%)",
-    "Geopolitics: Iran attacked US sites in Kuwait after US strike on Qeshm; Hormuz shipping risk; Trump-Xi-Putin meeting in China Thu",
-    "Thanksgiving 26 Nov closure and early close 27 Nov thin liquidity"
+    "Fed: 25bp hike on 10 Dec 3:00 AM SGT near-certain (FedWatch 94%); ~6% odds of 50bp. Waller speaks Fri 8:25 AM ET (9:25 PM SGT), Cook 12:15 PM ET (Sat 1:15 AM SGT)",
+    "AI unwind: Nasdaq 100 -15% from record (Kobeissi); NVDA governance/California probe; neocloud financing (IREN -5.45% to $14.41)",
+    "Tightening financial conditions: DXY 8 straight gains, EM FX selloff (MXN -1.4%, COP -1.8%), 10Y still ~5.05%",
+    "Geopolitics: Iran claims tankers hit mines in Hormuz; reports Trump weighing new strikes on Iran with Israel; Houthi missiles at Riyadh",
+    "Growth wobble: Philly Fed 6.3 vs 20.1 est; continuing claims 1.763M highest since Aug",
+    "Holiday liquidity: market closed Thu 26 Nov, 1 PM ET early close Fri 27 Nov; PCE/GDP Wed 25 Nov"
   ],
   "themes": [
     {
-      "title": "Fed hawkishness escalates",
-      "explanation": "Oct minutes: almost all officials see further hikes as likely appropriate; a couple floated >25bp in Dec; AI seen as a 'material source of inflation risk' (CNBC). Waller: 50bp or signal a Jan hike, 'shock people' out of 3% inflation (CNBC)."
+      "title": "Sell the Anthropic news",
+      "explanation": "ANT opened $111.50 (+34%) and closed +17% (~$97.17, ~$1.8T valuation) but indexes hit session lows as it began trading; investors seen funding ANT by selling incumbents (CNBC, Reuters, El-Erian)."
     },
     {
-      "title": "Nvidia beat fails to stick",
-      "explanation": "NVDA reversed ~4% premarket gain to close -2.89% at $150.96; neoclouds/semis weak while AMD +5.3%, AVGO +3.6% (Portfolio Terminal, Investing.com)."
+      "title": "AI correction deepens",
+      "explanation": "S&P 6th straight loss, -8.2% from 6 Oct record; NVDA -3.30%, AMD -7.72%, semis ETFs ~-3.5%; tech P/E 16.4x lowest since Mar 2020 (Kobeissi Letter)."
     },
     {
-      "title": "Rotation, not capitulation",
-      "explanation": "Discretionary +1.8% (AMZN +3.8%, TJX +8%, TGT +4%) and tech +0.3% vs energy -3.3% and health care -2.2%; Nasdaq/RUT up while Dow fell 1.1%."
+      "title": "Fed hikes are a lock, size is the debate",
+      "explanation": "FedWatch 94% 25bp/~6% 50bp for 9 Dec; Goolsbee: AI boom risks overheating, all options open; Jefferson: AI buildout adding to inflation now."
     },
     {
-      "title": "Dollar up, gold down",
-      "explanation": "DXY 103.81, 19-month high; gold -3.6% to $3,726.9 (14-month low per Reuters); hike pricing hits non-yielding assets."
+      "title": "Haven bid in bonds, not gold",
+      "explanation": "10Y down 4th day to ~5.05%, 2Y 4.76%; dollar 8th straight gain while gold -1.5% and silver -4.4%."
     },
     {
-      "title": "Oil glut beats Hormuz risk",
-      "explanation": "WTI -3.2% to $83.26 (lowest since 26 Aug) on large EIA builds despite Iran strikes on Kuwait; Brent ~-20% in November (Reuters)."
+      "title": "Oil shrugs off Hormuz headlines",
+      "explanation": "WTI/Brent flat at $83.21/$91.98 despite unverified Iranian tanker-mine claims; Trump-Xi-Putin declaration pledges more refined fuel supply."
     },
     {
-      "title": "Anthropic IPO mania",
-      "explanation": "Priced at $83 vs $70-78 range, ~$1.5T valuation (AP); Vanda sees heavy retail buying on Thu debut (Reuters)."
+      "title": "Consumer earnings mixed",
+      "explanation": "Walmart raised FY outlook but flagged ~$2B fuel costs, shares ~-2%; after hours Intuit -13%, Ross -9% on soft guidance, Gap +4%."
     }
   ],
   "sources": [
     {
-      "name": "Portfolio Terminal close 18 Nov",
+      "name": "Portfolio Terminal close 19 Nov",
       "url": "https://portfolio-terminal.com/markets/stock-market-close"
     },
     {
@@ -382,60 +400,92 @@
       "url": "https://portfolio-terminal.com/markets"
     },
     {
-      "name": "Business Times (Reuters) US close",
-      "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-wall-street-ends-mixed-after-nvidia-earnings-fed-minutes"
+      "name": "Reuters global markets (Euronext)",
+      "url": "https://live.euronext.com/en/financial-news/stocks-fall-anthropic-debut-fails-ease-ai-concerns-dollar-rises"
     },
     {
-      "name": "AP how indexes fared",
-      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-990749d3d269f7ef05b9f6c089713a58"
+      "name": "CNBC live 19 Nov",
+      "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
     },
     {
-      "name": "Reuters Trading Day 18 Nov",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/trading-day-markets-mixed-nvidia-221528504.html"
+      "name": "Benzinga/Yahoo close",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-dow-end-230105109.html"
     },
     {
       "name": "MarketIndicators sectors",
       "url": "https://marketindicators.net/sectors"
     },
     {
-      "name": "CNBC Fed minutes",
-      "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+      "name": "Investing.com Treasuries close",
+      "url": "https://www.investing.com/news/stock-market-news/us-treasury-yields-slip-on-safehaven-bid-10year-posts-fourday-losing-streak-5040235"
     },
     {
-      "name": "AP Fed minutes",
-      "url": "https://apnews.com/article/federal-reserve-inflation-rates-9e72f3b6e3484173471cc382d6918de0"
+      "name": "CNBC Treasuries",
+      "url": "https://www.cnbc.com/2026/11/19/us-treasury-yields-investors-us-economy.html"
     },
     {
-      "name": "CNBC Waller",
-      "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
+      "name": "Reuters oil settle (Investing.com)",
+      "url": "https://www.investing.com/news/commodities-news/oil-prices-steady-as-supply-surplus-softens-sentiment-though-gulf-war-supports-5037604"
     },
     {
-      "name": "Reuters Waller",
-      "url": "https://www.investing.com/news/economy-news/waller-says-on-cnbc-the-fed-needs-to-get-more-aggressive-in-inflation-response-5036212"
+      "name": "Rigzone oil",
+      "url": "https://www.rigzone.com/news/wire/oil_prices_swing_on_middle_east_uncertainty-19-nov-2026-185129-article/"
     },
     {
-      "name": "Reuters oil settle",
-      "url": "https://live.euronext.com/en/financial-news/oil-prices-settle-lower-traders-weigh-surplus-supply-outlook"
+      "name": "GoldSeek COMEX gold",
+      "url": "https://goldseek.com/article/comex-gold-settles-146-lower-368210"
     },
     {
-      "name": "CNBC oil",
-      "url": "https://www.cnbc.com/2026/11/18/oil-prices-fall-as-higher-us-crude-stocks-temper-supply-risks.html"
+      "name": "Reuters jobless claims",
+      "url": "https://www.investing.com/news/economy-news/us-weekly-jobless-claims-increase-slightly-5039110"
     },
     {
-      "name": "Yahoo gold futures history",
-      "url": "https://au.finance.yahoo.com/quote/GC%3DF/history/"
+      "name": "SquawkNews Philly Fed",
+      "url": "https://squawknews.com/news/962620-us-philadelphia-fed-business-outlook-nov-6-3-est-20-1-prev-20-9"
     },
     {
-      "name": "MarketScreener CME gold/FedWatch",
-      "url": "https://ca.marketscreener.com/news/cme-gold-futures-fall-below-3-800-as-rate-hike-expectations-rise-ce785edddd80f522"
+      "name": "Reuters Goolsbee",
+      "url": "https://www.investing.com/news/economy-news/feds-goolsbee-says-ai-surge-could-strain-us-capacity-overheat-economy-5039887"
     },
     {
-      "name": "Investing.com Thu calendar",
-      "url": "https://www.investing.com/news/stock-market-news/jobless-claims-and-philadelphia-fed-index-due-thursday-93CH-5036849"
+      "name": "Fed Jefferson speech",
+      "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261119a.htm"
     },
     {
-      "name": "AP Anthropic IPO",
-      "url": "https://apnews.com/article/anthropic-ipo-pricing-70b660ddf900d90bbf484ecdf1fb441c"
+      "name": "Reuters Walmart",
+      "url": "https://www.investing.com/news/stock-market-news/walmart-nudges-up-annual-forecasts-ahead-of-crucial-holiday-season-5038616"
+    },
+    {
+      "name": "Investing.com after-hours movers",
+      "url": "https://www.investing.com/news/stock-market-news/afterhours-movers-bsp-intu-estc-gap-rost-432SI-5040092"
+    },
+    {
+      "name": "White House peace declaration",
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/11/u-s-russia-china-heads-of-state-declaration-toward-peace/"
+    },
+    {
+      "name": "StockMarketWatch calendar",
+      "url": "https://stockmarketwatch.com/tools/economic-calendar"
+    },
+    {
+      "name": "Investrade weekly calendar",
+      "url": "https://investrade.com/weekly-event-calendar-11-16-2026-11-20-2026/"
+    },
+    {
+      "name": "Schaeffer's week ahead",
+      "url": "https://www.schaeffersresearch.com/content/news/2026/11/19/the-week-ahead-thanksgiving-week-brings-more-inflation-data"
+    },
+    {
+      "name": "gov.house forecasts",
+      "url": "https://gov.house/forecast/releases/"
+    },
+    {
+      "name": "BLS Employment Situation schedule",
+      "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+    },
+    {
+      "name": "Fed FOMC calendar",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     },
     {
       "name": "CNBC jobs report Oct",
@@ -454,8 +504,16 @@
       "url": "https://www.census.gov/retail/sales.html"
     },
     {
-      "name": "Fed FOMC calendar",
-      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      "name": "X @DeItaone ANT close",
+      "url": "https://x.com/DeItaone/status/2123526550431670394"
+    },
+    {
+      "name": "X @KobeissiLetter S&P 6th loss",
+      "url": "https://x.com/KobeissiLetter/status/2123521706731897192"
+    },
+    {
+      "name": "IREN quote (Exa)",
+      "url": "https://exa.ai/library/markets/stocks/IREN"
     }
   ],
   "null_fields": [
@@ -464,7 +522,6 @@
     "indices[2].change_ytd_pct (Dow YTD not sourced today)",
     "indices[3].change_ytd_pct (Russell 2000 YTD not sourced today)",
     "macro.cpi_headline_yoy for Oct 2026 (BLS published no 12-month rate; Sep value shown)",
-    "macro.core_cpi_yoy for Oct 2026 (BLS published no 12-month rate; Sep value shown)",
-    "macro.silver.value (exact 18 Nov settle not sourced)"
+    "macro.core_cpi_yoy for Oct 2026 (BLS published no 12-month rate; Sep value shown)"
   ]
 }
