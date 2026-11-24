@@ -1,6 +1,6 @@
 {
-  "latest": "2026-11-19",
-  "count": 18,
+  "latest": "2026-11-24",
+  "count": 19,
   "reports": [
     {
       "date": "2026-10-13",
@@ -127,6 +127,13 @@
       "mood": "bear",
       "title": "Sell the Anthropic news",
       "generated_at_utc": "2026-11-19T23:41:48Z"
+    },
+    {
+      "date": "2026-11-24",
+      "as_of": "2026-11-24",
+      "mood": "bear",
+      "title": "Huang relief rally fades",
+      "generated_at_utc": "2026-11-24T23:41:28Z"
     }
   ]
 }
