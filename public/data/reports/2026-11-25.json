@@ -1,0 +1,591 @@
+{
+  "as_of": "2026-11-25",
+  "generated_at_utc": "2026-11-25T23:41:42Z",
+  "as_of_note": "US closes Wed 25 Nov 2026 (pre-Thanksgiving): huge intraday reversal. At the lows S&P -3.2%, Nasdaq -4.6%, Dow -1,100+ pts (-2.2%); Nasdaq 100 touched exactly -20% from its Oct peak (Dow Jones Market Data via MarketWatch). Close: S&P 500 -0.25% to 7,182.78; Nasdaq -0.62% to 23,585.80; Dow +164.25 (+0.33%) to 50,182.95; RUT +0.7% to 2,704.06 (Kitco). Triggers: USTR proposed Section 301 'excess capacity' tariffs on 14 economies incl. Singapore (up to 20%), China (up to 20%), EU/Japan/Taiwan/Switzerland (15%); Oct core PCE 3.3% y/y vs 3.2% est (headline 3.8%); Q3 GDP revised to 4.3% from 3.4%; claims 189k. Rebound helped by WSJ report of no evidence China directed the Huang affair and Burry saying he is 'almost entirely long'. NVDA -3.91% to $149.30; S&P put NVDA's AA on CreditWatch Negative. VIX 28.29 (+7.32%). 10Y 4.85% / 2Y 4.61% (Treasury par). DXY 104.00 (+0.18%). WTI $83.68 (+1.99%), Brent Jan $94.61 (+3.51%) after Houthis claimed an attack on Saudi Ras Tanura. Gold spot ~$3,576 (+0.6%) late after a dip below $3,450. FedWatch: 97.8% for a 25bp hike on 9 Dec. US markets closed Thu 26 Nov; NYSE early close 1 PM ET Fri 27 Nov (2 AM Sat SGT).",
+  "indices": [
+    {
+      "name": "S&P 500",
+      "symbol": "^GSPC",
+      "level": 7182.78,
+      "date": "2026-11-25",
+      "change_1d_pct": -0.25,
+      "change_1m_pct": -5.78,
+      "change_ytd_pct": 5,
+      "source_url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+      "secondary_source_url": "https://english.news.cn/20261126/b7b8240ff9ab4bc0ad4b9652d5595264/c.html",
+      "note": "-18.31 pts (Xinhua/MarketWatch). Intraday low -3.2% (CNBC). YTD 'about 5%' per MarketWatch (rounded, not exact). 1M computed vs Fri 23 Oct close 7,623.68 (Portfolio Terminal table used in the 24 Nov report)."
+    },
+    {
+      "name": "Nasdaq Composite",
+      "symbol": "^IXIC",
+      "level": 23585.8,
+      "date": "2026-11-25",
+      "change_1d_pct": -0.62,
+      "change_1m_pct": -9.13,
+      "change_ytd_pct": null,
+      "source_url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+      "secondary_source_url": "https://www.marketwatch.com/story/u-s-stocks-mixed-as-nvidia-ai-rout-continues-a44406f3",
+      "note": "-147.73 pts. Intraday low -4.6%, within 2 pts of bear-market territory; Nasdaq 100 was exactly 20% below its Oct closing peak at the low (Dow Jones Market Data via MarketWatch). 1M computed vs Fri 23 Oct close 25,955.34 (prior report's table). YTD not sourced: null."
+    },
+    {
+      "name": "Dow Jones Industrial Average",
+      "symbol": "^DJI",
+      "level": 50182.95,
+      "date": "2026-11-25",
+      "change_1d_pct": 0.33,
+      "change_1m_pct": -3.89,
+      "change_ytd_pct": null,
+      "source_url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+      "secondary_source_url": "https://english.news.cn/20261126/b7b8240ff9ab4bc0ad4b9652d5595264/c.html",
+      "note": "+164.25 pts after a 1,100+ pt intraday loss (-2.2% at low); IBM, CRM, SHW led (CNBC). MarketWatch prints 50,181.95 (typo vs CNBC/Xinhua 50,182.95). 1M computed vs Fri 23 Oct close 52,215.16 (prior report's table). YTD not sourced: null."
+    },
+    {
+      "name": "Russell 2000",
+      "symbol": "^RUT",
+      "level": 2704.06,
+      "date": "2026-11-25",
+      "change_1d_pct": 0.7,
+      "change_1m_pct": -2.59,
+      "change_ytd_pct": null,
+      "source_url": "https://www.kitco.com/news/article/2026-11-25/gold-silver-reverse-early-losses-wall-street-rebounds-ahead-thanksgiving",
+      "secondary_source_url": null,
+      "note": "Kitco: +0.7% to 2,704.06 (one decimal only). IWM +0.65% (marketindicators.net ticker). 1M computed vs Fri 23 Oct close 2,775.90 (prior report's table). YTD not sourced: null."
+    }
+  ],
+  "indices_note": "Closes from CNBC, confirmed by Xinhua, MarketWatch, AP and Motley Fool; RUT from Kitco. Portfolio Terminal (used previously) was behind a Vercel bot checkpoint today. 1M changes computed against the Fri 23 Oct closes recorded in the 24 Nov report. Only S&P YTD sourced (approx).",
+  "sectors_note": "SPDR sector ETF 1D/1M/YTD from marketindicators.net (Yahoo Finance data, page stamped 11/25/2026 11:11:54 PM, after the close). 8 of 11 ETFs rose. Xinhua (S&P 500 sector indexes): 7 of 11 up; materials +1.84% and real estate +0.84% best; consumer discretionary -0.98% and tech -0.97% worst.",
+  "macro": {
+    "cpi_headline_yoy": {
+      "value": 3.7,
+      "unit": "%",
+      "date": "2026-09",
+      "period": "Sep 2026",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "note": "Latest official 12-month rate (Sep). No official Oct y/y (2025 shutdown base gap). Carried. Nov CPI is due after the FOMC."
+    },
+    "cpi_headline_mom": {
+      "value": 0.4,
+      "unit": "%",
+      "date": "2026-10",
+      "period": "Oct 2026",
+      "source_url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+      "note": "Carried."
+    },
+    "core_cpi_yoy": {
+      "value": 2.6,
+      "unit": "%",
+      "date": "2026-09",
+      "period": "Sep 2026",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "note": "Latest official 12-month core rate (Sep), carried. No official Oct y/y."
+    },
+    "core_cpi_mom": {
+      "value": 0.3,
+      "unit": "%",
+      "date": "2026-10",
+      "period": "Oct 2026",
+      "source_url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+      "note": "Carried."
+    },
+    "pce_headline_yoy": {
+      "value": 3.8,
+      "unit": "%",
+      "date": "2026-10",
+      "period": "Oct 2026",
+      "source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+      "secondary_source_url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
+      "note": "BEA 25 Nov: +0.3% m/m, 3.8% y/y (Sep revised 3.6% per Reuters; CNBC says 3.7%). In line with consensus."
+    },
+    "core_pce_yoy": {
+      "value": 3.3,
+      "unit": "%",
+      "date": "2026-10",
+      "period": "Oct 2026",
+      "source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+      "secondary_source_url": "https://www.investing.com/news/economy-news/us-inflation-rises-further-in-october-5050840",
+      "note": "+0.3% m/m (3rd straight); 3.3% y/y vs 3.2% est, highest since Nov 2023 (Reuters)."
+    },
+    "gdp_q3_second_estimate": {
+      "value": 4.3,
+      "unit": "% SAAR",
+      "date": "2026-09",
+      "period": "Q3 2026",
+      "source_url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+      "secondary_source_url": "https://www.investing.com/news/economy-news/us-inflation-rises-further-in-october-5050840",
+      "note": "Revised up from 3.4%; Reuters poll 3.5%. Fastest since Q3 2023. Real final sales to private domestic purchasers +5.8%. Consumer spending revised to 4.2%."
+    },
+    "personal_income_mom": {
+      "value": 0.7,
+      "unit": "%",
+      "date": "2026-10",
+      "period": "Oct 2026",
+      "source_url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026",
+      "note": "vs 0.4% est (CNBC). Spending +0.3% (0.1pt below est); real PCE ~0.0%; saving rate 4.1%."
+    },
+    "durable_goods_mom": {
+      "value": 0.2,
+      "unit": "%",
+      "date": "2026-10",
+      "period": "Oct 2026",
+      "source_url": "https://www.kitco.com/news/article/2026-11-25/gold-silver-reverse-early-losses-wall-street-rebounds-ahead-thanksgiving",
+      "note": "Single source (Kitco)."
+    },
+    "new_home_sales": {
+      "value": 701,
+      "unit": "k SAAR",
+      "date": "2026-10",
+      "period": "Oct 2026",
+      "source_url": "https://x.com/DeItaone/status/2125606270841323632",
+      "secondary_source_url": "https://x.com/zerohedge/status/2125606205058072633",
+      "note": "+14.2% m/m vs 650k est; Sep revised to 614k from 676k. X wires only (@DeItaone, @zerohedge)."
+    },
+    "fed_funds_target_range": {
+      "lower": 3.75,
+      "upper": 4,
+      "unit": "%",
+      "date": "2026-10-28",
+      "source_url": "https://investinglive.com/central-banks/us-pce-preview-inflation-seen-near-3-8-in-the-fed-s-last-read-before-a-december-hike/",
+      "note": "Raised in Sep, held 28 Oct (10-2, two hawkish dissents). Carried from prior report."
+    },
+    "next_fomc": {
+      "value": "2026-12-08/09",
+      "unit": "date",
+      "date": "2026-12-09",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "secondary_source_url": "https://www.kitco.com/news/article/2026-11-25/gold-silver-reverse-early-losses-wall-street-rebounds-ahead-thanksgiving",
+      "note": "Decision Wed 9 Dec 2:00 PM ET = Thu 10 Dec 3:00 AM SGT; SEP meeting. FedWatch after PCE: 97.8% for +25bp, 2.2% hold; by Jan, 58.4% odds of 50bp cumulative (FXBus)."
+    },
+    "dec_hike_probability": {
+      "value": 97.8,
+      "unit": "%",
+      "date": "2026-11-25",
+      "source_url": "https://www.fxbus.com/en/news/20261125215211092507.html",
+      "secondary_source_url": "https://x.com/WatcherGuru/status/2125654321060602364",
+      "note": "CME FedWatch right after PCE (FXBus, 21:54 SGT). @WatcherGuru cited 93% at ~2:14 AM SGT Thu as stocks rebounded; Kitco: >95% before the data."
+    },
+    "us_10y_yield": {
+      "value": 4.85,
+      "unit": "%",
+      "date": "2026-11-25",
+      "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202611?_format=csv&field_tdr_date_value_month=202611&page=&type=daily_treasury_yield_curve",
+      "secondary_source_url": "https://www.kitco.com/news/article/2026-11-25/gold-silver-reverse-early-losses-wall-street-rebounds-ahead-thanksgiving",
+      "note": "Treasury par yield, -6bp d/d. Kitco: ~4.845% (-5.6bp); intraday low ~4.80% (@zerohedge). Bonds rallied as a haven despite hot core PCE (CNBC). 7Y auction tailed 1bp at 4.708%, biggest tail since May 2024 (@zerohedge)."
+    },
+    "us_2y_yield": {
+      "value": 4.61,
+      "unit": "%",
+      "date": "2026-11-25",
+      "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202611?_format=csv&field_tdr_date_value_month=202611&page=&type=daily_treasury_yield_curve",
+      "secondary_source_url": "https://www.morningstar.com/news/dow-jones/202611256853/2-year-treasury-yield-falls-to-4633-data-talk",
+      "note": "Treasury par yield, -2bp. Tradeweb 3pm close 4.633% (-3.5bp) (Dow Jones/Morningstar). 2s10s +24bp (par)."
+    },
+    "us_30y_yield": {
+      "value": 5.24,
+      "unit": "%",
+      "date": "2026-11-25",
+      "source_url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202611?_format=csv&field_tdr_date_value_month=202611&page=&type=daily_treasury_yield_curve",
+      "note": "Treasury par, -6bp."
+    },
+    "unemployment_rate": {
+      "value": 4.1,
+      "unit": "%",
+      "date": "2026-10",
+      "period": "Oct 2026",
+      "source_url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
+      "note": "Carried. Nov report Fri 4 Dec 8:30 AM ET = 9:30 PM SGT (Helious calendar)."
+    },
+    "nonfarm_payrolls": {
+      "value": 165,
+      "unit": "k",
+      "date": "2026-10",
+      "period": "Oct 2026",
+      "source_url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html",
+      "secondary_source_url": "https://helious.io/calendar/2026-w49",
+      "note": "Oct (released 6 Nov), carried; Helious lists 165K as 'previous'. Next: Nov report Fri 4 Dec 8:30 AM ET = 9:30 PM SGT. ADP Wed 2 Dec 9:15 PM SGT (prior 86K)."
+    },
+    "initial_jobless_claims": {
+      "value": 189,
+      "unit": "k",
+      "date": "2026-11-21",
+      "period": "Week ended 21 Nov",
+      "source_url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html",
+      "secondary_source_url": "https://www.investing.com/news/economy-news/us-inflation-rises-further-in-october-5050840",
+      "note": "-13k w/w vs 200k est; matches 2026 low; Reuters: 57-year low area."
+    },
+    "dxy": {
+      "value": 104,
+      "unit": "index",
+      "date": "2026-11-25",
+      "source_url": "https://fire.bothub.chat/en/ticker/currencies/dxy/history/2026-11-25",
+      "note": "+0.18% d/d (BotHub; revises 24 Nov to 103.81). Kitco: dollar 'comparatively firm'."
+    },
+    "wti": {
+      "value": 83.68,
+      "unit": "USD/bbl",
+      "date": "2026-11-25",
+      "source_url": "https://www.cnbc.com/2026/11/25/oil-wti-brent-hormuz-middle-east.html",
+      "secondary_source_url": "https://english.news.cn/20261126/7cc9effceecb473d93187a62e40a5b34/c.html",
+      "note": "Jan settle +$1.63 (+1.99%). Houthis said they attacked Saudi Ras Tanura refinery (550k bpd per Newsquawk). EIA crude +1.1M bbl vs ~2.0M est (Kitco). OPEC+ meets Sun 29 Nov."
+    },
+    "brent": {
+      "value": 94.61,
+      "unit": "USD/bbl",
+      "date": "2026-11-25",
+      "source_url": "https://www.cnbc.com/2026/11/25/oil-wti-brent-hormuz-middle-east.html",
+      "secondary_source_url": "https://english.news.cn/20261126/7cc9effceecb473d93187a62e40a5b34/c.html",
+      "note": "Jan (front, near expiry) settle +$3.21 (+3.51%) per Reuters via CNBC and Xinhua. Feb contract settled $90.64 (+$1.86) per Newsquawk headline - the large Jan/Feb gap matters when comparing sources."
+    },
+    "gold": {
+      "value": 3576.3,
+      "unit": "USD/oz (spot, late NY)",
+      "date": "2026-11-25",
+      "source_url": "https://www.kitco.com/news/article/2026-11-25/gold-silver-reverse-early-losses-wall-street-rebounds-ahead-thanksgiving",
+      "secondary_source_url": "https://goldsquawk.com/opinion/gold-tumbles-stronger-u-s-gdp-inflation-focus",
+      "note": "Kitco spot +$21.20 (+0.60%), range $3,426.40-$3,590.00. COMEX settlement figures conflict: Dow Jones headline via GoldSeek says settled -0.71% at $3,534.70; GoldSquawk says ~$3,567.40 (+$5.30). @KobeissiLetter: gold -20% below its 200-DMA, widest since Jun 2013."
+    },
+    "silver": {
+      "value": 41.12,
+      "unit": "USD/oz (spot, late NY)",
+      "date": "2026-11-25",
+      "source_url": "https://www.kitco.com/news/article/2026-11-25/gold-silver-reverse-early-losses-wall-street-rebounds-ahead-thanksgiving",
+      "note": "Kitco spot +0.78%; session low $38.09, lowest in over a year."
+    },
+    "vix": {
+      "value": 28.29,
+      "unit": "index",
+      "date": "2026-11-25",
+      "source_url": "https://fire.bothub.chat/en/ticker/indices/vix/history/2026-11-25",
+      "secondary_source_url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+      "note": "+7.32%; intraday high 34.95 (BotHub). CNBC: above 30 in the morning."
+    },
+    "nvda_close": {
+      "value": 149.3,
+      "unit": "USD",
+      "date": "2026-11-25",
+      "source_url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-nvidia-slides-3-9-as-the-market-considers-hot-pce-inflation-data-and-new-tariff-proposals/",
+      "secondary_source_url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+      "note": "-$6.08 (-3.91%), volume ~357M (~91% above avg). S&P Global put NVDA's AA rating on CreditWatch Negative (governance/'key man' risk); Moody's unchanged (@zerohedge). Huang testifies 1 Dec (House Foreign Affairs, closed-door) and 3 Dec (Senate Banking) (CNBC)."
+    }
+  },
+  "mood": {
+    "overall": "bear",
+    "reason": "S&P and Nasdaq fell again and the Nasdaq 100 touched bear-market territory intraday on new tariffs, hotter core PCE and the AI/semis unwind; VIX rose to 28.29; X fear gauges at 'extreme fear'. Offsets: an almost complete intraday recovery, Dow +0.33% back above 50k, RUT +0.7%, 8 of 11 sector ETFs up, falling yields."
+  },
+  "risks": [
+    "Fed: 25bp hike on 9 Dec (decision Thu 10 Dec 3:00 AM SGT) ~98% priced; core PCE 3.3% and GDP 4.3% keep a Jan follow-up live (FedWatch: 58.4% odds of 50bp cumulative by Jan); Beige Book flags wage pick-up",
+    "Tariffs: USTR proposed Section 301 duties on 14 economies (Singapore up to 20%, adjustable to 10%; China up to 20% on top of 2018 duties; EU/Japan/Taiwan/Switzerland 15%; India 25%; Vietnam 35%); comments due 5 Jan, hearings 25 Jan 2027",
+    "AI/semis: Nasdaq 100 hit -20% from Oct peak intraday; SMH >17% off since 11 Nov (CNBC); CoreWeave $4.5B loan sale and 2031 bonds ~17.9% yield (@DeItaone); NVDA on S&P CreditWatch Negative",
+    "Nvidia/politics: Huang testimony 1 Dec (House) and 3 Dec (Senate Banking); Schumer export-control allegations",
+    "Geopolitics/oil: Houthi claim of strike on Saudi Ras Tanura, UKMTO vessel incidents near Dubai; OPEC+ meeting 29 Nov",
+    "Holiday liquidity: NYSE closed Thu 26 Nov; early close 1 PM ET Fri 27 Nov (2 AM Sat SGT), bonds 2 PM ET (3 AM Sat SGT)",
+    "Next data: ISM mfg Tue 1 Dec 11 PM SGT; Nov payrolls Fri 4 Dec 9:30 PM SGT"
+  ],
+  "themes": [
+    {
+      "title": "Capitulation-style reversal",
+      "explanation": "S&P -3.2%/Nasdaq -4.6%/Dow -1,100 pts at the lows, then closed -0.25%/-0.62%/+0.33% as thin pre-holiday trade, a WSJ report clearing the Huang-affair spy angle and Burry going 'almost entirely long' sparked dip-buying (CNBC, MarketWatch)."
+    },
+    {
+      "title": "Tariff round two lands",
+      "explanation": "USTR determined 14 economies' excess-capacity practices are actionable under Section 301 and proposed tariffs; Singapore up to 20% (10% with a deal), China up to 20% stacked on 2018 duties, others capped at framework-deal rates (USTR, CNBC)."
+    },
+    {
+      "title": "Hot economy, sticky inflation",
+      "explanation": "Core PCE 3.3% y/y (highest since Nov 2023), GDP 4.3%, claims 189k, income +0.7%: the Fed hike on 9 Dec is ~98% priced and Jan is in play; yet yields fell 6bp on haven demand."
+    },
+    {
+      "title": "AI trade stress",
+      "explanation": "NVDA -3.9% (S&P CreditWatch Negative), MU -4.5%, ORCL -5%+, AMBA -19%+ on weak guidance (CNBC); XLK -0.83% and -16.4% over 1M; CoreWeave debt under pressure."
+    },
+    {
+      "title": "Rotation continues",
+      "explanation": "XLB +2.07%, XLRE +0.92%, XLC +0.89%, XLI +0.83%, XLE +0.74% vs XLK -0.83%, XLV -0.56%, XLY -0.20%; RUT +0.7% outperformed."
+    },
+    {
+      "title": "Oil up on Gulf strike, gold rebounds",
+      "explanation": "Brent Jan +3.5% to $94.61 after the Houthi Ras Tanura claim; gold reversed from below $3,450 to ~$3,576 spot as yields fell (Kitco)."
+    }
+  ],
+  "sources": [
+    {
+      "name": "CNBC live updates 25 Nov",
+      "url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"
+    },
+    {
+      "name": "MarketWatch close",
+      "url": "https://www.marketwatch.com/story/u-s-stocks-mixed-as-nvidia-ai-rout-continues-a44406f3"
+    },
+    {
+      "name": "Xinhua US close",
+      "url": "https://english.news.cn/20261126/b7b8240ff9ab4bc0ad4b9652d5595264/c.html"
+    },
+    {
+      "name": "AP market close",
+      "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-94fdb0ecb060ec65c0b02879ce0d2d09"
+    },
+    {
+      "name": "Motley Fool NVDA close",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-nvidia-slides-3-9-as-the-market-considers-hot-pce-inflation-data-and-new-tariff-proposals/"
+    },
+    {
+      "name": "Kitco PM report",
+      "url": "https://www.kitco.com/news/article/2026-11-25/gold-silver-reverse-early-losses-wall-street-rebounds-ahead-thanksgiving"
+    },
+    {
+      "name": "marketindicators.net sectors",
+      "url": "https://marketindicators.net/sectors"
+    },
+    {
+      "name": "US Treasury daily par yields",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/all/202611?_format=csv&field_tdr_date_value_month=202611&page=&type=daily_treasury_yield_curve"
+    },
+    {
+      "name": "Dow Jones/Morningstar 2Y",
+      "url": "https://www.morningstar.com/news/dow-jones/202611256853/2-year-treasury-yield-falls-to-4633-data-talk"
+    },
+    {
+      "name": "CNBC Treasuries 25 Nov",
+      "url": "https://www.cnbc.com/2026/11/25/treasury-yields-bonds-inflation.html"
+    },
+    {
+      "name": "BotHub DXY 25 Nov",
+      "url": "https://fire.bothub.chat/en/ticker/currencies/dxy/history/2026-11-25"
+    },
+    {
+      "name": "BotHub VIX 25 Nov",
+      "url": "https://fire.bothub.chat/en/ticker/indices/vix/history/2026-11-25"
+    },
+    {
+      "name": "CNBC/Reuters oil 25 Nov",
+      "url": "https://www.cnbc.com/2026/11/25/oil-wti-brent-hormuz-middle-east.html"
+    },
+    {
+      "name": "Xinhua crude settle",
+      "url": "https://english.news.cn/20261126/7cc9effceecb473d93187a62e40a5b34/c.html"
+    },
+    {
+      "name": "Newsquawk crude wrap",
+      "url": "https://www.newsquawk.com/headlines/crude-wrap-wti-f7-settles-usd-163-higher-at-usd-8368bbl-brent-f7-settles-usd-186-higher-at-usd-9064bbl"
+    },
+    {
+      "name": "GoldSeek (Dow Jones) gold settle",
+      "url": "https://goldseek.com/article/comex-gold-settles-071-lower-353470"
+    },
+    {
+      "name": "GoldSquawk gold",
+      "url": "https://goldsquawk.com/opinion/gold-tumbles-stronger-u-s-gdp-inflation-focus"
+    },
+    {
+      "name": "BEA Personal Income Oct 2026",
+      "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-october-2026"
+    },
+    {
+      "name": "BEA GDP Q3 second estimate",
+      "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026"
+    },
+    {
+      "name": "CNBC PCE report",
+      "url": "https://www.cnbc.com/2026/11/25/pce-inflation-report-october-2026.html"
+    },
+    {
+      "name": "Reuters via Investing.com PCE/GDP",
+      "url": "https://www.investing.com/news/economy-news/us-inflation-rises-further-in-october-5050840"
+    },
+    {
+      "name": "Fed Beige Book Nov 2026",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/BeigeBook_20261125.pdf"
+    },
+    {
+      "name": "investingLive Beige Book",
+      "url": "https://investinglive.com/central-banks/beige-book-eight-of-12-districts-report-growth-as-wage-pressures-pick-up/"
+    },
+    {
+      "name": "FXBus FedWatch",
+      "url": "https://www.fxbus.com/en/news/20261125215211092507.html"
+    },
+    {
+      "name": "Fed FOMC calendar",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "name": "investingLive PCE preview (fed funds)",
+      "url": "https://investinglive.com/central-banks/us-pce-preview-inflation-seen-near-3-8-in-the-fed-s-last-read-before-a-december-hike/"
+    },
+    {
+      "name": "USTR Section 301 determinations",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural"
+    },
+    {
+      "name": "Straits Times tariffs/Singapore",
+      "url": "https://www.straitstimes.com/world/united-states/us-proposes-new-tariffs-on-14-trading-partners-including-singapore-to-fight-excess-factory-capacity"
+    },
+    {
+      "name": "NYSE holiday hours",
+      "url": "https://www.nyse.com/trade/hours-calendars/"
+    },
+    {
+      "name": "Helious week-ahead calendar",
+      "url": "https://helious.io/calendar/2026-w49"
+    },
+    {
+      "name": "Finviz week ahead",
+      "url": "https://finviz.com/news/427402/the-week-ahead-salesforce-earnings-more-data-on-deck"
+    },
+    {
+      "name": "Kiplinger calendar",
+      "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+    },
+    {
+      "name": "CNBC Oct jobs report",
+      "url": "https://www.cnbc.com/2026/11/06/jobs-report-october-2026.html"
+    },
+    {
+      "name": "@KobeissiLetter Nasdaq 100 -4.5%",
+      "url": "https://x.com/KobeissiLetter/status/2125601676258111823"
+    },
+    {
+      "name": "@KobeissiLetter Huang intel",
+      "url": "https://x.com/KobeissiLetter/status/2125620263513432251"
+    },
+    {
+      "name": "@KobeissiLetter Dow erases loss",
+      "url": "https://x.com/KobeissiLetter/status/2125649652917612803"
+    },
+    {
+      "name": "@WatcherGuru tariffs",
+      "url": "https://x.com/WatcherGuru/status/2125601493533483025"
+    },
+    {
+      "name": "@zerohedge NDX bear market",
+      "url": "https://x.com/zerohedge/status/2125602320666780050"
+    },
+    {
+      "name": "@unusual_whales Burry long",
+      "url": "https://x.com/unusual_whales/status/2125655255178469647"
+    },
+    {
+      "name": "@DeItaone S&P NVDA CreditWatch",
+      "url": "https://x.com/DeItaone/status/2125661310369366182"
+    },
+    {
+      "name": "@DeItaone new home sales",
+      "url": "https://x.com/DeItaone/status/2125606270841323632"
+    },
+    {
+      "name": "@zerohedge 7Y auction",
+      "url": "https://x.com/zerohedge/status/2125629328226439567"
+    },
+    {
+      "name": "@KobeissiLetter gold vs 200DMA",
+      "url": "https://x.com/KobeissiLetter/status/2125686323818180737"
+    }
+  ],
+  "null_fields": [
+    "indices[1].change_ytd_pct (Nasdaq YTD not sourced today)",
+    "indices[2].change_ytd_pct (Dow YTD not sourced today)",
+    "indices[3].change_ytd_pct (Russell 2000 YTD not sourced today)",
+    "macro.cpi_headline_yoy for Oct 2026 (BLS published no 12-month rate; Sep value shown)",
+    "macro.core_cpi_yoy for Oct 2026 (BLS published no 12-month rate; Sep value shown)"
+  ],
+  "sectors": [
+    {
+      "sector": "Materials",
+      "proxy_etf": "XLB",
+      "as_of": "2026-11-25",
+      "change_1m_pct": -0.33,
+      "change_ytd_pct": 12.92,
+      "take": "+2.07% 1D, best ETF; S&P materials index +1.84% (Xinhua); SHW among Dow leaders.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Communication Services",
+      "proxy_etf": "XLC",
+      "as_of": "2026-11-25",
+      "change_1m_pct": 1.47,
+      "change_ytd_pct": -10.48,
+      "take": "+0.89% 1D; CHTR +7.4% (CNBC); GOOGL -2%+ (CNBC).",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Real Estate",
+      "proxy_etf": "XLRE",
+      "as_of": "2026-11-25",
+      "change_1m_pct": 2.48,
+      "change_ytd_pct": 8.7,
+      "take": "+0.92% 1D; S&P RE +0.84% (Xinhua); 10Y -6bp helped.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Industrials",
+      "proxy_etf": "XLI",
+      "as_of": "2026-11-25",
+      "change_1m_pct": -2.4,
+      "change_ytd_pct": 5.05,
+      "take": "+0.83% 1D; DE +4.7% after earnings, AXON +6.1% (CNBC).",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Energy",
+      "proxy_etf": "XLE",
+      "as_of": "2026-11-25",
+      "change_1m_pct": -12.55,
+      "change_ytd_pct": 36.21,
+      "take": "+0.74% 1D; Brent +3.5% on Houthi Ras Tanura claim.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Financials",
+      "proxy_etf": "XLF",
+      "as_of": "2026-11-25",
+      "change_1m_pct": 0.87,
+      "change_ytd_pct": 3.18,
+      "take": "+0.71% 1D.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Utilities",
+      "proxy_etf": "XLU",
+      "as_of": "2026-11-25",
+      "change_1m_pct": 2.49,
+      "change_ytd_pct": 2.16,
+      "take": "+0.48% 1D.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Consumer Staples",
+      "proxy_etf": "XLP",
+      "as_of": "2026-11-25",
+      "change_1m_pct": 4.93,
+      "change_ytd_pct": 18.82,
+      "take": "+0.46% 1D; defensive bid persisted.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Consumer Discretionary",
+      "proxy_etf": "XLY",
+      "as_of": "2026-11-25",
+      "change_1m_pct": 2.83,
+      "change_ytd_pct": -1.61,
+      "take": "-0.20% 1D ETF; S&P discretionary index -0.98%, worst (Xinhua); URBN -13% premarket on weak comps (CNBC).",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Health Care",
+      "proxy_etf": "XLV",
+      "as_of": "2026-11-25",
+      "change_1m_pct": 2.45,
+      "change_ytd_pct": 18.66,
+      "take": "-0.56% 1D after Tuesday's +2.95% leadership.",
+      "source_url": "https://marketindicators.net/sectors"
+    },
+    {
+      "sector": "Information Technology",
+      "proxy_etf": "XLK",
+      "as_of": "2026-11-25",
+      "change_1m_pct": -16.39,
+      "change_ytd_pct": 8.21,
+      "take": "-0.83% 1D (S&P tech -0.97%, Xinhua); NVDA -3.91%, MU -4.5%, ORCL -5%+, AMBA -19%+; TXN +3.7%, ADI +4.7% rebounded (CNBC). 1M -16.39%.",
+      "source_url": "https://marketindicators.net/sectors"
+    }
+  ]
+}

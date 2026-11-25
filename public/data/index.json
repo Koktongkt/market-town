@@ -1,6 +1,6 @@
 {
-  "latest": "2026-11-24",
-  "count": 19,
+  "latest": "2026-11-25",
+  "count": 20,
   "reports": [
     {
       "date": "2026-10-13",
@@ -134,6 +134,13 @@
       "mood": "bear",
       "title": "Huang relief rally fades",
       "generated_at_utc": "2026-11-24T23:41:28Z"
+    },
+    {
+      "date": "2026-11-25",
+      "as_of": "2026-11-25",
+      "mood": "bear",
+      "title": "Capitulation-style reversal",
+      "generated_at_utc": "2026-11-25T23:41:42Z"
     }
   ]
 }
